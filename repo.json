@@ -79,8 +79,11 @@
 		"url": "https://github.com/AzureAD/azure-activedirectory-library-for-java",
 		"branch": "master",
 		"name": "azure-ad-client"
+	},
+	{
+		"url": "https://github.com/AzureAD/microsoft-authentication-library-for-android",
+		"branch": "master",
+		"name": "azure-ad-android"
 	}
-
-
 	]
 }
