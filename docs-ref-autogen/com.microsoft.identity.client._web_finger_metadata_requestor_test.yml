@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._web_finger_metadata_requestor_test
+  id: _web_finger_metadata_requestor_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._web_finger_metadata_requestor_test.testBuildWebFingerUrl()
+  - com.microsoft.identity.client._web_finger_metadata_requestor_test.testParseMetadata()
+  - com.microsoft.identity.client._web_finger_metadata_requestor_test.testRequestMetadata()
+  - com.microsoft.identity.client._web_finger_metadata_requestor_test.testRequestMetadataThrows()
+  href: com.microsoft.identity.client._web_finger_metadata_requestor_test.yml
+  langs:
+  - java
+  name: WebFingerMetadataRequestorTest
+  nameWithType: WebFingerMetadataRequestorTest
+  fullName: com.microsoft.identity.client.WebFingerMetadataRequestorTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/WebFingerMetadataRequestorTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/WebFingerMetadataRequestorTest.java
+    startLine: 44
+  package: com.microsoft.identity.client
+  syntax:
+    content: public class WebFingerMetadataRequestorTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._web_finger_metadata_requestor_test.testBuildWebFingerUrl()
+  id: testBuildWebFingerUrl()
+  parent: com.microsoft.identity.client._web_finger_metadata_requestor_test
+  href: com.microsoft.identity.client._web_finger_metadata_requestor_test.yml
+  langs:
+  - java
+  name: testBuildWebFingerUrl()
+  nameWithType: WebFingerMetadataRequestorTest.testBuildWebFingerUrl()
+  fullName: void com.microsoft.identity.client.WebFingerMetadataRequestorTest.testBuildWebFingerUrl()
+  overload: com.microsoft.identity.client._web_finger_metadata_requestor_test.testBuildWebFingerUrl*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/WebFingerMetadataRequestorTest.java
+    startLine: 153
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testBuildWebFingerUrl()
+- uid: com.microsoft.identity.client._web_finger_metadata_requestor_test.testParseMetadata()
+  id: testParseMetadata()
+  parent: com.microsoft.identity.client._web_finger_metadata_requestor_test
+  href: com.microsoft.identity.client._web_finger_metadata_requestor_test.yml
+  langs:
+  - java
+  name: testParseMetadata()
+  nameWithType: WebFingerMetadataRequestorTest.testParseMetadata()
+  fullName: void com.microsoft.identity.client.WebFingerMetadataRequestorTest.testParseMetadata()
+  overload: com.microsoft.identity.client._web_finger_metadata_requestor_test.testParseMetadata*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/WebFingerMetadataRequestorTest.java
+    startLine: 126
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testParseMetadata()
+- uid: com.microsoft.identity.client._web_finger_metadata_requestor_test.testRequestMetadata()
+  id: testRequestMetadata()
+  parent: com.microsoft.identity.client._web_finger_metadata_requestor_test
+  href: com.microsoft.identity.client._web_finger_metadata_requestor_test.yml
+  langs:
+  - java
+  name: testRequestMetadata()
+  nameWithType: WebFingerMetadataRequestorTest.testRequestMetadata()
+  fullName: void com.microsoft.identity.client.WebFingerMetadataRequestorTest.testRequestMetadata()
+  overload: com.microsoft.identity.client._web_finger_metadata_requestor_test.testRequestMetadata*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/WebFingerMetadataRequestorTest.java
+    startLine: 77
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testRequestMetadata()
+- uid: com.microsoft.identity.client._web_finger_metadata_requestor_test.testRequestMetadataThrows()
+  id: testRequestMetadataThrows()
+  parent: com.microsoft.identity.client._web_finger_metadata_requestor_test
+  href: com.microsoft.identity.client._web_finger_metadata_requestor_test.yml
+  langs:
+  - java
+  name: testRequestMetadataThrows()
+  nameWithType: WebFingerMetadataRequestorTest.testRequestMetadataThrows()
+  fullName: void com.microsoft.identity.client.WebFingerMetadataRequestorTest.testRequestMetadataThrows()
+  overload: com.microsoft.identity.client._web_finger_metadata_requestor_test.testRequestMetadataThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/WebFingerMetadataRequestorTest.java
+    startLine: 105
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testRequestMetadataThrows()
+references:
+- uid: com.microsoft.identity.client._web_finger_metadata_requestor_test.testRequestMetadata*
+  name: testRequestMetadata
+  nameWithType: WebFingerMetadataRequestorTest.testRequestMetadata
+  fullName: void com.microsoft.identity.client.WebFingerMetadataRequestorTest.testRequestMetadata
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._web_finger_metadata_requestor_test.testRequestMetadataThrows*
+  name: testRequestMetadataThrows
+  nameWithType: WebFingerMetadataRequestorTest.testRequestMetadataThrows
+  fullName: void com.microsoft.identity.client.WebFingerMetadataRequestorTest.testRequestMetadataThrows
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._web_finger_metadata_requestor_test.testParseMetadata*
+  name: testParseMetadata
+  nameWithType: WebFingerMetadataRequestorTest.testParseMetadata
+  fullName: void com.microsoft.identity.client.WebFingerMetadataRequestorTest.testParseMetadata
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._web_finger_metadata_requestor_test.testBuildWebFingerUrl*
+  name: testBuildWebFingerUrl
+  nameWithType: WebFingerMetadataRequestorTest.testBuildWebFingerUrl
+  fullName: void com.microsoft.identity.client.WebFingerMetadataRequestorTest.testBuildWebFingerUrl
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._msal_exception
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._msal_exception.yml
+  name: MsalException
+  nameWithType: MsalException
+  fullName: com.microsoft.identity.client.MsalException
+  type: Class
+  summary: >-
+    <p>
+
+      <xref uid="com.microsoft.identity.client._msal_exception" data-throw-if-not-resolved="false">MsalException</xref> thrown or sent back via callback, representing the detailed exception thrown by the sdk. It will contain the error code, error description (could be null) or throwable (could be null). </p>
+  syntax:
+    content: public class MsalException

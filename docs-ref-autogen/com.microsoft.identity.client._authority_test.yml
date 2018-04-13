@@ -1,0 +1,596 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._authority_test
+  id: _authority_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._authority_test.tearDown()
+  - com.microsoft.identity.client._authority_test.testAdfsAuthorityValidationDisabled()
+  - com.microsoft.identity.client._authority_test.testAdfsAuthorityValidationEnabled()
+  - com.microsoft.identity.client._authority_test.testAdfsAuthorityWithPortNumber()
+  - com.microsoft.identity.client._authority_test.testAuthorityContainFragment()
+  - com.microsoft.identity.client._authority_test.testAuthorityContainQP()
+  - com.microsoft.identity.client._authority_test.testAuthorityNotContainPath()
+  - com.microsoft.identity.client._authority_test.testAuthorityStartWithHttp()
+  - com.microsoft.identity.client._authority_test.testAuthorityStartWithNonHttpProtocol()
+  - com.microsoft.identity.client._authority_test.testAuthorityValidation()
+  - com.microsoft.identity.client._authority_test.testAuthorityValidationWithTrustedHost()
+  - com.microsoft.identity.client._authority_test.testAuthorityWithoutTrailingSlash()
+  - com.microsoft.identity.client._authority_test.testAuthorityWithPortNumber()
+  - com.microsoft.identity.client._authority_test.testAuthorityWithTrailingSlash()
+  - com.microsoft.identity.client._authority_test.testB2cAuthorityValidationWithTrustedHost()
+  - com.microsoft.identity.client._authority_test.testB2cAuthorityWithTenantDiscovery()
+  - com.microsoft.identity.client._authority_test.testDeprecateAuthority()
+  - com.microsoft.identity.client._authority_test.testInstanceDiscoveryFailed()
+  - com.microsoft.identity.client._authority_test.testInstanceDiscoveryFailedWithTimeout()
+  - com.microsoft.identity.client._authority_test.testInstanceDiscoveryNonJsonResponse()
+  - com.microsoft.identity.client._authority_test.testTenantDiscoveryFailed()
+  - com.microsoft.identity.client._authority_test.testTenantDiscoveryFailedWithInvalidJsonResponse()
+  - com.microsoft.identity.client._authority_test.testTenantDiscoveryFailedWithTimeout()
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: AuthorityTest
+  nameWithType: AuthorityTest
+  fullName: com.microsoft.identity.client.AuthorityTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 42
+  package: com.microsoft.identity.client
+  summary: <p>Unit test for <xref uid="" data-throw-if-not-resolved="false">Authority</xref>. </p>
+  syntax:
+    content: public class AuthorityTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._authority_test.tearDown()
+  id: tearDown()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: tearDown()
+  nameWithType: AuthorityTest.tearDown()
+  fullName: void com.microsoft.identity.client.AuthorityTest.tearDown()
+  overload: com.microsoft.identity.client._authority_test.tearDown*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 50
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void tearDown()
+- uid: com.microsoft.identity.client._authority_test.testAdfsAuthorityValidationDisabled()
+  id: testAdfsAuthorityValidationDisabled()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAdfsAuthorityValidationDisabled()
+  nameWithType: AuthorityTest.testAdfsAuthorityValidationDisabled()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAdfsAuthorityValidationDisabled()
+  overload: com.microsoft.identity.client._authority_test.testAdfsAuthorityValidationDisabled*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 107
+  package: com.microsoft.identity.client
+  summary: <p>We don't support adfs as authority for BUILD. </p>
+  syntax:
+    content: public void testAdfsAuthorityValidationDisabled()
+- uid: com.microsoft.identity.client._authority_test.testAdfsAuthorityValidationEnabled()
+  id: testAdfsAuthorityValidationEnabled()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAdfsAuthorityValidationEnabled()
+  nameWithType: AuthorityTest.testAdfsAuthorityValidationEnabled()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAdfsAuthorityValidationEnabled()
+  overload: com.microsoft.identity.client._authority_test.testAdfsAuthorityValidationEnabled*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 97
+  package: com.microsoft.identity.client
+  summary: <p>We don't support adfs as authority for BUILD. </p>
+  syntax:
+    content: public void testAdfsAuthorityValidationEnabled()
+- uid: com.microsoft.identity.client._authority_test.testAdfsAuthorityWithPortNumber()
+  id: testAdfsAuthorityWithPortNumber()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAdfsAuthorityWithPortNumber()
+  nameWithType: AuthorityTest.testAdfsAuthorityWithPortNumber()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAdfsAuthorityWithPortNumber()
+  overload: com.microsoft.identity.client._authority_test.testAdfsAuthorityWithPortNumber*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 133
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAdfsAuthorityWithPortNumber()
+- uid: com.microsoft.identity.client._authority_test.testAuthorityContainFragment()
+  id: testAuthorityContainFragment()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAuthorityContainFragment()
+  nameWithType: AuthorityTest.testAuthorityContainFragment()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityContainFragment()
+  overload: com.microsoft.identity.client._authority_test.testAuthorityContainFragment*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 80
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityContainFragment()
+- uid: com.microsoft.identity.client._authority_test.testAuthorityContainQP()
+  id: testAuthorityContainQP()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAuthorityContainQP()
+  nameWithType: AuthorityTest.testAuthorityContainQP()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityContainQP()
+  overload: com.microsoft.identity.client._authority_test.testAuthorityContainQP*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 86
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityContainQP()
+- uid: com.microsoft.identity.client._authority_test.testAuthorityNotContainPath()
+  id: testAuthorityNotContainPath()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAuthorityNotContainPath()
+  nameWithType: AuthorityTest.testAuthorityNotContainPath()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityNotContainPath()
+  overload: com.microsoft.identity.client._authority_test.testAuthorityNotContainPath*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 65
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityNotContainPath()
+- uid: com.microsoft.identity.client._authority_test.testAuthorityStartWithHttp()
+  id: testAuthorityStartWithHttp()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAuthorityStartWithHttp()
+  nameWithType: AuthorityTest.testAuthorityStartWithHttp()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityStartWithHttp()
+  overload: com.microsoft.identity.client._authority_test.testAuthorityStartWithHttp*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 55
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityStartWithHttp()
+- uid: com.microsoft.identity.client._authority_test.testAuthorityStartWithNonHttpProtocol()
+  id: testAuthorityStartWithNonHttpProtocol()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAuthorityStartWithNonHttpProtocol()
+  nameWithType: AuthorityTest.testAuthorityStartWithNonHttpProtocol()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityStartWithNonHttpProtocol()
+  overload: com.microsoft.identity.client._authority_test.testAuthorityStartWithNonHttpProtocol*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 60
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityStartWithNonHttpProtocol()
+- uid: com.microsoft.identity.client._authority_test.testAuthorityValidation()
+  id: testAuthorityValidation()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAuthorityValidation()
+  nameWithType: AuthorityTest.testAuthorityValidation()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityValidation()
+  overload: com.microsoft.identity.client._authority_test.testAuthorityValidation*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 220
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityValidation()
+- uid: com.microsoft.identity.client._authority_test.testAuthorityValidationWithTrustedHost()
+  id: testAuthorityValidationWithTrustedHost()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAuthorityValidationWithTrustedHost()
+  nameWithType: AuthorityTest.testAuthorityValidationWithTrustedHost()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityValidationWithTrustedHost()
+  overload: com.microsoft.identity.client._authority_test.testAuthorityValidationWithTrustedHost*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 176
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityValidationWithTrustedHost()
+- uid: com.microsoft.identity.client._authority_test.testAuthorityWithoutTrailingSlash()
+  id: testAuthorityWithoutTrailingSlash()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAuthorityWithoutTrailingSlash()
+  nameWithType: AuthorityTest.testAuthorityWithoutTrailingSlash()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityWithoutTrailingSlash()
+  overload: com.microsoft.identity.client._authority_test.testAuthorityWithoutTrailingSlash*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 160
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityWithoutTrailingSlash()
+- uid: com.microsoft.identity.client._authority_test.testAuthorityWithPortNumber()
+  id: testAuthorityWithPortNumber()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAuthorityWithPortNumber()
+  nameWithType: AuthorityTest.testAuthorityWithPortNumber()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityWithPortNumber()
+  overload: com.microsoft.identity.client._authority_test.testAuthorityWithPortNumber*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 112
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityWithPortNumber()
+- uid: com.microsoft.identity.client._authority_test.testAuthorityWithTrailingSlash()
+  id: testAuthorityWithTrailingSlash()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testAuthorityWithTrailingSlash()
+  nameWithType: AuthorityTest.testAuthorityWithTrailingSlash()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityWithTrailingSlash()
+  overload: com.microsoft.identity.client._authority_test.testAuthorityWithTrailingSlash*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 140
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityWithTrailingSlash()
+- uid: com.microsoft.identity.client._authority_test.testB2cAuthorityValidationWithTrustedHost()
+  id: testB2cAuthorityValidationWithTrustedHost()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testB2cAuthorityValidationWithTrustedHost()
+  nameWithType: AuthorityTest.testB2cAuthorityValidationWithTrustedHost()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testB2cAuthorityValidationWithTrustedHost()
+  overload: com.microsoft.identity.client._authority_test.testB2cAuthorityValidationWithTrustedHost*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 194
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testB2cAuthorityValidationWithTrustedHost()
+- uid: com.microsoft.identity.client._authority_test.testB2cAuthorityWithTenantDiscovery()
+  id: testB2cAuthorityWithTenantDiscovery()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testB2cAuthorityWithTenantDiscovery()
+  nameWithType: AuthorityTest.testB2cAuthorityWithTenantDiscovery()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testB2cAuthorityWithTenantDiscovery()
+  overload: com.microsoft.identity.client._authority_test.testB2cAuthorityWithTenantDiscovery*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 376
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testB2cAuthorityWithTenantDiscovery()
+- uid: com.microsoft.identity.client._authority_test.testDeprecateAuthority()
+  id: testDeprecateAuthority()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testDeprecateAuthority()
+  nameWithType: AuthorityTest.testDeprecateAuthority()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testDeprecateAuthority()
+  overload: com.microsoft.identity.client._authority_test.testDeprecateAuthority*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 70
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testDeprecateAuthority()
+- uid: com.microsoft.identity.client._authority_test.testInstanceDiscoveryFailed()
+  id: testInstanceDiscoveryFailed()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testInstanceDiscoveryFailed()
+  nameWithType: AuthorityTest.testInstanceDiscoveryFailed()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testInstanceDiscoveryFailed()
+  overload: com.microsoft.identity.client._authority_test.testInstanceDiscoveryFailed*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 264
+  package: com.microsoft.identity.client
+  summary: <p>Verify that if instance discovery fails(server returns error and error_description), we return the error error back. </p>
+  syntax:
+    content: public void testInstanceDiscoveryFailed()
+- uid: com.microsoft.identity.client._authority_test.testInstanceDiscoveryFailedWithTimeout()
+  id: testInstanceDiscoveryFailedWithTimeout()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testInstanceDiscoveryFailedWithTimeout()
+  nameWithType: AuthorityTest.testInstanceDiscoveryFailedWithTimeout()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testInstanceDiscoveryFailedWithTimeout()
+  overload: com.microsoft.identity.client._authority_test.testInstanceDiscoveryFailedWithTimeout*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 296
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testInstanceDiscoveryFailedWithTimeout()
+- uid: com.microsoft.identity.client._authority_test.testInstanceDiscoveryNonJsonResponse()
+  id: testInstanceDiscoveryNonJsonResponse()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testInstanceDiscoveryNonJsonResponse()
+  nameWithType: AuthorityTest.testInstanceDiscoveryNonJsonResponse()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testInstanceDiscoveryNonJsonResponse()
+  overload: com.microsoft.identity.client._authority_test.testInstanceDiscoveryNonJsonResponse*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 282
+  package: com.microsoft.identity.client
+  summary: <p>Verify if server returns an invalid JSON response for instance discovery, correct error are returned back. </p>
+  syntax:
+    content: public void testInstanceDiscoveryNonJsonResponse()
+- uid: com.microsoft.identity.client._authority_test.testTenantDiscoveryFailed()
+  id: testTenantDiscoveryFailed()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testTenantDiscoveryFailed()
+  nameWithType: AuthorityTest.testTenantDiscoveryFailed()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testTenantDiscoveryFailed()
+  overload: com.microsoft.identity.client._authority_test.testTenantDiscoveryFailed*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 316
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testTenantDiscoveryFailed()
+- uid: com.microsoft.identity.client._authority_test.testTenantDiscoveryFailedWithInvalidJsonResponse()
+  id: testTenantDiscoveryFailedWithInvalidJsonResponse()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testTenantDiscoveryFailedWithInvalidJsonResponse()
+  nameWithType: AuthorityTest.testTenantDiscoveryFailedWithInvalidJsonResponse()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testTenantDiscoveryFailedWithInvalidJsonResponse()
+  overload: com.microsoft.identity.client._authority_test.testTenantDiscoveryFailedWithInvalidJsonResponse*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 334
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testTenantDiscoveryFailedWithInvalidJsonResponse()
+- uid: com.microsoft.identity.client._authority_test.testTenantDiscoveryFailedWithTimeout()
+  id: testTenantDiscoveryFailedWithTimeout()
+  parent: com.microsoft.identity.client._authority_test
+  href: com.microsoft.identity.client._authority_test.yml
+  langs:
+  - java
+  name: testTenantDiscoveryFailedWithTimeout()
+  nameWithType: AuthorityTest.testTenantDiscoveryFailedWithTimeout()
+  fullName: void com.microsoft.identity.client.AuthorityTest.testTenantDiscoveryFailedWithTimeout()
+  overload: com.microsoft.identity.client._authority_test.testTenantDiscoveryFailedWithTimeout*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorityTest.java
+    startLine: 352
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testTenantDiscoveryFailedWithTimeout()
+references:
+- uid: com.microsoft.identity.client._authority_test.tearDown*
+  name: tearDown
+  nameWithType: AuthorityTest.tearDown
+  fullName: void com.microsoft.identity.client.AuthorityTest.tearDown
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAuthorityStartWithHttp*
+  name: testAuthorityStartWithHttp
+  nameWithType: AuthorityTest.testAuthorityStartWithHttp
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityStartWithHttp
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAuthorityStartWithNonHttpProtocol*
+  name: testAuthorityStartWithNonHttpProtocol
+  nameWithType: AuthorityTest.testAuthorityStartWithNonHttpProtocol
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityStartWithNonHttpProtocol
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAuthorityNotContainPath*
+  name: testAuthorityNotContainPath
+  nameWithType: AuthorityTest.testAuthorityNotContainPath
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityNotContainPath
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testDeprecateAuthority*
+  name: testDeprecateAuthority
+  nameWithType: AuthorityTest.testDeprecateAuthority
+  fullName: void com.microsoft.identity.client.AuthorityTest.testDeprecateAuthority
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAuthorityContainFragment*
+  name: testAuthorityContainFragment
+  nameWithType: AuthorityTest.testAuthorityContainFragment
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityContainFragment
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAuthorityContainQP*
+  name: testAuthorityContainQP
+  nameWithType: AuthorityTest.testAuthorityContainQP
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityContainQP
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAdfsAuthorityValidationEnabled*
+  name: testAdfsAuthorityValidationEnabled
+  nameWithType: AuthorityTest.testAdfsAuthorityValidationEnabled
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAdfsAuthorityValidationEnabled
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAdfsAuthorityValidationDisabled*
+  name: testAdfsAuthorityValidationDisabled
+  nameWithType: AuthorityTest.testAdfsAuthorityValidationDisabled
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAdfsAuthorityValidationDisabled
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAuthorityWithPortNumber*
+  name: testAuthorityWithPortNumber
+  nameWithType: AuthorityTest.testAuthorityWithPortNumber
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityWithPortNumber
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAdfsAuthorityWithPortNumber*
+  name: testAdfsAuthorityWithPortNumber
+  nameWithType: AuthorityTest.testAdfsAuthorityWithPortNumber
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAdfsAuthorityWithPortNumber
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAuthorityWithTrailingSlash*
+  name: testAuthorityWithTrailingSlash
+  nameWithType: AuthorityTest.testAuthorityWithTrailingSlash
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityWithTrailingSlash
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAuthorityWithoutTrailingSlash*
+  name: testAuthorityWithoutTrailingSlash
+  nameWithType: AuthorityTest.testAuthorityWithoutTrailingSlash
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityWithoutTrailingSlash
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAuthorityValidationWithTrustedHost*
+  name: testAuthorityValidationWithTrustedHost
+  nameWithType: AuthorityTest.testAuthorityValidationWithTrustedHost
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityValidationWithTrustedHost
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testB2cAuthorityValidationWithTrustedHost*
+  name: testB2cAuthorityValidationWithTrustedHost
+  nameWithType: AuthorityTest.testB2cAuthorityValidationWithTrustedHost
+  fullName: void com.microsoft.identity.client.AuthorityTest.testB2cAuthorityValidationWithTrustedHost
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testAuthorityValidation*
+  name: testAuthorityValidation
+  nameWithType: AuthorityTest.testAuthorityValidation
+  fullName: void com.microsoft.identity.client.AuthorityTest.testAuthorityValidation
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testInstanceDiscoveryFailed*
+  name: testInstanceDiscoveryFailed
+  nameWithType: AuthorityTest.testInstanceDiscoveryFailed
+  fullName: void com.microsoft.identity.client.AuthorityTest.testInstanceDiscoveryFailed
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testInstanceDiscoveryNonJsonResponse*
+  name: testInstanceDiscoveryNonJsonResponse
+  nameWithType: AuthorityTest.testInstanceDiscoveryNonJsonResponse
+  fullName: void com.microsoft.identity.client.AuthorityTest.testInstanceDiscoveryNonJsonResponse
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testInstanceDiscoveryFailedWithTimeout*
+  name: testInstanceDiscoveryFailedWithTimeout
+  nameWithType: AuthorityTest.testInstanceDiscoveryFailedWithTimeout
+  fullName: void com.microsoft.identity.client.AuthorityTest.testInstanceDiscoveryFailedWithTimeout
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testTenantDiscoveryFailed*
+  name: testTenantDiscoveryFailed
+  nameWithType: AuthorityTest.testTenantDiscoveryFailed
+  fullName: void com.microsoft.identity.client.AuthorityTest.testTenantDiscoveryFailed
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testTenantDiscoveryFailedWithInvalidJsonResponse*
+  name: testTenantDiscoveryFailedWithInvalidJsonResponse
+  nameWithType: AuthorityTest.testTenantDiscoveryFailedWithInvalidJsonResponse
+  fullName: void com.microsoft.identity.client.AuthorityTest.testTenantDiscoveryFailedWithInvalidJsonResponse
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testTenantDiscoveryFailedWithTimeout*
+  name: testTenantDiscoveryFailedWithTimeout
+  nameWithType: AuthorityTest.testTenantDiscoveryFailedWithTimeout
+  fullName: void com.microsoft.identity.client.AuthorityTest.testTenantDiscoveryFailedWithTimeout
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authority_test.testB2cAuthorityWithTenantDiscovery*
+  name: testB2cAuthorityWithTenantDiscovery
+  nameWithType: AuthorityTest.testB2cAuthorityWithTenantDiscovery
+  fullName: void com.microsoft.identity.client.AuthorityTest.testB2cAuthorityWithTenantDiscovery
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._msal_client_exception
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._msal_client_exception.yml
+  name: MsalClientException
+  nameWithType: MsalClientException
+  fullName: com.microsoft.identity.client.MsalClientException
+  type: Class
+  summary: >-
+    <p>This exception class represents general errors that are local to the library. Below is the table of proposed codes and a short description of each. </p>
+
+    <p>Set of error codes that could be returned from this exception: <ul><li><p>multiple_matching_tokens_detected: There are multiple cache entries found and the sdk cannot identify the correct access or refresh token from the cache. This usually indicates a bug in the sdk for storing tokens or the authority is not provided in the silent request and multiple matching tokens found.  </p></li><li><p>device_network_not_available: No active network is available on the device.  </p></li><li><p>json_parse_failure: The sdk failed to parse the JSON format. </p></li><li><p>io_error: IOException happened, could be the device/network errors.  </p></li><li><p>malformed_url: The url is malformed. Likely caused when constructing the auth request, authority, or redirect URI.  </p></li><li><p>unsupported_encoding: The encoding is not supported by the device.  </p></li><li><p>no_such_algorithm: The algorithm used to generate pkce challenge is not supported.  </p></li><li><p>invalid_jwt: JWT returned by the server is not valid, empty or malformed.  </p></li><li><p>state_mismatch: State from authorization response did not match the state in the authorization request. For authorization requests, the sdk will verify the state returned from redirect and the one sent in the request.  </p></li><li><p>unresolvable_intent: The intent to launch <xref uid="com.microsoft.identity.client._authentication_activity" data-throw-if-not-resolved="false">AuthenticationActivity</xref> is not resolvable by the OS or the intent doesn't contain the required data.  </p></li><li><p>unsupported_url: Unsupported url, cannot perform ADFS authority validation.  </p></li><li><p>authority_validation_not_supported: The authority is not supported for authority validation. The sdk supports b2c authorities, but doesn't support b2c authority validation. Only well-known host will be supported.  </p></li><li><p>chrome_not_installed: Chrome is not installed on the device. The sdk uses chrome custom tab for authorization requests if available, and will fall back to chrome browser.  </p></li><li><p>user_mismatch: The user provided in the acquire token request doesn't match the user returned from server. </p></li></ul></p>
+  syntax:
+    content: public class MsalClientException

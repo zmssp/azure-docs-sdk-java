@@ -1,0 +1,405 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._silent_request_test
+  id: _silent_request_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._silent_request_test.setUp()
+  - com.microsoft.identity.client._silent_request_test.tearDown()
+  - com.microsoft.identity.client._silent_request_test.testAccessTokenNotValidRTIsUsed()
+  - com.microsoft.identity.client._silent_request_test.testAuthorityNotProvidedButOnlyOneExist()
+  - com.microsoft.identity.client._silent_request_test.testClientIdProvidedAsSingleScope()
+  - com.microsoft.identity.client._silent_request_test.testForceRefreshRequestFailedWithInvalidGrant()
+  - com.microsoft.identity.client._silent_request_test.testForceRefreshTokenRequestFailedWithInvalidRequest()
+  - com.microsoft.identity.client._silent_request_test.testNetworkNotConnected()
+  - com.microsoft.identity.client._silent_request_test.testNoRefreshTokenIsFound()
+  - com.microsoft.identity.client._silent_request_test.testSavedTokenInCacheNotHaveAccessToken()
+  - com.microsoft.identity.client._silent_request_test.testScopeNotProvidedTheSameOrder()
+  - com.microsoft.identity.client._silent_request_test.testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache()
+  - com.microsoft.identity.client._silent_request_test.testSilentRequestScopeNotSameAsTokenCacheItem()
+  - com.microsoft.identity.client._silent_request_test.testValidAccessTokenInTheCache()
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: SilentRequestTest
+  nameWithType: SilentRequestTest
+  fullName: com.microsoft.identity.client.SilentRequestTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 52
+  package: com.microsoft.identity.client
+  summary: <p>Tests for <xref uid="" data-throw-if-not-resolved="false">SilentRequest</xref>. </p>
+  syntax:
+    content: public class SilentRequestTest
+  inheritance:
+  - java.lang.Object
+  - AndroidTestCase
+- uid: com.microsoft.identity.client._silent_request_test.setUp()
+  id: setUp()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: setUp()
+  nameWithType: SilentRequestTest.setUp()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.setUp()
+  overload: com.microsoft.identity.client._silent_request_test.setUp*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 64
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void setUp()
+- uid: com.microsoft.identity.client._silent_request_test.tearDown()
+  id: tearDown()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: tearDown()
+  nameWithType: SilentRequestTest.tearDown()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.tearDown()
+  overload: com.microsoft.identity.client._silent_request_test.tearDown*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 82
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void tearDown()
+- uid: com.microsoft.identity.client._silent_request_test.testAccessTokenNotValidRTIsUsed()
+  id: testAccessTokenNotValidRTIsUsed()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testAccessTokenNotValidRTIsUsed()
+  nameWithType: SilentRequestTest.testAccessTokenNotValidRTIsUsed()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testAccessTokenNotValidRTIsUsed()
+  overload: com.microsoft.identity.client._silent_request_test.testAccessTokenNotValidRTIsUsed*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 222
+  package: com.microsoft.identity.client
+  summary: <p>Verify that refresh token is correctly used if at is not valid. </p>
+  syntax:
+    content: public void testAccessTokenNotValidRTIsUsed()
+- uid: com.microsoft.identity.client._silent_request_test.testAuthorityNotProvidedButOnlyOneExist()
+  id: testAuthorityNotProvidedButOnlyOneExist()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testAuthorityNotProvidedButOnlyOneExist()
+  nameWithType: SilentRequestTest.testAuthorityNotProvidedButOnlyOneExist()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testAuthorityNotProvidedButOnlyOneExist()
+  overload: com.microsoft.identity.client._silent_request_test.testAuthorityNotProvidedButOnlyOneExist*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 420
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityNotProvidedButOnlyOneExist()
+- uid: com.microsoft.identity.client._silent_request_test.testClientIdProvidedAsSingleScope()
+  id: testClientIdProvidedAsSingleScope()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testClientIdProvidedAsSingleScope()
+  nameWithType: SilentRequestTest.testClientIdProvidedAsSingleScope()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testClientIdProvidedAsSingleScope()
+  overload: com.microsoft.identity.client._silent_request_test.testClientIdProvidedAsSingleScope*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 91
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testClientIdProvidedAsSingleScope()
+- uid: com.microsoft.identity.client._silent_request_test.testForceRefreshRequestFailedWithInvalidGrant()
+  id: testForceRefreshRequestFailedWithInvalidGrant()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testForceRefreshRequestFailedWithInvalidGrant()
+  nameWithType: SilentRequestTest.testForceRefreshRequestFailedWithInvalidGrant()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testForceRefreshRequestFailedWithInvalidGrant()
+  overload: com.microsoft.identity.client._silent_request_test.testForceRefreshRequestFailedWithInvalidGrant*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 504
+  package: com.microsoft.identity.client
+  summary: <p>Verify that refresh token is deleted if failed with invalid grant. </p>
+  syntax:
+    content: public void testForceRefreshRequestFailedWithInvalidGrant()
+- uid: com.microsoft.identity.client._silent_request_test.testForceRefreshTokenRequestFailedWithInvalidRequest()
+  id: testForceRefreshTokenRequestFailedWithInvalidRequest()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testForceRefreshTokenRequestFailedWithInvalidRequest()
+  nameWithType: SilentRequestTest.testForceRefreshTokenRequestFailedWithInvalidRequest()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testForceRefreshTokenRequestFailedWithInvalidRequest()
+  overload: com.microsoft.identity.client._silent_request_test.testForceRefreshTokenRequestFailedWithInvalidRequest*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 545
+  package: com.microsoft.identity.client
+  summary: <p>Verify that refresh token is not cleared if RT request failed with invalid_request. </p>
+  syntax:
+    content: public void testForceRefreshTokenRequestFailedWithInvalidRequest()
+- uid: com.microsoft.identity.client._silent_request_test.testNetworkNotConnected()
+  id: testNetworkNotConnected()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testNetworkNotConnected()
+  nameWithType: SilentRequestTest.testNetworkNotConnected()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testNetworkNotConnected()
+  overload: com.microsoft.identity.client._silent_request_test.testNetworkNotConnected*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 101
+  package: com.microsoft.identity.client
+  summary: <p>Verify that correct exception is thrown if device is not connected to the network. </p>
+  syntax:
+    content: public void testNetworkNotConnected()
+- uid: com.microsoft.identity.client._silent_request_test.testNoRefreshTokenIsFound()
+  id: testNoRefreshTokenIsFound()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testNoRefreshTokenIsFound()
+  nameWithType: SilentRequestTest.testNoRefreshTokenIsFound()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testNoRefreshTokenIsFound()
+  overload: com.microsoft.identity.client._silent_request_test.testNoRefreshTokenIsFound*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 469
+  package: com.microsoft.identity.client
+  summary: <p>Verify that correct exception is returned if no refresh token is found. </p>
+  syntax:
+    content: public void testNoRefreshTokenIsFound()
+- uid: com.microsoft.identity.client._silent_request_test.testSavedTokenInCacheNotHaveAccessToken()
+  id: testSavedTokenInCacheNotHaveAccessToken()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testSavedTokenInCacheNotHaveAccessToken()
+  nameWithType: SilentRequestTest.testSavedTokenInCacheNotHaveAccessToken()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testSavedTokenInCacheNotHaveAccessToken()
+  overload: com.microsoft.identity.client._silent_request_test.testSavedTokenInCacheNotHaveAccessToken*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 182
+  package: com.microsoft.identity.client
+  summary: <p>Verify that if the access token item in the cache does not contain access_token, id token will be returned instead. </p>
+  syntax:
+    content: public void testSavedTokenInCacheNotHaveAccessToken()
+- uid: com.microsoft.identity.client._silent_request_test.testScopeNotProvidedTheSameOrder()
+  id: testScopeNotProvidedTheSameOrder()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testScopeNotProvidedTheSameOrder()
+  nameWithType: SilentRequestTest.testScopeNotProvidedTheSameOrder()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testScopeNotProvidedTheSameOrder()
+  overload: com.microsoft.identity.client._silent_request_test.testScopeNotProvidedTheSameOrder*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 277
+  package: com.microsoft.identity.client
+  summary: <p>Verify that token is correctly retrieved if scopes returned in the original response is not in the same order as what's requested for. </p>
+  syntax:
+    content: public void testScopeNotProvidedTheSameOrder()
+- uid: com.microsoft.identity.client._silent_request_test.testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache()
+  id: testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache()
+  nameWithType: SilentRequestTest.testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache()
+  overload: com.microsoft.identity.client._silent_request_test.testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 371
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache()
+- uid: com.microsoft.identity.client._silent_request_test.testSilentRequestScopeNotSameAsTokenCacheItem()
+  id: testSilentRequestScopeNotSameAsTokenCacheItem()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testSilentRequestScopeNotSameAsTokenCacheItem()
+  nameWithType: SilentRequestTest.testSilentRequestScopeNotSameAsTokenCacheItem()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testSilentRequestScopeNotSameAsTokenCacheItem()
+  overload: com.microsoft.identity.client._silent_request_test.testSilentRequestScopeNotSameAsTokenCacheItem*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 313
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testSilentRequestScopeNotSameAsTokenCacheItem()
+- uid: com.microsoft.identity.client._silent_request_test.testValidAccessTokenInTheCache()
+  id: testValidAccessTokenInTheCache()
+  parent: com.microsoft.identity.client._silent_request_test
+  href: com.microsoft.identity.client._silent_request_test.yml
+  langs:
+  - java
+  name: testValidAccessTokenInTheCache()
+  nameWithType: SilentRequestTest.testValidAccessTokenInTheCache()
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testValidAccessTokenInTheCache()
+  overload: com.microsoft.identity.client._silent_request_test.testValidAccessTokenInTheCache*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/SilentRequestTest.java
+    startLine: 143
+  package: com.microsoft.identity.client
+  summary: <p>Verify that valid access token is successfully returned. </p>
+  syntax:
+    content: public void testValidAccessTokenInTheCache()
+references:
+- uid: com.microsoft.identity.client._silent_request_test.setUp*
+  name: setUp
+  nameWithType: SilentRequestTest.setUp
+  fullName: void com.microsoft.identity.client.SilentRequestTest.setUp
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.tearDown*
+  name: tearDown
+  nameWithType: SilentRequestTest.tearDown
+  fullName: void com.microsoft.identity.client.SilentRequestTest.tearDown
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testClientIdProvidedAsSingleScope*
+  name: testClientIdProvidedAsSingleScope
+  nameWithType: SilentRequestTest.testClientIdProvidedAsSingleScope
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testClientIdProvidedAsSingleScope
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testNetworkNotConnected*
+  name: testNetworkNotConnected
+  nameWithType: SilentRequestTest.testNetworkNotConnected
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testNetworkNotConnected
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testValidAccessTokenInTheCache*
+  name: testValidAccessTokenInTheCache
+  nameWithType: SilentRequestTest.testValidAccessTokenInTheCache
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testValidAccessTokenInTheCache
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testSavedTokenInCacheNotHaveAccessToken*
+  name: testSavedTokenInCacheNotHaveAccessToken
+  nameWithType: SilentRequestTest.testSavedTokenInCacheNotHaveAccessToken
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testSavedTokenInCacheNotHaveAccessToken
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testAccessTokenNotValidRTIsUsed*
+  name: testAccessTokenNotValidRTIsUsed
+  nameWithType: SilentRequestTest.testAccessTokenNotValidRTIsUsed
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testAccessTokenNotValidRTIsUsed
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testScopeNotProvidedTheSameOrder*
+  name: testScopeNotProvidedTheSameOrder
+  nameWithType: SilentRequestTest.testScopeNotProvidedTheSameOrder
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testScopeNotProvidedTheSameOrder
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testSilentRequestScopeNotSameAsTokenCacheItem*
+  name: testSilentRequestScopeNotSameAsTokenCacheItem
+  nameWithType: SilentRequestTest.testSilentRequestScopeNotSameAsTokenCacheItem
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testSilentRequestScopeNotSameAsTokenCacheItem
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache*
+  name: testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache
+  nameWithType: SilentRequestTest.testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testSilentRequestNoAuthorityMutipleAccessTokenAuthoritiesInCache
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testAuthorityNotProvidedButOnlyOneExist*
+  name: testAuthorityNotProvidedButOnlyOneExist
+  nameWithType: SilentRequestTest.testAuthorityNotProvidedButOnlyOneExist
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testAuthorityNotProvidedButOnlyOneExist
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testNoRefreshTokenIsFound*
+  name: testNoRefreshTokenIsFound
+  nameWithType: SilentRequestTest.testNoRefreshTokenIsFound
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testNoRefreshTokenIsFound
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testForceRefreshRequestFailedWithInvalidGrant*
+  name: testForceRefreshRequestFailedWithInvalidGrant
+  nameWithType: SilentRequestTest.testForceRefreshRequestFailedWithInvalidGrant
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testForceRefreshRequestFailedWithInvalidGrant
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._silent_request_test.testForceRefreshTokenRequestFailedWithInvalidRequest*
+  name: testForceRefreshTokenRequestFailedWithInvalidRequest
+  nameWithType: SilentRequestTest.testForceRefreshTokenRequestFailedWithInvalidRequest
+  fullName: void com.microsoft.identity.client.SilentRequestTest.testForceRefreshTokenRequestFailedWithInvalidRequest
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._user
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._user.yml
+  name: User
+  nameWithType: User
+  fullName: com.microsoft.identity.client.User
+  type: Class
+  summary: <p>Contains the detailed info to identify a user. Sign out functionality is provided at the <xref uid="com.microsoft.identity.client._user" data-throw-if-not-resolved="false">User</xref> level. </p>
+  syntax:
+    content: public class User
+- uid: com.microsoft.identity.client._msal_exception
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._msal_exception.yml
+  name: MsalException
+  nameWithType: MsalException
+  fullName: com.microsoft.identity.client.MsalException
+  type: Class
+  summary: >-
+    <p>
+
+      <xref uid="com.microsoft.identity.client._msal_exception" data-throw-if-not-resolved="false">MsalException</xref> thrown or sent back via callback, representing the detailed exception thrown by the sdk. It will contain the error code, error description (could be null) or throwable (could be null). </p>
+  syntax:
+    content: public class MsalException
+- uid: com.microsoft.identity.client._authentication_result
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._authentication_result.yml
+  name: AuthenticationResult
+  nameWithType: AuthenticationResult
+  fullName: com.microsoft.identity.client.AuthenticationResult
+  type: Class
+  summary: <p>MSAL successful authentication result. When auth succeeds, token will be wrapped into the <xref uid="com.microsoft.identity.client._authentication_result" data-throw-if-not-resolved="false">AuthenticationResult</xref> and passed back through the <xref uid="com.microsoft.identity.client._authentication_callback" data-throw-if-not-resolved="false">AuthenticationCallback</xref>. </p>
+  syntax:
+    content: public class AuthenticationResult

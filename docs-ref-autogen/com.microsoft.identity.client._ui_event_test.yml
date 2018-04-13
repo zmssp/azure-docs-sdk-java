@@ -1,0 +1,50 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._ui_event_test
+  id: _ui_event_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._ui_event_test.testUiEventInitializes()
+  href: com.microsoft.identity.client._ui_event_test.yml
+  langs:
+  - java
+  name: UiEventTest
+  nameWithType: UiEventTest
+  fullName: com.microsoft.identity.client.UiEventTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/UiEventTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/UiEventTest.java
+    startLine: 33
+  package: com.microsoft.identity.client
+  syntax:
+    content: public class UiEventTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._ui_event_test.testUiEventInitializes()
+  id: testUiEventInitializes()
+  parent: com.microsoft.identity.client._ui_event_test
+  href: com.microsoft.identity.client._ui_event_test.yml
+  langs:
+  - java
+  name: testUiEventInitializes()
+  nameWithType: UiEventTest.testUiEventInitializes()
+  fullName: void com.microsoft.identity.client.UiEventTest.testUiEventInitializes()
+  overload: com.microsoft.identity.client._ui_event_test.testUiEventInitializes*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/UiEventTest.java
+    startLine: 45
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testUiEventInitializes()
+references:
+- uid: com.microsoft.identity.client._ui_event_test.testUiEventInitializes*
+  name: testUiEventInitializes
+  nameWithType: UiEventTest.testUiEventInitializes
+  fullName: void com.microsoft.identity.client.UiEventTest.testUiEventInitializes
+  package: com.microsoft.identity.client

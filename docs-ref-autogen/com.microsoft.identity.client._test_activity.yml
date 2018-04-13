@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._test_activity
+  id: _test_activity
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._test_activity.createIntent(final Context,final Intent)
+  - com.microsoft.identity.client._test_activity.onActivityResult(int,int,final Intent)
+  - com.microsoft.identity.client._test_activity.onCreate(final Bundle)
+  href: com.microsoft.identity.client._test_activity.yml
+  langs:
+  - java
+  name: TestActivity
+  nameWithType: TestActivity
+  fullName: com.microsoft.identity.client.TestActivity
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/TestActivity.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/TestActivity.java
+    startLine: 33
+  package: com.microsoft.identity.client
+  summary: <p>Test activity for testing purpose. </p>
+  syntax:
+    content: public class TestActivity
+  inheritance:
+  - java.lang.Object
+  - Activity
+- uid: com.microsoft.identity.client._test_activity.createIntent(final Context,final Intent)
+  id: createIntent(final Context,final Intent)
+  parent: com.microsoft.identity.client._test_activity
+  href: com.microsoft.identity.client._test_activity.yml
+  langs:
+  - java
+  name: createIntent(final Context context, final Intent activityIntentToLaunch)
+  nameWithType: TestActivity.createIntent(final Context context, final Intent activityIntentToLaunch)
+  fullName: static Intent com.microsoft.identity.client.TestActivity.createIntent(final Context context, final Intent activityIntentToLaunch)
+  overload: com.microsoft.identity.client._test_activity.createIntent*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/TestActivity.java
+    startLine: 39
+  package: com.microsoft.identity.client
+  syntax:
+    content: public static Intent createIntent(final Context context, final Intent activityIntentToLaunch)
+    parameters:
+    - id: context
+      type: e10e1f58
+    - id: activityIntentToLaunch
+      type: afc0a73e
+    return:
+      type: ddf7763f
+- uid: com.microsoft.identity.client._test_activity.onActivityResult(int,int,final Intent)
+  id: onActivityResult(int,int,final Intent)
+  parent: com.microsoft.identity.client._test_activity
+  href: com.microsoft.identity.client._test_activity.yml
+  langs:
+  - java
+  name: onActivityResult(int requestCode, int resultCode, final Intent data)
+  nameWithType: TestActivity.onActivityResult(int requestCode, int resultCode, final Intent data)
+  fullName: void com.microsoft.identity.client.TestActivity.onActivityResult(int requestCode, int resultCode, final Intent data)
+  overload: com.microsoft.identity.client._test_activity.onActivityResult*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/TestActivity.java
+    startLine: 48
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void onActivityResult(int requestCode, int resultCode, final Intent data)
+    parameters:
+    - id: requestCode
+      type: f75371fa
+    - id: resultCode
+      type: f75371fa
+    - id: data
+      type: afc0a73e
+- uid: com.microsoft.identity.client._test_activity.onCreate(final Bundle)
+  id: onCreate(final Bundle)
+  parent: com.microsoft.identity.client._test_activity
+  href: com.microsoft.identity.client._test_activity.yml
+  langs:
+  - java
+  name: onCreate(final Bundle savedInstanceState)
+  nameWithType: TestActivity.onCreate(final Bundle savedInstanceState)
+  fullName: void com.microsoft.identity.client.TestActivity.onCreate(final Bundle savedInstanceState)
+  overload: com.microsoft.identity.client._test_activity.onCreate*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/TestActivity.java
+    startLine: 59
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void onCreate(final Bundle savedInstanceState)
+    parameters:
+    - id: savedInstanceState
+      type: "33698995"
+references:
+- uid: e10e1f58
+  spec.java:
+  - name: final Context
+    fullName: final Context
+- uid: afc0a73e
+  spec.java:
+  - name: final Intent
+    fullName: final Intent
+- uid: ddf7763f
+  spec.java:
+  - name: Intent
+    fullName: Intent
+- uid: com.microsoft.identity.client._test_activity.createIntent*
+  name: createIntent
+  nameWithType: TestActivity.createIntent
+  fullName: static Intent com.microsoft.identity.client.TestActivity.createIntent
+  package: com.microsoft.identity.client
+- uid: f75371fa
+  spec.java:
+  - name: int
+    fullName: int
+- uid: com.microsoft.identity.client._test_activity.onActivityResult*
+  name: onActivityResult
+  nameWithType: TestActivity.onActivityResult
+  fullName: void com.microsoft.identity.client.TestActivity.onActivityResult
+  package: com.microsoft.identity.client
+- uid: "33698995"
+  spec.java:
+  - name: final Bundle
+    fullName: final Bundle
+- uid: com.microsoft.identity.client._test_activity.onCreate*
+  name: onCreate
+  nameWithType: TestActivity.onCreate
+  fullName: void com.microsoft.identity.client.TestActivity.onCreate
+  package: com.microsoft.identity.client

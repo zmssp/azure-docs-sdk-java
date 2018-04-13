@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._http_request_test
+  id: _http_request_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._http_request_test.setUp()
+  - com.microsoft.identity.client._http_request_test.tearDown()
+  - com.microsoft.identity.client._http_request_test.testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout()
+  - com.microsoft.identity.client._http_request_test.testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout()
+  - com.microsoft.identity.client._http_request_test.testHttpGetFailedNoRetry()
+  - com.microsoft.identity.client._http_request_test.testHttpGetFailedNoRetryNoResponseBody()
+  - com.microsoft.identity.client._http_request_test.testHttpGetFailedWith504RetrySucceed()
+  - com.microsoft.identity.client._http_request_test.testHttpGetSucceed()
+  - com.microsoft.identity.client._http_request_test.testHttpPostFailedNoRetry()
+  - com.microsoft.identity.client._http_request_test.testHttpPostFailedWith500RetrySucceed()
+  - com.microsoft.identity.client._http_request_test.testHttpPostFailedWith503RetrySucceed()
+  - com.microsoft.identity.client._http_request_test.testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode()
+  - com.microsoft.identity.client._http_request_test.testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode()
+  - com.microsoft.identity.client._http_request_test.testHttpPostFailedWithSocketTimeoutRetrySucceed()
+  - com.microsoft.identity.client._http_request_test.testHttpPostSucceed()
+  - com.microsoft.identity.client._http_request_test.testNullRequestUrl()
+  - com.microsoft.identity.client._http_request_test.testPostFailedWithRetryableErrorRetryFailedWithRetryableError()
+  - com.microsoft.identity.client._http_request_test.testPostFailedWithSocketTimeoutRetryFailedWithRetryableError()
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: HttpRequestTest
+  nameWithType: HttpRequestTest
+  fullName: com.microsoft.identity.client.HttpRequestTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 41
+  package: com.microsoft.identity.client
+  summary: <p>Tests for <xref uid="" data-throw-if-not-resolved="false">HttpRequest</xref>. </p>
+  syntax:
+    content: public class HttpRequestTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._http_request_test.setUp()
+  id: setUp()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: setUp()
+  nameWithType: HttpRequestTest.setUp()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.setUp()
+  overload: com.microsoft.identity.client._http_request_test.setUp*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 43
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void setUp()
+- uid: com.microsoft.identity.client._http_request_test.tearDown()
+  id: tearDown()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: tearDown()
+  nameWithType: HttpRequestTest.tearDown()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.tearDown()
+  overload: com.microsoft.identity.client._http_request_test.tearDown*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 49
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void tearDown()
+- uid: com.microsoft.identity.client._http_request_test.testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout()
+  id: testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout()
+  nameWithType: HttpRequestTest.testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout()
+  overload: com.microsoft.identity.client._http_request_test.testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 543
+  package: com.microsoft.identity.client
+  summary: <p>Verify that initial http post fails with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_GATEWAY_TIMEOUT</xref>(retryable status code 500/503/504), retry fails with <xref uid="" data-throw-if-not-resolved="false">SocketTimeoutException</xref>. </p>
+  syntax:
+    content: public void testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout()
+- uid: com.microsoft.identity.client._http_request_test.testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout()
+  id: testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout()
+  nameWithType: HttpRequestTest.testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout()
+  overload: com.microsoft.identity.client._http_request_test.testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 582
+  package: com.microsoft.identity.client
+  summary: <p>Verify that initial http post fails with <xref uid="" data-throw-if-not-resolved="false">SocketTimeoutException</xref> and retry fails with <xref uid="" data-throw-if-not-resolved="false">SocketTimeoutException</xref>. </p>
+  syntax:
+    content: public void testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout()
+- uid: com.microsoft.identity.client._http_request_test.testHttpGetFailedNoRetry()
+  id: testHttpGetFailedNoRetry()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpGetFailedNoRetry()
+  nameWithType: HttpRequestTest.testHttpGetFailedNoRetry()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpGetFailedNoRetry()
+  overload: com.microsoft.identity.client._http_request_test.testHttpGetFailedNoRetry*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 280
+  package: com.microsoft.identity.client
+  summary: <p>Verify that http get request fails with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_BAD_REQUEST</xref>, no retry happens. </p>
+  syntax:
+    content: public void testHttpGetFailedNoRetry()
+- uid: com.microsoft.identity.client._http_request_test.testHttpGetFailedNoRetryNoResponseBody()
+  id: testHttpGetFailedNoRetryNoResponseBody()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpGetFailedNoRetryNoResponseBody()
+  nameWithType: HttpRequestTest.testHttpGetFailedNoRetryNoResponseBody()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpGetFailedNoRetryNoResponseBody()
+  overload: com.microsoft.identity.client._http_request_test.testHttpGetFailedNoRetryNoResponseBody*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 343
+  package: com.microsoft.identity.client
+  summary: <p>Verify that http get request fails with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_BAD_METHOD</xref> and no response body, no retry happens. </p>
+  syntax:
+    content: public void testHttpGetFailedNoRetryNoResponseBody()
+- uid: com.microsoft.identity.client._http_request_test.testHttpGetFailedWith504RetrySucceed()
+  id: testHttpGetFailedWith504RetrySucceed()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpGetFailedWith504RetrySucceed()
+  nameWithType: HttpRequestTest.testHttpGetFailedWith504RetrySucceed()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpGetFailedWith504RetrySucceed()
+  overload: com.microsoft.identity.client._http_request_test.testHttpGetFailedWith504RetrySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 204
+  package: com.microsoft.identity.client
+  summary: <p>Verify that the initial get request failed with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_GATEWAY_TIMEOUT</xref> and retry succeeds. </p>
+  syntax:
+    content: public void testHttpGetFailedWith504RetrySucceed()
+- uid: com.microsoft.identity.client._http_request_test.testHttpGetSucceed()
+  id: testHttpGetSucceed()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpGetSucceed()
+  nameWithType: HttpRequestTest.testHttpGetSucceed()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpGetSucceed()
+  overload: com.microsoft.identity.client._http_request_test.testHttpGetSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 66
+  package: com.microsoft.identity.client
+  summary: <p>Verify that http get succeed and no retry happens. </p>
+  syntax:
+    content: public void testHttpGetSucceed()
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedNoRetry()
+  id: testHttpPostFailedNoRetry()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpPostFailedNoRetry()
+  nameWithType: HttpRequestTest.testHttpPostFailedNoRetry()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedNoRetry()
+  overload: com.microsoft.identity.client._http_request_test.testHttpPostFailedNoRetry*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 310
+  package: com.microsoft.identity.client
+  summary: <p>Verify that http get request fails with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_UNAUTHORIZED</xref>, no retry happens. </p>
+  syntax:
+    content: public void testHttpPostFailedNoRetry()
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedWith500RetrySucceed()
+  id: testHttpPostFailedWith500RetrySucceed()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpPostFailedWith500RetrySucceed()
+  nameWithType: HttpRequestTest.testHttpPostFailedWith500RetrySucceed()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedWith500RetrySucceed()
+  overload: com.microsoft.identity.client._http_request_test.testHttpPostFailedWith500RetrySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 122
+  package: com.microsoft.identity.client
+  summary: <p>Verify the correct response is returned if first network call fails with internal error, and retry succeeds. </p>
+  syntax:
+    content: public void testHttpPostFailedWith500RetrySucceed()
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedWith503RetrySucceed()
+  id: testHttpPostFailedWith503RetrySucceed()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpPostFailedWith503RetrySucceed()
+  nameWithType: HttpRequestTest.testHttpPostFailedWith503RetrySucceed()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedWith503RetrySucceed()
+  overload: com.microsoft.identity.client._http_request_test.testHttpPostFailedWith503RetrySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 162
+  package: com.microsoft.identity.client
+  summary: <p>Verify that the initial post request failed with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_UNAVAILABLE</xref> and retry succeeds. </p>
+  syntax:
+    content: public void testHttpPostFailedWith503RetrySucceed()
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode()
+  id: testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode()
+  nameWithType: HttpRequestTest.testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode()
+  overload: com.microsoft.identity.client._http_request_test.testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 373
+  package: com.microsoft.identity.client
+  summary: <p>Verify that initial http post fails with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_INTERNAL_ERROR</xref>(retryable status code 500/503/504), retry fails with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_UNAUTHORIZED</xref>(non retryable status code). </p>
+  syntax:
+    content: public void testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode()
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode()
+  id: testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode()
+  nameWithType: HttpRequestTest.testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode()
+  overload: com.microsoft.identity.client._http_request_test.testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 416
+  package: com.microsoft.identity.client
+  summary: <p>Verify that initial http post fails with <xref uid="" data-throw-if-not-resolved="false">SocketTimeoutException</xref>, retry fails with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_BAD_REQUEST</xref>(non retryable status code). </p>
+  syntax:
+    content: public void testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode()
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedWithSocketTimeoutRetrySucceed()
+  id: testHttpPostFailedWithSocketTimeoutRetrySucceed()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpPostFailedWithSocketTimeoutRetrySucceed()
+  nameWithType: HttpRequestTest.testHttpPostFailedWithSocketTimeoutRetrySucceed()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedWithSocketTimeoutRetrySucceed()
+  overload: com.microsoft.identity.client._http_request_test.testHttpPostFailedWithSocketTimeoutRetrySucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 242
+  package: com.microsoft.identity.client
+  summary: <p>Verify that the initial post request failed with <xref uid="" data-throw-if-not-resolved="false">SocketTimeoutException</xref> and retry succeeds. </p>
+  syntax:
+    content: public void testHttpPostFailedWithSocketTimeoutRetrySucceed()
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostSucceed()
+  id: testHttpPostSucceed()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testHttpPostSucceed()
+  nameWithType: HttpRequestTest.testHttpPostSucceed()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostSucceed()
+  overload: com.microsoft.identity.client._http_request_test.testHttpPostSucceed*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 93
+  package: com.microsoft.identity.client
+  summary: <p>Verify that http post succeeds and no retry happens. </p>
+  syntax:
+    content: public void testHttpPostSucceed()
+- uid: com.microsoft.identity.client._http_request_test.testNullRequestUrl()
+  id: testNullRequestUrl()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testNullRequestUrl()
+  nameWithType: HttpRequestTest.testNullRequestUrl()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testNullRequestUrl()
+  overload: com.microsoft.identity.client._http_request_test.testNullRequestUrl*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 58
+  package: com.microsoft.identity.client
+  summary: <p>Verify the expected exception is thrown when sending get request with null url. </p>
+  syntax:
+    content: public void testNullRequestUrl()
+- uid: com.microsoft.identity.client._http_request_test.testPostFailedWithRetryableErrorRetryFailedWithRetryableError()
+  id: testPostFailedWithRetryableErrorRetryFailedWithRetryableError()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testPostFailedWithRetryableErrorRetryFailedWithRetryableError()
+  nameWithType: HttpRequestTest.testPostFailedWithRetryableErrorRetryFailedWithRetryableError()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testPostFailedWithRetryableErrorRetryFailedWithRetryableError()
+  overload: com.microsoft.identity.client._http_request_test.testPostFailedWithRetryableErrorRetryFailedWithRetryableError*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 457
+  package: com.microsoft.identity.client
+  summary: <p>Verify that initial http post fails with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_INTERNAL_ERROR</xref>(retryable status code 500/503/504), retry fails with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_UNAVAILABLE</xref>(retryable status code). </p>
+  syntax:
+    content: public void testPostFailedWithRetryableErrorRetryFailedWithRetryableError()
+- uid: com.microsoft.identity.client._http_request_test.testPostFailedWithSocketTimeoutRetryFailedWithRetryableError()
+  id: testPostFailedWithSocketTimeoutRetryFailedWithRetryableError()
+  parent: com.microsoft.identity.client._http_request_test
+  href: com.microsoft.identity.client._http_request_test.yml
+  langs:
+  - java
+  name: testPostFailedWithSocketTimeoutRetryFailedWithRetryableError()
+  nameWithType: HttpRequestTest.testPostFailedWithSocketTimeoutRetryFailedWithRetryableError()
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testPostFailedWithSocketTimeoutRetryFailedWithRetryableError()
+  overload: com.microsoft.identity.client._http_request_test.testPostFailedWithSocketTimeoutRetryFailedWithRetryableError*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpRequestTest.java
+    startLine: 500
+  package: com.microsoft.identity.client
+  summary: <p>Verify that initial http post fails with <xref uid="" data-throw-if-not-resolved="false">SocketTimeoutException</xref>, retry fails with <xref uid="" data-throw-if-not-resolved="false">HttpURLConnection#HTTP_GATEWAY_TIMEOUT</xref>(retryable status code). </p>
+  syntax:
+    content: public void testPostFailedWithSocketTimeoutRetryFailedWithRetryableError()
+references:
+- uid: com.microsoft.identity.client._http_request_test.setUp*
+  name: setUp
+  nameWithType: HttpRequestTest.setUp
+  fullName: void com.microsoft.identity.client.HttpRequestTest.setUp
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.tearDown*
+  name: tearDown
+  nameWithType: HttpRequestTest.tearDown
+  fullName: void com.microsoft.identity.client.HttpRequestTest.tearDown
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testNullRequestUrl*
+  name: testNullRequestUrl
+  nameWithType: HttpRequestTest.testNullRequestUrl
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testNullRequestUrl
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpGetSucceed*
+  name: testHttpGetSucceed
+  nameWithType: HttpRequestTest.testHttpGetSucceed
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpGetSucceed
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostSucceed*
+  name: testHttpPostSucceed
+  nameWithType: HttpRequestTest.testHttpPostSucceed
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostSucceed
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedWith500RetrySucceed*
+  name: testHttpPostFailedWith500RetrySucceed
+  nameWithType: HttpRequestTest.testHttpPostFailedWith500RetrySucceed
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedWith500RetrySucceed
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedWith503RetrySucceed*
+  name: testHttpPostFailedWith503RetrySucceed
+  nameWithType: HttpRequestTest.testHttpPostFailedWith503RetrySucceed
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedWith503RetrySucceed
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpGetFailedWith504RetrySucceed*
+  name: testHttpGetFailedWith504RetrySucceed
+  nameWithType: HttpRequestTest.testHttpGetFailedWith504RetrySucceed
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpGetFailedWith504RetrySucceed
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedWithSocketTimeoutRetrySucceed*
+  name: testHttpPostFailedWithSocketTimeoutRetrySucceed
+  nameWithType: HttpRequestTest.testHttpPostFailedWithSocketTimeoutRetrySucceed
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedWithSocketTimeoutRetrySucceed
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpGetFailedNoRetry*
+  name: testHttpGetFailedNoRetry
+  nameWithType: HttpRequestTest.testHttpGetFailedNoRetry
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpGetFailedNoRetry
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedNoRetry*
+  name: testHttpPostFailedNoRetry
+  nameWithType: HttpRequestTest.testHttpPostFailedNoRetry
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedNoRetry
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpGetFailedNoRetryNoResponseBody*
+  name: testHttpGetFailedNoRetryNoResponseBody
+  nameWithType: HttpRequestTest.testHttpGetFailedNoRetryNoResponseBody
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpGetFailedNoRetryNoResponseBody
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode*
+  name: testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode
+  nameWithType: HttpRequestTest.testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedWithRetryableStatusCodeRetryFailsWithNonRetryableCode
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode*
+  name: testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode
+  nameWithType: HttpRequestTest.testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testHttpPostFailedWithSocketTimeoutRetryFailedWithNonRetryableCode
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testPostFailedWithRetryableErrorRetryFailedWithRetryableError*
+  name: testPostFailedWithRetryableErrorRetryFailedWithRetryableError
+  nameWithType: HttpRequestTest.testPostFailedWithRetryableErrorRetryFailedWithRetryableError
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testPostFailedWithRetryableErrorRetryFailedWithRetryableError
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testPostFailedWithSocketTimeoutRetryFailedWithRetryableError*
+  name: testPostFailedWithSocketTimeoutRetryFailedWithRetryableError
+  nameWithType: HttpRequestTest.testPostFailedWithSocketTimeoutRetryFailedWithRetryableError
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testPostFailedWithSocketTimeoutRetryFailedWithRetryableError
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout*
+  name: testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout
+  nameWithType: HttpRequestTest.testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testGetFailedWithRetryableCodeRetryFailedWithSocketTimeout
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_request_test.testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout*
+  name: testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout
+  nameWithType: HttpRequestTest.testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout
+  fullName: void com.microsoft.identity.client.HttpRequestTest.testGetFailedWithSocketTimeoutRetryFailedWithSocketTimeout
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._msal_service_exception
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._msal_service_exception.yml
+  name: MsalServiceException
+  nameWithType: MsalServiceException
+  fullName: com.microsoft.identity.client.MsalServiceException
+  type: Class
+  summary: >-
+    <p>This exception class represents errors when communicating to the service, can be from the authorize or token endpoints. MSAL reads the error and error_description from the server response. Generally, these errors are resolved by fixing app configurations either in code or in the app registration portal. </p>
+
+    <p>Set of error codes that could be returned from this exception: <ul><li><p>invalid_request: This request is missing a required parameter, includes an invalid parameter, includes a parameter more than once, or is otherwise malformed. </p></li><li><p>unauthorized_client: The client is not authorized to request an authorization code.  </p></li><li><p>access_denied: The resource owner or authorization server denied the request. </p></li><li><p>invalid_scope: The request scope is invalid, unknown or malformed.  </p></li><li><p>service_not_available: Represents 500/503/504 error codes.  </p></li><li><p>request_timeout: Represents <xref uid="" data-throw-if-not-resolved="false">java.net.SocketTimeoutException</xref>.  </p></li><li><p>invalid_instance: Authority validation failed.  </p></li><li><p>unknown_error: Request to server failed, but no error and error_description was returned from the service.  </p></li></ul></p>
+
+    <p>Note: <xref uid="com.microsoft.identity.client._msal_service_exception" data-throw-if-not-resolved="false">MsalServiceException</xref> provides one extra API: </p>
+
+    <p>
+
+      <ul>
+
+        <li>
+
+          <p>
+
+            <xref uid="com.microsoft.identity.client._msal_service_exception.getHttpStatusCode()" data-throw-if-not-resolved="false">MsalServiceException#getHttpStatusCode()</xref> : indicates the http status code for the failed request.  </p>
+
+        </li>
+
+      </ul>
+
+    </p>
+  syntax:
+    content: public class MsalServiceException

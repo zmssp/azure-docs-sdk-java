@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._logger_test
+  id: _logger_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._logger_test.setUp()
+  - com.microsoft.identity.client._logger_test.tearDown()
+  - com.microsoft.identity.client._logger_test.testEnablePII()
+  - com.microsoft.identity.client._logger_test.testErrorLevelLogging()
+  - com.microsoft.identity.client._logger_test.testInfoLevelLogging()
+  - com.microsoft.identity.client._logger_test.testLoggerOverride()
+  - com.microsoft.identity.client._logger_test.testVerboseLevelLogging()
+  - com.microsoft.identity.client._logger_test.testWarningLevelLogging()
+  href: com.microsoft.identity.client._logger_test.yml
+  langs:
+  - java
+  name: LoggerTest
+  nameWithType: LoggerTest
+  fullName: com.microsoft.identity.client.LoggerTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/LoggerTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/LoggerTest.java
+    startLine: 44
+  package: com.microsoft.identity.client
+  summary: <p>Tests for <xref uid="com.microsoft.identity.client._logger" data-throw-if-not-resolved="false">Logger</xref>. </p>
+  syntax:
+    content: public class LoggerTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._logger_test.setUp()
+  id: setUp()
+  parent: com.microsoft.identity.client._logger_test
+  href: com.microsoft.identity.client._logger_test.yml
+  langs:
+  - java
+  name: setUp()
+  nameWithType: LoggerTest.setUp()
+  fullName: static void com.microsoft.identity.client.LoggerTest.setUp()
+  overload: com.microsoft.identity.client._logger_test.setUp*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/LoggerTest.java
+    startLine: 54
+  package: com.microsoft.identity.client
+  syntax:
+    content: public static void setUp()
+- uid: com.microsoft.identity.client._logger_test.tearDown()
+  id: tearDown()
+  parent: com.microsoft.identity.client._logger_test
+  href: com.microsoft.identity.client._logger_test.yml
+  langs:
+  - java
+  name: tearDown()
+  nameWithType: LoggerTest.tearDown()
+  fullName: void com.microsoft.identity.client.LoggerTest.tearDown()
+  overload: com.microsoft.identity.client._logger_test.tearDown*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/LoggerTest.java
+    startLine: 67
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void tearDown()
+- uid: com.microsoft.identity.client._logger_test.testEnablePII()
+  id: testEnablePII()
+  parent: com.microsoft.identity.client._logger_test
+  href: com.microsoft.identity.client._logger_test.yml
+  langs:
+  - java
+  name: testEnablePII()
+  nameWithType: LoggerTest.testEnablePII()
+  fullName: void com.microsoft.identity.client.LoggerTest.testEnablePII()
+  overload: com.microsoft.identity.client._logger_test.testEnablePII*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/LoggerTest.java
+    startLine: 183
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testEnablePII()
+- uid: com.microsoft.identity.client._logger_test.testErrorLevelLogging()
+  id: testErrorLevelLogging()
+  parent: com.microsoft.identity.client._logger_test
+  href: com.microsoft.identity.client._logger_test.yml
+  langs:
+  - java
+  name: testErrorLevelLogging()
+  nameWithType: LoggerTest.testErrorLevelLogging()
+  fullName: void com.microsoft.identity.client.LoggerTest.testErrorLevelLogging()
+  overload: com.microsoft.identity.client._logger_test.testErrorLevelLogging*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/LoggerTest.java
+    startLine: 237
+  package: com.microsoft.identity.client
+  summary: <p>Verify that if logging is turned on error level, only error level logs are generated. Stacktrace for throwable are correctly appended in the logs. </p>
+  syntax:
+    content: public void testErrorLevelLogging()
+- uid: com.microsoft.identity.client._logger_test.testInfoLevelLogging()
+  id: testInfoLevelLogging()
+  parent: com.microsoft.identity.client._logger_test
+  href: com.microsoft.identity.client._logger_test.yml
+  langs:
+  - java
+  name: testInfoLevelLogging()
+  nameWithType: LoggerTest.testInfoLevelLogging()
+  fullName: void com.microsoft.identity.client.LoggerTest.testInfoLevelLogging()
+  overload: com.microsoft.identity.client._logger_test.testInfoLevelLogging*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/LoggerTest.java
+    startLine: 151
+  package: com.microsoft.identity.client
+  summary: <p>Verify that if logger is turned on at info level, verbose log will not be generated. Only error, warning and info level logs are generated. </p>
+  syntax:
+    content: public void testInfoLevelLogging()
+- uid: com.microsoft.identity.client._logger_test.testLoggerOverride()
+  id: testLoggerOverride()
+  parent: com.microsoft.identity.client._logger_test
+  href: com.microsoft.identity.client._logger_test.yml
+  langs:
+  - java
+  name: testLoggerOverride()
+  nameWithType: LoggerTest.testLoggerOverride()
+  fullName: void com.microsoft.identity.client.LoggerTest.testLoggerOverride()
+  overload: com.microsoft.identity.client._logger_test.testLoggerOverride*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/LoggerTest.java
+    startLine: 73
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testLoggerOverride()
+- uid: com.microsoft.identity.client._logger_test.testVerboseLevelLogging()
+  id: testVerboseLevelLogging()
+  parent: com.microsoft.identity.client._logger_test
+  href: com.microsoft.identity.client._logger_test.yml
+  langs:
+  - java
+  name: testVerboseLevelLogging()
+  nameWithType: LoggerTest.testVerboseLevelLogging()
+  fullName: void com.microsoft.identity.client.LoggerTest.testVerboseLevelLogging()
+  overload: com.microsoft.identity.client._logger_test.testVerboseLevelLogging*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/LoggerTest.java
+    startLine: 85
+  package: com.microsoft.identity.client
+  summary: <p>Verify that if logger is turned on at verbose level, all level logs will be generated and sent to the external logger. </p>
+  syntax:
+    content: public void testVerboseLevelLogging()
+- uid: com.microsoft.identity.client._logger_test.testWarningLevelLogging()
+  id: testWarningLevelLogging()
+  parent: com.microsoft.identity.client._logger_test
+  href: com.microsoft.identity.client._logger_test.yml
+  langs:
+  - java
+  name: testWarningLevelLogging()
+  nameWithType: LoggerTest.testWarningLevelLogging()
+  fullName: void com.microsoft.identity.client.LoggerTest.testWarningLevelLogging()
+  overload: com.microsoft.identity.client._logger_test.testWarningLevelLogging*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/LoggerTest.java
+    startLine: 208
+  package: com.microsoft.identity.client
+  summary: <p>Verify that if logging are turned on at warning level, only warning and error logs will be generated. </p>
+  syntax:
+    content: public void testWarningLevelLogging()
+references:
+- uid: com.microsoft.identity.client._logger_test.setUp*
+  name: setUp
+  nameWithType: LoggerTest.setUp
+  fullName: static void com.microsoft.identity.client.LoggerTest.setUp
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._logger_test.tearDown*
+  name: tearDown
+  nameWithType: LoggerTest.tearDown
+  fullName: void com.microsoft.identity.client.LoggerTest.tearDown
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._logger_test.testLoggerOverride*
+  name: testLoggerOverride
+  nameWithType: LoggerTest.testLoggerOverride
+  fullName: void com.microsoft.identity.client.LoggerTest.testLoggerOverride
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._logger_test.testVerboseLevelLogging*
+  name: testVerboseLevelLogging
+  nameWithType: LoggerTest.testVerboseLevelLogging
+  fullName: void com.microsoft.identity.client.LoggerTest.testVerboseLevelLogging
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._logger_test.testInfoLevelLogging*
+  name: testInfoLevelLogging
+  nameWithType: LoggerTest.testInfoLevelLogging
+  fullName: void com.microsoft.identity.client.LoggerTest.testInfoLevelLogging
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._logger_test.testEnablePII*
+  name: testEnablePII
+  nameWithType: LoggerTest.testEnablePII
+  fullName: void com.microsoft.identity.client.LoggerTest.testEnablePII
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._logger_test.testWarningLevelLogging*
+  name: testWarningLevelLogging
+  nameWithType: LoggerTest.testWarningLevelLogging
+  fullName: void com.microsoft.identity.client.LoggerTest.testWarningLevelLogging
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._logger_test.testErrorLevelLogging*
+  name: testErrorLevelLogging
+  nameWithType: LoggerTest.testErrorLevelLogging
+  fullName: void com.microsoft.identity.client.LoggerTest.testErrorLevelLogging
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._logger
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._logger.yml
+  name: Logger
+  nameWithType: Logger
+  fullName: com.microsoft.identity.client.Logger
+  type: Class
+  summary: >-
+    <p>Override public void log(String tag, <xref uid="com.microsoft.identity.client._logger._log_level" data-throw-if-not-resolved="false">Logger.LogLevel</xref> logLevel, String message, String additionalMessage) { } });   Loglevel can be specified at <xref uid="com.microsoft.identity.client._logger._log_level.ERROR" data-throw-if-not-resolved="false">LogLevel#ERROR</xref>, <xref uid="com.microsoft.identity.client._logger._log_level.WARNING" data-throw-if-not-resolved="false">LogLevel#WARNING</xref>, <xref uid="com.microsoft.identity.client._logger._log_level.INFO" data-throw-if-not-resolved="false">LogLevel#INFO</xref> and <xref uid="com.microsoft.identity.client._logger._log_level.VERBOSE" data-throw-if-not-resolved="false">LogLevel#VERBOSE</xref>. The sdk enables the verbose level logging by default, to set different level logging: <pre><code>Logger.getInstance().setLogLevel(Loglevel)
+
+        </code></pre> By default, the sdk doesn't send any log messages that contain PII (personal identifiable information) info. To enable PII logging: <pre><code>Logger.getInstance().setEnablePII(true);
+
+        </code></pre></p>
+  syntax:
+    content: public class Logger

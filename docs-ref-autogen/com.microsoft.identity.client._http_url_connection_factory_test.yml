@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._http_url_connection_factory_test
+  id: _http_url_connection_factory_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._http_url_connection_factory_test.tearDown()
+  - com.microsoft.identity.client._http_url_connection_factory_test.testMockedConnectionNotSet()
+  - com.microsoft.identity.client._http_url_connection_factory_test.testMultipleMockedConnection()
+  - com.microsoft.identity.client._http_url_connection_factory_test.testSetMockedConnection()
+  href: com.microsoft.identity.client._http_url_connection_factory_test.yml
+  langs:
+  - java
+  name: HttpUrlConnectionFactoryTest
+  nameWithType: HttpUrlConnectionFactoryTest
+  fullName: com.microsoft.identity.client.HttpUrlConnectionFactoryTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/test/java/com/microsoft/identity/client/HttpUrlConnectionFactoryTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/test/java/com/microsoft/identity/client/HttpUrlConnectionFactoryTest.java
+    startLine: 36
+  package: com.microsoft.identity.client
+  summary: <p>Tests for <xref uid="" data-throw-if-not-resolved="false">HttpUrlConnectionFactory</xref>. </p>
+  syntax:
+    content: public class HttpUrlConnectionFactoryTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._http_url_connection_factory_test.tearDown()
+  id: tearDown()
+  parent: com.microsoft.identity.client._http_url_connection_factory_test
+  href: com.microsoft.identity.client._http_url_connection_factory_test.yml
+  langs:
+  - java
+  name: tearDown()
+  nameWithType: HttpUrlConnectionFactoryTest.tearDown()
+  fullName: void com.microsoft.identity.client.HttpUrlConnectionFactoryTest.tearDown()
+  overload: com.microsoft.identity.client._http_url_connection_factory_test.tearDown*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpUrlConnectionFactoryTest.java
+    startLine: 39
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void tearDown()
+- uid: com.microsoft.identity.client._http_url_connection_factory_test.testMockedConnectionNotSet()
+  id: testMockedConnectionNotSet()
+  parent: com.microsoft.identity.client._http_url_connection_factory_test
+  href: com.microsoft.identity.client._http_url_connection_factory_test.yml
+  langs:
+  - java
+  name: testMockedConnectionNotSet()
+  nameWithType: HttpUrlConnectionFactoryTest.testMockedConnectionNotSet()
+  fullName: void com.microsoft.identity.client.HttpUrlConnectionFactoryTest.testMockedConnectionNotSet()
+  overload: com.microsoft.identity.client._http_url_connection_factory_test.testMockedConnectionNotSet*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpUrlConnectionFactoryTest.java
+    startLine: 76
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testMockedConnectionNotSet()
+- uid: com.microsoft.identity.client._http_url_connection_factory_test.testMultipleMockedConnection()
+  id: testMultipleMockedConnection()
+  parent: com.microsoft.identity.client._http_url_connection_factory_test
+  href: com.microsoft.identity.client._http_url_connection_factory_test.yml
+  langs:
+  - java
+  name: testMultipleMockedConnection()
+  nameWithType: HttpUrlConnectionFactoryTest.testMultipleMockedConnection()
+  fullName: void com.microsoft.identity.client.HttpUrlConnectionFactoryTest.testMultipleMockedConnection()
+  overload: com.microsoft.identity.client._http_url_connection_factory_test.testMultipleMockedConnection*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpUrlConnectionFactoryTest.java
+    startLine: 54
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testMultipleMockedConnection()
+- uid: com.microsoft.identity.client._http_url_connection_factory_test.testSetMockedConnection()
+  id: testSetMockedConnection()
+  parent: com.microsoft.identity.client._http_url_connection_factory_test
+  href: com.microsoft.identity.client._http_url_connection_factory_test.yml
+  langs:
+  - java
+  name: testSetMockedConnection()
+  nameWithType: HttpUrlConnectionFactoryTest.testSetMockedConnection()
+  fullName: void com.microsoft.identity.client.HttpUrlConnectionFactoryTest.testSetMockedConnection()
+  overload: com.microsoft.identity.client._http_url_connection_factory_test.testSetMockedConnection*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/HttpUrlConnectionFactoryTest.java
+    startLine: 44
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testSetMockedConnection()
+references:
+- uid: com.microsoft.identity.client._http_url_connection_factory_test.tearDown*
+  name: tearDown
+  nameWithType: HttpUrlConnectionFactoryTest.tearDown
+  fullName: void com.microsoft.identity.client.HttpUrlConnectionFactoryTest.tearDown
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_url_connection_factory_test.testSetMockedConnection*
+  name: testSetMockedConnection
+  nameWithType: HttpUrlConnectionFactoryTest.testSetMockedConnection
+  fullName: void com.microsoft.identity.client.HttpUrlConnectionFactoryTest.testSetMockedConnection
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_url_connection_factory_test.testMultipleMockedConnection*
+  name: testMultipleMockedConnection
+  nameWithType: HttpUrlConnectionFactoryTest.testMultipleMockedConnection
+  fullName: void com.microsoft.identity.client.HttpUrlConnectionFactoryTest.testMultipleMockedConnection
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._http_url_connection_factory_test.testMockedConnectionNotSet*
+  name: testMockedConnectionNotSet
+  nameWithType: HttpUrlConnectionFactoryTest.testMockedConnectionNotSet
+  fullName: void com.microsoft.identity.client.HttpUrlConnectionFactoryTest.testMockedConnectionNotSet
+  package: com.microsoft.identity.client

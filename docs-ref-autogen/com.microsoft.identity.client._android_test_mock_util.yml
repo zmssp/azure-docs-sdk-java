@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._android_test_mock_util
+  id: _android_test_mock_util
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._android_test_mock_util.yml
+  langs:
+  - java
+  name: AndroidTestMockUtil
+  nameWithType: AndroidTestMockUtil
+  fullName: com.microsoft.identity.client.AndroidTestMockUtil
+  type: Class
+  source:
+    remote:
+      path: msal/src/androidTest/java/com/microsoft/identity/client/AndroidTestMockUtil.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AndroidTestMockUtil.java
+    startLine: 34
+  package: com.microsoft.identity.client
+  summary: >-
+    <p>
+
+      <xref uid="com.microsoft.identity.client._util" data-throw-if-not-resolved="false">Util</xref> class for mocking. </p>
+  syntax:
+    content: public class AndroidTestMockUtil
+  inheritance:
+  - java.lang.Object
+references:
+- uid: com.microsoft.identity.client._util
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._util.yml
+  name: Util
+  nameWithType: Util
+  fullName: com.microsoft.identity.client.Util
+  type: Class
+  summary: >-
+    <p>
+
+      <xref uid="com.microsoft.identity.client._util" data-throw-if-not-resolved="false">Util</xref> class for unit test. </p>
+  syntax:
+    content: public class Util

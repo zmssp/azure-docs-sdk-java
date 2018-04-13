@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._api_event_test
+  id: _api_event_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._api_event_test.testApiEventInitializes()
+  - com.microsoft.identity.client._api_event_test.testAuthorityB2cOmitted()
+  - com.microsoft.identity.client._api_event_test.testAuthorityWithIdentifierScrubbed()
+  - com.microsoft.identity.client._api_event_test.testCommonAuthorityPresent()
+  - com.microsoft.identity.client._api_event_test.testIdTokenParsing()
+  href: com.microsoft.identity.client._api_event_test.yml
+  langs:
+  - java
+  name: ApiEventTest
+  nameWithType: ApiEventTest
+  fullName: com.microsoft.identity.client.ApiEventTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/ApiEventTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/ApiEventTest.java
+    startLine: 38
+  package: com.microsoft.identity.client
+  syntax:
+    content: public class ApiEventTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._api_event_test.testApiEventInitializes()
+  id: testApiEventInitializes()
+  parent: com.microsoft.identity.client._api_event_test
+  href: com.microsoft.identity.client._api_event_test.yml
+  langs:
+  - java
+  name: testApiEventInitializes()
+  nameWithType: ApiEventTest.testApiEventInitializes()
+  fullName: void com.microsoft.identity.client.ApiEventTest.testApiEventInitializes()
+  overload: com.microsoft.identity.client._api_event_test.testApiEventInitializes*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/ApiEventTest.java
+    startLine: 99
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testApiEventInitializes()
+- uid: com.microsoft.identity.client._api_event_test.testAuthorityB2cOmitted()
+  id: testAuthorityB2cOmitted()
+  parent: com.microsoft.identity.client._api_event_test
+  href: com.microsoft.identity.client._api_event_test.yml
+  langs:
+  - java
+  name: testAuthorityB2cOmitted()
+  nameWithType: ApiEventTest.testAuthorityB2cOmitted()
+  fullName: void com.microsoft.identity.client.ApiEventTest.testAuthorityB2cOmitted()
+  overload: com.microsoft.identity.client._api_event_test.testAuthorityB2cOmitted*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/ApiEventTest.java
+    startLine: 87
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityB2cOmitted()
+- uid: com.microsoft.identity.client._api_event_test.testAuthorityWithIdentifierScrubbed()
+  id: testAuthorityWithIdentifierScrubbed()
+  parent: com.microsoft.identity.client._api_event_test
+  href: com.microsoft.identity.client._api_event_test.yml
+  langs:
+  - java
+  name: testAuthorityWithIdentifierScrubbed()
+  nameWithType: ApiEventTest.testAuthorityWithIdentifierScrubbed()
+  fullName: void com.microsoft.identity.client.ApiEventTest.testAuthorityWithIdentifierScrubbed()
+  overload: com.microsoft.identity.client._api_event_test.testAuthorityWithIdentifierScrubbed*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/ApiEventTest.java
+    startLine: 93
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorityWithIdentifierScrubbed()
+- uid: com.microsoft.identity.client._api_event_test.testCommonAuthorityPresent()
+  id: testCommonAuthorityPresent()
+  parent: com.microsoft.identity.client._api_event_test
+  href: com.microsoft.identity.client._api_event_test.yml
+  langs:
+  - java
+  name: testCommonAuthorityPresent()
+  nameWithType: ApiEventTest.testCommonAuthorityPresent()
+  fullName: void com.microsoft.identity.client.ApiEventTest.testCommonAuthorityPresent()
+  overload: com.microsoft.identity.client._api_event_test.testCommonAuthorityPresent*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/ApiEventTest.java
+    startLine: 81
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testCommonAuthorityPresent()
+- uid: com.microsoft.identity.client._api_event_test.testIdTokenParsing()
+  id: testIdTokenParsing()
+  parent: com.microsoft.identity.client._api_event_test
+  href: com.microsoft.identity.client._api_event_test.yml
+  langs:
+  - java
+  name: testIdTokenParsing()
+  nameWithType: ApiEventTest.testIdTokenParsing()
+  fullName: void com.microsoft.identity.client.ApiEventTest.testIdTokenParsing()
+  overload: com.microsoft.identity.client._api_event_test.testIdTokenParsing*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/ApiEventTest.java
+    startLine: 115
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testIdTokenParsing()
+references:
+- uid: com.microsoft.identity.client._api_event_test.testCommonAuthorityPresent*
+  name: testCommonAuthorityPresent
+  nameWithType: ApiEventTest.testCommonAuthorityPresent
+  fullName: void com.microsoft.identity.client.ApiEventTest.testCommonAuthorityPresent
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._api_event_test.testAuthorityB2cOmitted*
+  name: testAuthorityB2cOmitted
+  nameWithType: ApiEventTest.testAuthorityB2cOmitted
+  fullName: void com.microsoft.identity.client.ApiEventTest.testAuthorityB2cOmitted
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._api_event_test.testAuthorityWithIdentifierScrubbed*
+  name: testAuthorityWithIdentifierScrubbed
+  nameWithType: ApiEventTest.testAuthorityWithIdentifierScrubbed
+  fullName: void com.microsoft.identity.client.ApiEventTest.testAuthorityWithIdentifierScrubbed
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._api_event_test.testApiEventInitializes*
+  name: testApiEventInitializes
+  nameWithType: ApiEventTest.testApiEventInitializes
+  fullName: void com.microsoft.identity.client.ApiEventTest.testApiEventInitializes
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._api_event_test.testIdTokenParsing*
+  name: testIdTokenParsing
+  nameWithType: ApiEventTest.testIdTokenParsing
+  fullName: void com.microsoft.identity.client.ApiEventTest.testIdTokenParsing
+  package: com.microsoft.identity.client

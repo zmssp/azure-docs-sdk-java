@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test
+  id: _drs_metadata_requestor_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._drs_metadata_requestor_test.testBuildRequestUrlByTypeCloud()
+  - com.microsoft.identity.client._drs_metadata_requestor_test.testBuildRequestUrlByTypeOnPrem()
+  - com.microsoft.identity.client._drs_metadata_requestor_test.testParseMetadata()
+  - com.microsoft.identity.client._drs_metadata_requestor_test.testRequestMetadata()
+  - com.microsoft.identity.client._drs_metadata_requestor_test.testRequestMetadataThrows()
+  href: com.microsoft.identity.client._drs_metadata_requestor_test.yml
+  langs:
+  - java
+  name: DrsMetadataRequestorTest
+  nameWithType: DrsMetadataRequestorTest
+  fullName: com.microsoft.identity.client.DrsMetadataRequestorTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/DrsMetadataRequestorTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/DrsMetadataRequestorTest.java
+    startLine: 42
+  package: com.microsoft.identity.client
+  syntax:
+    content: public class DrsMetadataRequestorTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test.testBuildRequestUrlByTypeCloud()
+  id: testBuildRequestUrlByTypeCloud()
+  parent: com.microsoft.identity.client._drs_metadata_requestor_test
+  href: com.microsoft.identity.client._drs_metadata_requestor_test.yml
+  langs:
+  - java
+  name: testBuildRequestUrlByTypeCloud()
+  nameWithType: DrsMetadataRequestorTest.testBuildRequestUrlByTypeCloud()
+  fullName: void com.microsoft.identity.client.DrsMetadataRequestorTest.testBuildRequestUrlByTypeCloud()
+  overload: com.microsoft.identity.client._drs_metadata_requestor_test.testBuildRequestUrlByTypeCloud*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/DrsMetadataRequestorTest.java
+    startLine: 143
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testBuildRequestUrlByTypeCloud()
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test.testBuildRequestUrlByTypeOnPrem()
+  id: testBuildRequestUrlByTypeOnPrem()
+  parent: com.microsoft.identity.client._drs_metadata_requestor_test
+  href: com.microsoft.identity.client._drs_metadata_requestor_test.yml
+  langs:
+  - java
+  name: testBuildRequestUrlByTypeOnPrem()
+  nameWithType: DrsMetadataRequestorTest.testBuildRequestUrlByTypeOnPrem()
+  fullName: void com.microsoft.identity.client.DrsMetadataRequestorTest.testBuildRequestUrlByTypeOnPrem()
+  overload: com.microsoft.identity.client._drs_metadata_requestor_test.testBuildRequestUrlByTypeOnPrem*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/DrsMetadataRequestorTest.java
+    startLine: 130
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testBuildRequestUrlByTypeOnPrem()
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test.testParseMetadata()
+  id: testParseMetadata()
+  parent: com.microsoft.identity.client._drs_metadata_requestor_test
+  href: com.microsoft.identity.client._drs_metadata_requestor_test.yml
+  langs:
+  - java
+  name: testParseMetadata()
+  nameWithType: DrsMetadataRequestorTest.testParseMetadata()
+  fullName: void com.microsoft.identity.client.DrsMetadataRequestorTest.testParseMetadata()
+  overload: com.microsoft.identity.client._drs_metadata_requestor_test.testParseMetadata*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/DrsMetadataRequestorTest.java
+    startLine: 110
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testParseMetadata()
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test.testRequestMetadata()
+  id: testRequestMetadata()
+  parent: com.microsoft.identity.client._drs_metadata_requestor_test
+  href: com.microsoft.identity.client._drs_metadata_requestor_test.yml
+  langs:
+  - java
+  name: testRequestMetadata()
+  nameWithType: DrsMetadataRequestorTest.testRequestMetadata()
+  fullName: void com.microsoft.identity.client.DrsMetadataRequestorTest.testRequestMetadata()
+  overload: com.microsoft.identity.client._drs_metadata_requestor_test.testRequestMetadata*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/DrsMetadataRequestorTest.java
+    startLine: 83
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testRequestMetadata()
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test.testRequestMetadataThrows()
+  id: testRequestMetadataThrows()
+  parent: com.microsoft.identity.client._drs_metadata_requestor_test
+  href: com.microsoft.identity.client._drs_metadata_requestor_test.yml
+  langs:
+  - java
+  name: testRequestMetadataThrows()
+  nameWithType: DrsMetadataRequestorTest.testRequestMetadataThrows()
+  fullName: void com.microsoft.identity.client.DrsMetadataRequestorTest.testRequestMetadataThrows()
+  overload: com.microsoft.identity.client._drs_metadata_requestor_test.testRequestMetadataThrows*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/DrsMetadataRequestorTest.java
+    startLine: 98
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testRequestMetadataThrows()
+references:
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test.testRequestMetadata*
+  name: testRequestMetadata
+  nameWithType: DrsMetadataRequestorTest.testRequestMetadata
+  fullName: void com.microsoft.identity.client.DrsMetadataRequestorTest.testRequestMetadata
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test.testRequestMetadataThrows*
+  name: testRequestMetadataThrows
+  nameWithType: DrsMetadataRequestorTest.testRequestMetadataThrows
+  fullName: void com.microsoft.identity.client.DrsMetadataRequestorTest.testRequestMetadataThrows
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test.testParseMetadata*
+  name: testParseMetadata
+  nameWithType: DrsMetadataRequestorTest.testParseMetadata
+  fullName: void com.microsoft.identity.client.DrsMetadataRequestorTest.testParseMetadata
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test.testBuildRequestUrlByTypeOnPrem*
+  name: testBuildRequestUrlByTypeOnPrem
+  nameWithType: DrsMetadataRequestorTest.testBuildRequestUrlByTypeOnPrem
+  fullName: void com.microsoft.identity.client.DrsMetadataRequestorTest.testBuildRequestUrlByTypeOnPrem
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._drs_metadata_requestor_test.testBuildRequestUrlByTypeCloud*
+  name: testBuildRequestUrlByTypeCloud
+  nameWithType: DrsMetadataRequestorTest.testBuildRequestUrlByTypeCloud
+  fullName: void com.microsoft.identity.client.DrsMetadataRequestorTest.testBuildRequestUrlByTypeCloud
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._msal_exception
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._msal_exception.yml
+  name: MsalException
+  nameWithType: MsalException
+  fullName: com.microsoft.identity.client.MsalException
+  type: Class
+  summary: >-
+    <p>
+
+      <xref uid="com.microsoft.identity.client._msal_exception" data-throw-if-not-resolved="false">MsalException</xref> thrown or sent back via callback, representing the detailed exception thrown by the sdk. It will contain the error code, error description (could be null) or throwable (could be null). </p>
+  syntax:
+    content: public class MsalException

@@ -1,0 +1,146 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test
+  id: _adfs_web_finger_validator_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._adfs_web_finger_validator_test.setUp()
+  - com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsNotTrusted()
+  - com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsTrusted()
+  - com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsTrustedEmptyMetadata()
+  - com.microsoft.identity.client._adfs_web_finger_validator_test.testTrustedRealmFieldInitialized()
+  href: com.microsoft.identity.client._adfs_web_finger_validator_test.yml
+  langs:
+  - java
+  name: AdfsWebFingerValidatorTest
+  nameWithType: AdfsWebFingerValidatorTest
+  fullName: com.microsoft.identity.client.AdfsWebFingerValidatorTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/test/java/com/microsoft/identity/client/AdfsWebFingerValidatorTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/test/java/com/microsoft/identity/client/AdfsWebFingerValidatorTest.java
+    startLine: 36
+  package: com.microsoft.identity.client
+  syntax:
+    content: public class AdfsWebFingerValidatorTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test.setUp()
+  id: setUp()
+  parent: com.microsoft.identity.client._adfs_web_finger_validator_test
+  href: com.microsoft.identity.client._adfs_web_finger_validator_test.yml
+  langs:
+  - java
+  name: setUp()
+  nameWithType: AdfsWebFingerValidatorTest.setUp()
+  fullName: void com.microsoft.identity.client.AdfsWebFingerValidatorTest.setUp()
+  overload: com.microsoft.identity.client._adfs_web_finger_validator_test.setUp*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/AdfsWebFingerValidatorTest.java
+    startLine: 39
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void setUp()
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsNotTrusted()
+  id: testRealmIsNotTrusted()
+  parent: com.microsoft.identity.client._adfs_web_finger_validator_test
+  href: com.microsoft.identity.client._adfs_web_finger_validator_test.yml
+  langs:
+  - java
+  name: testRealmIsNotTrusted()
+  nameWithType: AdfsWebFingerValidatorTest.testRealmIsNotTrusted()
+  fullName: void com.microsoft.identity.client.AdfsWebFingerValidatorTest.testRealmIsNotTrusted()
+  overload: com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsNotTrusted*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/AdfsWebFingerValidatorTest.java
+    startLine: 89
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testRealmIsNotTrusted()
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsTrusted()
+  id: testRealmIsTrusted()
+  parent: com.microsoft.identity.client._adfs_web_finger_validator_test
+  href: com.microsoft.identity.client._adfs_web_finger_validator_test.yml
+  langs:
+  - java
+  name: testRealmIsTrusted()
+  nameWithType: AdfsWebFingerValidatorTest.testRealmIsTrusted()
+  fullName: void com.microsoft.identity.client.AdfsWebFingerValidatorTest.testRealmIsTrusted()
+  overload: com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsTrusted*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/AdfsWebFingerValidatorTest.java
+    startLine: 69
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testRealmIsTrusted()
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsTrustedEmptyMetadata()
+  id: testRealmIsTrustedEmptyMetadata()
+  parent: com.microsoft.identity.client._adfs_web_finger_validator_test
+  href: com.microsoft.identity.client._adfs_web_finger_validator_test.yml
+  langs:
+  - java
+  name: testRealmIsTrustedEmptyMetadata()
+  nameWithType: AdfsWebFingerValidatorTest.testRealmIsTrustedEmptyMetadata()
+  fullName: void com.microsoft.identity.client.AdfsWebFingerValidatorTest.testRealmIsTrustedEmptyMetadata()
+  overload: com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsTrustedEmptyMetadata*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/AdfsWebFingerValidatorTest.java
+    startLine: 55
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testRealmIsTrustedEmptyMetadata()
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test.testTrustedRealmFieldInitialized()
+  id: testTrustedRealmFieldInitialized()
+  parent: com.microsoft.identity.client._adfs_web_finger_validator_test
+  href: com.microsoft.identity.client._adfs_web_finger_validator_test.yml
+  langs:
+  - java
+  name: testTrustedRealmFieldInitialized()
+  nameWithType: AdfsWebFingerValidatorTest.testTrustedRealmFieldInitialized()
+  fullName: void com.microsoft.identity.client.AdfsWebFingerValidatorTest.testTrustedRealmFieldInitialized()
+  overload: com.microsoft.identity.client._adfs_web_finger_validator_test.testTrustedRealmFieldInitialized*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/AdfsWebFingerValidatorTest.java
+    startLine: 44
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testTrustedRealmFieldInitialized()
+references:
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test.setUp*
+  name: setUp
+  nameWithType: AdfsWebFingerValidatorTest.setUp
+  fullName: void com.microsoft.identity.client.AdfsWebFingerValidatorTest.setUp
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test.testTrustedRealmFieldInitialized*
+  name: testTrustedRealmFieldInitialized
+  nameWithType: AdfsWebFingerValidatorTest.testTrustedRealmFieldInitialized
+  fullName: void com.microsoft.identity.client.AdfsWebFingerValidatorTest.testTrustedRealmFieldInitialized
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsTrustedEmptyMetadata*
+  name: testRealmIsTrustedEmptyMetadata
+  nameWithType: AdfsWebFingerValidatorTest.testRealmIsTrustedEmptyMetadata
+  fullName: void com.microsoft.identity.client.AdfsWebFingerValidatorTest.testRealmIsTrustedEmptyMetadata
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsTrusted*
+  name: testRealmIsTrusted
+  nameWithType: AdfsWebFingerValidatorTest.testRealmIsTrusted
+  fullName: void com.microsoft.identity.client.AdfsWebFingerValidatorTest.testRealmIsTrusted
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._adfs_web_finger_validator_test.testRealmIsNotTrusted*
+  name: testRealmIsNotTrusted
+  nameWithType: AdfsWebFingerValidatorTest.testRealmIsNotTrusted
+  fullName: void com.microsoft.identity.client.AdfsWebFingerValidatorTest.testRealmIsNotTrusted
+  package: com.microsoft.identity.client

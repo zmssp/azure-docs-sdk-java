@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._client_info_test
+  id: _client_info_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._client_info_test.testEmptyClientInfo()
+  - com.microsoft.identity.client._client_info_test.testHappyPath()
+  - com.microsoft.identity.client._client_info_test.testInvalidRawClientInfo()
+  href: com.microsoft.identity.client._client_info_test.yml
+  langs:
+  - java
+  name: ClientInfoTest
+  nameWithType: ClientInfoTest
+  fullName: com.microsoft.identity.client.ClientInfoTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/ClientInfoTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/ClientInfoTest.java
+    startLine: 35
+  package: com.microsoft.identity.client
+  summary: <p>Tests for <xref uid="" data-throw-if-not-resolved="false">ClientInfo</xref>. </p>
+  syntax:
+    content: public class ClientInfoTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._client_info_test.testEmptyClientInfo()
+  id: testEmptyClientInfo()
+  parent: com.microsoft.identity.client._client_info_test
+  href: com.microsoft.identity.client._client_info_test.yml
+  langs:
+  - java
+  name: testEmptyClientInfo()
+  nameWithType: ClientInfoTest.testEmptyClientInfo()
+  fullName: void com.microsoft.identity.client.ClientInfoTest.testEmptyClientInfo()
+  overload: com.microsoft.identity.client._client_info_test.testEmptyClientInfo*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/ClientInfoTest.java
+    startLine: 38
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testEmptyClientInfo()
+- uid: com.microsoft.identity.client._client_info_test.testHappyPath()
+  id: testHappyPath()
+  parent: com.microsoft.identity.client._client_info_test
+  href: com.microsoft.identity.client._client_info_test.yml
+  langs:
+  - java
+  name: testHappyPath()
+  nameWithType: ClientInfoTest.testHappyPath()
+  fullName: void com.microsoft.identity.client.ClientInfoTest.testHappyPath()
+  overload: com.microsoft.identity.client._client_info_test.testHappyPath*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/ClientInfoTest.java
+    startLine: 54
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testHappyPath()
+- uid: com.microsoft.identity.client._client_info_test.testInvalidRawClientInfo()
+  id: testInvalidRawClientInfo()
+  parent: com.microsoft.identity.client._client_info_test
+  href: com.microsoft.identity.client._client_info_test.yml
+  langs:
+  - java
+  name: testInvalidRawClientInfo()
+  nameWithType: ClientInfoTest.testInvalidRawClientInfo()
+  fullName: void com.microsoft.identity.client.ClientInfoTest.testInvalidRawClientInfo()
+  overload: com.microsoft.identity.client._client_info_test.testInvalidRawClientInfo*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/ClientInfoTest.java
+    startLine: 45
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testInvalidRawClientInfo()
+references:
+- uid: com.microsoft.identity.client._client_info_test.testEmptyClientInfo*
+  name: testEmptyClientInfo
+  nameWithType: ClientInfoTest.testEmptyClientInfo
+  fullName: void com.microsoft.identity.client.ClientInfoTest.testEmptyClientInfo
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._client_info_test.testInvalidRawClientInfo*
+  name: testInvalidRawClientInfo
+  nameWithType: ClientInfoTest.testInvalidRawClientInfo
+  fullName: void com.microsoft.identity.client.ClientInfoTest.testInvalidRawClientInfo
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._client_info_test.testHappyPath*
+  name: testHappyPath
+  nameWithType: ClientInfoTest.testHappyPath
+  fullName: void com.microsoft.identity.client.ClientInfoTest.testHappyPath
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._msal_exception
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._msal_exception.yml
+  name: MsalException
+  nameWithType: MsalException
+  fullName: com.microsoft.identity.client.MsalException
+  type: Class
+  summary: >-
+    <p>
+
+      <xref uid="com.microsoft.identity.client._msal_exception" data-throw-if-not-resolved="false">MsalException</xref> thrown or sent back via callback, representing the detailed exception thrown by the sdk. It will contain the error code, error description (could be null) or throwable (could be null). </p>
+  syntax:
+    content: public class MsalException

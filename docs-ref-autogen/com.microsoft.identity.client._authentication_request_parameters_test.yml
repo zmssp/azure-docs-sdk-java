@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._authentication_request_parameters_test
+  id: _authentication_request_parameters_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._authentication_request_parameters_test.setUp()
+  - com.microsoft.identity.client._authentication_request_parameters_test.testAuthenticationRequestParameterHappyPath()
+  - com.microsoft.identity.client._authentication_request_parameters_test.testNullCorrelationId()
+  - com.microsoft.identity.client._authentication_request_parameters_test.testNullScope()
+  href: com.microsoft.identity.client._authentication_request_parameters_test.yml
+  langs:
+  - java
+  name: AuthenticationRequestParametersTest
+  nameWithType: AuthenticationRequestParametersTest
+  fullName: com.microsoft.identity.client.AuthenticationRequestParametersTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/test/java/com/microsoft/identity/client/AuthenticationRequestParametersTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/test/java/com/microsoft/identity/client/AuthenticationRequestParametersTest.java
+    startLine: 37
+  package: com.microsoft.identity.client
+  summary: <p>Tests for <xref uid="" data-throw-if-not-resolved="false">AuthenticationRequestParameters</xref>. </p>
+  syntax:
+    content: public class AuthenticationRequestParametersTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._authentication_request_parameters_test.setUp()
+  id: setUp()
+  parent: com.microsoft.identity.client._authentication_request_parameters_test
+  href: com.microsoft.identity.client._authentication_request_parameters_test.yml
+  langs:
+  - java
+  name: setUp()
+  nameWithType: AuthenticationRequestParametersTest.setUp()
+  fullName: void com.microsoft.identity.client.AuthenticationRequestParametersTest.setUp()
+  overload: com.microsoft.identity.client._authentication_request_parameters_test.setUp*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/AuthenticationRequestParametersTest.java
+    startLine: 53
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void setUp()
+- uid: com.microsoft.identity.client._authentication_request_parameters_test.testAuthenticationRequestParameterHappyPath()
+  id: testAuthenticationRequestParameterHappyPath()
+  parent: com.microsoft.identity.client._authentication_request_parameters_test
+  href: com.microsoft.identity.client._authentication_request_parameters_test.yml
+  langs:
+  - java
+  name: testAuthenticationRequestParameterHappyPath()
+  nameWithType: AuthenticationRequestParametersTest.testAuthenticationRequestParameterHappyPath()
+  fullName: void com.microsoft.identity.client.AuthenticationRequestParametersTest.testAuthenticationRequestParameterHappyPath()
+  overload: com.microsoft.identity.client._authentication_request_parameters_test.testAuthenticationRequestParameterHappyPath*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/AuthenticationRequestParametersTest.java
+    startLine: 71
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthenticationRequestParameterHappyPath()
+- uid: com.microsoft.identity.client._authentication_request_parameters_test.testNullCorrelationId()
+  id: testNullCorrelationId()
+  parent: com.microsoft.identity.client._authentication_request_parameters_test
+  href: com.microsoft.identity.client._authentication_request_parameters_test.yml
+  langs:
+  - java
+  name: testNullCorrelationId()
+  nameWithType: AuthenticationRequestParametersTest.testNullCorrelationId()
+  fullName: void com.microsoft.identity.client.AuthenticationRequestParametersTest.testNullCorrelationId()
+  overload: com.microsoft.identity.client._authentication_request_parameters_test.testNullCorrelationId*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/AuthenticationRequestParametersTest.java
+    startLine: 59
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testNullCorrelationId()
+- uid: com.microsoft.identity.client._authentication_request_parameters_test.testNullScope()
+  id: testNullScope()
+  parent: com.microsoft.identity.client._authentication_request_parameters_test
+  href: com.microsoft.identity.client._authentication_request_parameters_test.yml
+  langs:
+  - java
+  name: testNullScope()
+  nameWithType: AuthenticationRequestParametersTest.testNullScope()
+  fullName: void com.microsoft.identity.client.AuthenticationRequestParametersTest.testNullScope()
+  overload: com.microsoft.identity.client._authentication_request_parameters_test.testNullScope*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/test/java/com/microsoft/identity/client/AuthenticationRequestParametersTest.java
+    startLine: 65
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testNullScope()
+references:
+- uid: com.microsoft.identity.client._authentication_request_parameters_test.setUp*
+  name: setUp
+  nameWithType: AuthenticationRequestParametersTest.setUp
+  fullName: void com.microsoft.identity.client.AuthenticationRequestParametersTest.setUp
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authentication_request_parameters_test.testNullCorrelationId*
+  name: testNullCorrelationId
+  nameWithType: AuthenticationRequestParametersTest.testNullCorrelationId
+  fullName: void com.microsoft.identity.client.AuthenticationRequestParametersTest.testNullCorrelationId
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authentication_request_parameters_test.testNullScope*
+  name: testNullScope
+  nameWithType: AuthenticationRequestParametersTest.testNullScope
+  fullName: void com.microsoft.identity.client.AuthenticationRequestParametersTest.testNullScope
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authentication_request_parameters_test.testAuthenticationRequestParameterHappyPath*
+  name: testAuthenticationRequestParameterHappyPath
+  nameWithType: AuthenticationRequestParametersTest.testAuthenticationRequestParameterHappyPath
+  fullName: void com.microsoft.identity.client.AuthenticationRequestParametersTest.testAuthenticationRequestParameterHappyPath
+  package: com.microsoft.identity.client

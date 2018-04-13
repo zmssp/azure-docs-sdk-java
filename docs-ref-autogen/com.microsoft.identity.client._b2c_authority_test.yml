@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._b2c_authority_test
+  id: _b2c_authority_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._b2c_authority_test.testInvalidPathSegments()
+  - com.microsoft.identity.client._b2c_authority_test.testValidationEnabledButNotSupported()
+  href: com.microsoft.identity.client._b2c_authority_test.yml
+  langs:
+  - java
+  name: B2cAuthorityTest
+  nameWithType: B2cAuthorityTest
+  fullName: com.microsoft.identity.client.B2cAuthorityTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/B2cAuthorityTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/B2cAuthorityTest.java
+    startLine: 37
+  package: com.microsoft.identity.client
+  summary: <p>Tests for <xref uid="" data-throw-if-not-resolved="false">B2cAuthority</xref>. </p>
+  syntax:
+    content: public class B2cAuthorityTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._b2c_authority_test.testInvalidPathSegments()
+  id: testInvalidPathSegments()
+  parent: com.microsoft.identity.client._b2c_authority_test
+  href: com.microsoft.identity.client._b2c_authority_test.yml
+  langs:
+  - java
+  name: testInvalidPathSegments()
+  nameWithType: B2cAuthorityTest.testInvalidPathSegments()
+  fullName: void com.microsoft.identity.client.B2cAuthorityTest.testInvalidPathSegments()
+  overload: com.microsoft.identity.client._b2c_authority_test.testInvalidPathSegments*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/B2cAuthorityTest.java
+    startLine: 40
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testInvalidPathSegments()
+- uid: com.microsoft.identity.client._b2c_authority_test.testValidationEnabledButNotSupported()
+  id: testValidationEnabledButNotSupported()
+  parent: com.microsoft.identity.client._b2c_authority_test
+  href: com.microsoft.identity.client._b2c_authority_test.yml
+  langs:
+  - java
+  name: testValidationEnabledButNotSupported()
+  nameWithType: B2cAuthorityTest.testValidationEnabledButNotSupported()
+  fullName: void com.microsoft.identity.client.B2cAuthorityTest.testValidationEnabledButNotSupported()
+  overload: com.microsoft.identity.client._b2c_authority_test.testValidationEnabledButNotSupported*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/B2cAuthorityTest.java
+    startLine: 46
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testValidationEnabledButNotSupported()
+references:
+- uid: com.microsoft.identity.client._b2c_authority_test.testInvalidPathSegments*
+  name: testInvalidPathSegments
+  nameWithType: B2cAuthorityTest.testInvalidPathSegments
+  fullName: void com.microsoft.identity.client.B2cAuthorityTest.testInvalidPathSegments
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._b2c_authority_test.testValidationEnabledButNotSupported*
+  name: testValidationEnabledButNotSupported
+  nameWithType: B2cAuthorityTest.testValidationEnabledButNotSupported
+  fullName: void com.microsoft.identity.client.B2cAuthorityTest.testValidationEnabledButNotSupported
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._msal_service_exception
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._msal_service_exception.yml
+  name: MsalServiceException
+  nameWithType: MsalServiceException
+  fullName: com.microsoft.identity.client.MsalServiceException
+  type: Class
+  summary: >-
+    <p>This exception class represents errors when communicating to the service, can be from the authorize or token endpoints. MSAL reads the error and error_description from the server response. Generally, these errors are resolved by fixing app configurations either in code or in the app registration portal. </p>
+
+    <p>Set of error codes that could be returned from this exception: <ul><li><p>invalid_request: This request is missing a required parameter, includes an invalid parameter, includes a parameter more than once, or is otherwise malformed. </p></li><li><p>unauthorized_client: The client is not authorized to request an authorization code.  </p></li><li><p>access_denied: The resource owner or authorization server denied the request. </p></li><li><p>invalid_scope: The request scope is invalid, unknown or malformed.  </p></li><li><p>service_not_available: Represents 500/503/504 error codes.  </p></li><li><p>request_timeout: Represents <xref uid="" data-throw-if-not-resolved="false">java.net.SocketTimeoutException</xref>.  </p></li><li><p>invalid_instance: Authority validation failed.  </p></li><li><p>unknown_error: Request to server failed, but no error and error_description was returned from the service.  </p></li></ul></p>
+
+    <p>Note: <xref uid="com.microsoft.identity.client._msal_service_exception" data-throw-if-not-resolved="false">MsalServiceException</xref> provides one extra API: </p>
+
+    <p>
+
+      <ul>
+
+        <li>
+
+          <p>
+
+            <xref uid="com.microsoft.identity.client._msal_service_exception.getHttpStatusCode()" data-throw-if-not-resolved="false">MsalServiceException#getHttpStatusCode()</xref> : indicates the http status code for the failed request.  </p>
+
+        </li>
+
+      </ul>
+
+    </p>
+  syntax:
+    content: public class MsalServiceException

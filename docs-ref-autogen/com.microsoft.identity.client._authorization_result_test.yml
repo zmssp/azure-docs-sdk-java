@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._authorization_result_test
+  id: _authorization_result_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._authorization_result_test.testAuthorizationResultWithUserCancel()
+  - com.microsoft.identity.client._authorization_result_test.testResponseUriNotContainCodeOrError()
+  - com.microsoft.identity.client._authorization_result_test.testResponseUriWithCode()
+  - com.microsoft.identity.client._authorization_result_test.testResponseUriWithError()
+  href: com.microsoft.identity.client._authorization_result_test.yml
+  langs:
+  - java
+  name: AuthorizationResultTest
+  nameWithType: AuthorizationResultTest
+  fullName: com.microsoft.identity.client.AuthorizationResultTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorizationResultTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorizationResultTest.java
+    startLine: 38
+  package: com.microsoft.identity.client
+  summary: <p>Test for <xref uid="" data-throw-if-not-resolved="false">AuthorizationResult</xref>. </p>
+  syntax:
+    content: public class AuthorizationResultTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._authorization_result_test.testAuthorizationResultWithUserCancel()
+  id: testAuthorizationResultWithUserCancel()
+  parent: com.microsoft.identity.client._authorization_result_test
+  href: com.microsoft.identity.client._authorization_result_test.yml
+  langs:
+  - java
+  name: testAuthorizationResultWithUserCancel()
+  nameWithType: AuthorizationResultTest.testAuthorizationResultWithUserCancel()
+  fullName: void com.microsoft.identity.client.AuthorizationResultTest.testAuthorizationResultWithUserCancel()
+  overload: com.microsoft.identity.client._authorization_result_test.testAuthorizationResultWithUserCancel*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorizationResultTest.java
+    startLine: 78
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testAuthorizationResultWithUserCancel()
+- uid: com.microsoft.identity.client._authorization_result_test.testResponseUriNotContainCodeOrError()
+  id: testResponseUriNotContainCodeOrError()
+  parent: com.microsoft.identity.client._authorization_result_test
+  href: com.microsoft.identity.client._authorization_result_test.yml
+  langs:
+  - java
+  name: testResponseUriNotContainCodeOrError()
+  nameWithType: AuthorizationResultTest.testResponseUriNotContainCodeOrError()
+  fullName: void com.microsoft.identity.client.AuthorizationResultTest.testResponseUriNotContainCodeOrError()
+  overload: com.microsoft.identity.client._authorization_result_test.testResponseUriNotContainCodeOrError*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorizationResultTest.java
+    startLine: 67
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testResponseUriNotContainCodeOrError()
+- uid: com.microsoft.identity.client._authorization_result_test.testResponseUriWithCode()
+  id: testResponseUriWithCode()
+  parent: com.microsoft.identity.client._authorization_result_test
+  href: com.microsoft.identity.client._authorization_result_test.yml
+  langs:
+  - java
+  name: testResponseUriWithCode()
+  nameWithType: AuthorizationResultTest.testResponseUriWithCode()
+  fullName: void com.microsoft.identity.client.AuthorizationResultTest.testResponseUriWithCode()
+  overload: com.microsoft.identity.client._authorization_result_test.testResponseUriWithCode*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorizationResultTest.java
+    startLine: 44
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testResponseUriWithCode()
+- uid: com.microsoft.identity.client._authorization_result_test.testResponseUriWithError()
+  id: testResponseUriWithError()
+  parent: com.microsoft.identity.client._authorization_result_test
+  href: com.microsoft.identity.client._authorization_result_test.yml
+  langs:
+  - java
+  name: testResponseUriWithError()
+  nameWithType: AuthorizationResultTest.testResponseUriWithError()
+  fullName: void com.microsoft.identity.client.AuthorizationResultTest.testResponseUriWithError()
+  overload: com.microsoft.identity.client._authorization_result_test.testResponseUriWithError*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/AuthorizationResultTest.java
+    startLine: 54
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testResponseUriWithError()
+references:
+- uid: com.microsoft.identity.client._authorization_result_test.testResponseUriWithCode*
+  name: testResponseUriWithCode
+  nameWithType: AuthorizationResultTest.testResponseUriWithCode
+  fullName: void com.microsoft.identity.client.AuthorizationResultTest.testResponseUriWithCode
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authorization_result_test.testResponseUriWithError*
+  name: testResponseUriWithError
+  nameWithType: AuthorizationResultTest.testResponseUriWithError
+  fullName: void com.microsoft.identity.client.AuthorizationResultTest.testResponseUriWithError
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authorization_result_test.testResponseUriNotContainCodeOrError*
+  name: testResponseUriNotContainCodeOrError
+  nameWithType: AuthorizationResultTest.testResponseUriNotContainCodeOrError
+  fullName: void com.microsoft.identity.client.AuthorizationResultTest.testResponseUriNotContainCodeOrError
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._authorization_result_test.testAuthorizationResultWithUserCancel*
+  name: testAuthorizationResultWithUserCancel
+  nameWithType: AuthorizationResultTest.testAuthorizationResultWithUserCancel
+  fullName: void com.microsoft.identity.client.AuthorizationResultTest.testAuthorizationResultWithUserCancel
+  package: com.microsoft.identity.client

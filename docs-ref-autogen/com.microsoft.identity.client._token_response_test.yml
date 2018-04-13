@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._token_response_test
+  id: _token_response_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._token_response_test.testConstructorForFailureResponse()
+  - com.microsoft.identity.client._token_response_test.testConstructorForSuccessTokenResponse()
+  - com.microsoft.identity.client._token_response_test.testTokenResponseWithFailureResponse()
+  - com.microsoft.identity.client._token_response_test.testTokenResponseWithSuccessResponse()
+  href: com.microsoft.identity.client._token_response_test.yml
+  langs:
+  - java
+  name: TokenResponseTest
+  nameWithType: TokenResponseTest
+  fullName: com.microsoft.identity.client.TokenResponseTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/TokenResponseTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/TokenResponseTest.java
+    startLine: 42
+  package: com.microsoft.identity.client
+  summary: <p>Tests for <xref uid="" data-throw-if-not-resolved="false">TokenResponse</xref>. </p>
+  syntax:
+    content: public class TokenResponseTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._token_response_test.testConstructorForFailureResponse()
+  id: testConstructorForFailureResponse()
+  parent: com.microsoft.identity.client._token_response_test
+  href: com.microsoft.identity.client._token_response_test.yml
+  langs:
+  - java
+  name: testConstructorForFailureResponse()
+  nameWithType: TokenResponseTest.testConstructorForFailureResponse()
+  fullName: void com.microsoft.identity.client.TokenResponseTest.testConstructorForFailureResponse()
+  overload: com.microsoft.identity.client._token_response_test.testConstructorForFailureResponse*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/TokenResponseTest.java
+    startLine: 110
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testConstructorForFailureResponse()
+- uid: com.microsoft.identity.client._token_response_test.testConstructorForSuccessTokenResponse()
+  id: testConstructorForSuccessTokenResponse()
+  parent: com.microsoft.identity.client._token_response_test
+  href: com.microsoft.identity.client._token_response_test.yml
+  langs:
+  - java
+  name: testConstructorForSuccessTokenResponse()
+  nameWithType: TokenResponseTest.testConstructorForSuccessTokenResponse()
+  fullName: void com.microsoft.identity.client.TokenResponseTest.testConstructorForSuccessTokenResponse()
+  overload: com.microsoft.identity.client._token_response_test.testConstructorForSuccessTokenResponse*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/TokenResponseTest.java
+    startLine: 93
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testConstructorForSuccessTokenResponse()
+- uid: com.microsoft.identity.client._token_response_test.testTokenResponseWithFailureResponse()
+  id: testTokenResponseWithFailureResponse()
+  parent: com.microsoft.identity.client._token_response_test
+  href: com.microsoft.identity.client._token_response_test.yml
+  langs:
+  - java
+  name: testTokenResponseWithFailureResponse()
+  nameWithType: TokenResponseTest.testTokenResponseWithFailureResponse()
+  fullName: void com.microsoft.identity.client.TokenResponseTest.testTokenResponseWithFailureResponse()
+  overload: com.microsoft.identity.client._token_response_test.testTokenResponseWithFailureResponse*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/TokenResponseTest.java
+    startLine: 77
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testTokenResponseWithFailureResponse()
+- uid: com.microsoft.identity.client._token_response_test.testTokenResponseWithSuccessResponse()
+  id: testTokenResponseWithSuccessResponse()
+  parent: com.microsoft.identity.client._token_response_test
+  href: com.microsoft.identity.client._token_response_test.yml
+  langs:
+  - java
+  name: testTokenResponseWithSuccessResponse()
+  nameWithType: TokenResponseTest.testTokenResponseWithSuccessResponse()
+  fullName: void com.microsoft.identity.client.TokenResponseTest.testTokenResponseWithSuccessResponse()
+  overload: com.microsoft.identity.client._token_response_test.testTokenResponseWithSuccessResponse*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/TokenResponseTest.java
+    startLine: 54
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testTokenResponseWithSuccessResponse()
+references:
+- uid: com.microsoft.identity.client._token_response_test.testTokenResponseWithSuccessResponse*
+  name: testTokenResponseWithSuccessResponse
+  nameWithType: TokenResponseTest.testTokenResponseWithSuccessResponse
+  fullName: void com.microsoft.identity.client.TokenResponseTest.testTokenResponseWithSuccessResponse
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._token_response_test.testTokenResponseWithFailureResponse*
+  name: testTokenResponseWithFailureResponse
+  nameWithType: TokenResponseTest.testTokenResponseWithFailureResponse
+  fullName: void com.microsoft.identity.client.TokenResponseTest.testTokenResponseWithFailureResponse
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._token_response_test.testConstructorForSuccessTokenResponse*
+  name: testConstructorForSuccessTokenResponse
+  nameWithType: TokenResponseTest.testConstructorForSuccessTokenResponse
+  fullName: void com.microsoft.identity.client.TokenResponseTest.testConstructorForSuccessTokenResponse
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._token_response_test.testConstructorForFailureResponse*
+  name: testConstructorForFailureResponse
+  nameWithType: TokenResponseTest.testConstructorForFailureResponse
+  fullName: void com.microsoft.identity.client.TokenResponseTest.testConstructorForFailureResponse
+  package: com.microsoft.identity.client

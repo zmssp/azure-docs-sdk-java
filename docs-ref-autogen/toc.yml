@@ -18530,6 +18530,172 @@
   - uid: com.microsoft.azure.storage.table._table_service_exception
     name: TableServiceException
     href: com.microsoft.azure.storage.table._table_service_exception.yml
+- uid: com.microsoft.identity.client
+  name: com.microsoft.identity.client
+  href: com.microsoft.identity.client.yml
+  items:
+  - uid: com.microsoft.identity.client._access_token_cache_item_test
+    name: AccessTokenCacheItemTest
+    href: com.microsoft.identity.client._access_token_cache_item_test.yml
+  - uid: com.microsoft.identity.client._adfs_authority_test
+    name: AdfsAuthorityTest
+    href: com.microsoft.identity.client._adfs_authority_test.yml
+  - uid: com.microsoft.identity.client._adfs_web_finger_validator_test
+    name: AdfsWebFingerValidatorTest
+    href: com.microsoft.identity.client._adfs_web_finger_validator_test.yml
+  - uid: com.microsoft.identity.client._android_test_mock_util
+    name: AndroidTestMockUtil
+    href: com.microsoft.identity.client._android_test_mock_util.yml
+  - uid: com.microsoft.identity.client._android_test_util
+    name: AndroidTestUtil
+    href: com.microsoft.identity.client._android_test_util.yml
+  - uid: com.microsoft.identity.client._api_event_test
+    name: ApiEventTest
+    href: com.microsoft.identity.client._api_event_test.yml
+  - uid: com.microsoft.identity.client._authentication_activity
+    name: AuthenticationActivity
+    href: com.microsoft.identity.client._authentication_activity.yml
+  - uid: com.microsoft.identity.client._authentication_activity_test
+    name: AuthenticationActivityTest
+    href: com.microsoft.identity.client._authentication_activity_test.yml
+  - uid: com.microsoft.identity.client._authentication_callback
+    name: AuthenticationCallback
+    href: com.microsoft.identity.client._authentication_callback.yml
+  - uid: com.microsoft.identity.client._authentication_request_parameters_test
+    name: AuthenticationRequestParametersTest
+    href: com.microsoft.identity.client._authentication_request_parameters_test.yml
+  - uid: com.microsoft.identity.client._authentication_result
+    name: AuthenticationResult
+    href: com.microsoft.identity.client._authentication_result.yml
+  - uid: com.microsoft.identity.client._authentication_result_test
+    name: AuthenticationResultTest
+    href: com.microsoft.identity.client._authentication_result_test.yml
+  - uid: com.microsoft.identity.client._authority_test
+    name: AuthorityTest
+    href: com.microsoft.identity.client._authority_test.yml
+  - uid: com.microsoft.identity.client._authorization_result_test
+    name: AuthorizationResultTest
+    href: com.microsoft.identity.client._authorization_result_test.yml
+  - uid: com.microsoft.identity.client._b2c_authority_test
+    name: B2cAuthorityTest
+    href: com.microsoft.identity.client._b2c_authority_test.yml
+  - uid: com.microsoft.identity.client._browser_tab_activity
+    name: BrowserTabActivity
+    href: com.microsoft.identity.client._browser_tab_activity.yml
+  - uid: com.microsoft.identity.client._cache_event_test
+    name: CacheEventTest
+    href: com.microsoft.identity.client._cache_event_test.yml
+  - uid: com.microsoft.identity.client._client_info_test
+    name: ClientInfoTest
+    href: com.microsoft.identity.client._client_info_test.yml
+  - uid: com.microsoft.identity.client._drs_metadata_requestor_test
+    name: DrsMetadataRequestorTest
+    href: com.microsoft.identity.client._drs_metadata_requestor_test.yml
+  - uid: com.microsoft.identity.client._http_event_test
+    name: HttpEventTest
+    href: com.microsoft.identity.client._http_event_test.yml
+  - uid: com.microsoft.identity.client._http_request_test
+    name: HttpRequestTest
+    href: com.microsoft.identity.client._http_request_test.yml
+  - uid: com.microsoft.identity.client._http_response_test
+    name: HttpResponseTest
+    href: com.microsoft.identity.client._http_response_test.yml
+  - uid: com.microsoft.identity.client._http_url_connection_factory_test
+    name: HttpUrlConnectionFactoryTest
+    href: com.microsoft.identity.client._http_url_connection_factory_test.yml
+  - uid: com.microsoft.identity.client._id_token_test
+    name: IdTokenTest
+    href: com.microsoft.identity.client._id_token_test.yml
+  - uid: com.microsoft.identity.client._i_logger_callback
+    name: ILoggerCallback
+    href: com.microsoft.identity.client._i_logger_callback.yml
+  - uid: com.microsoft.identity.client._i_msal_event_receiver
+    name: IMsalEventReceiver
+    href: com.microsoft.identity.client._i_msal_event_receiver.yml
+  - uid: com.microsoft.identity.client._interactive_request_test
+    name: InteractiveRequestTest
+    href: com.microsoft.identity.client._interactive_request_test.yml
+  - uid: com.microsoft.identity.client._logger
+    name: Logger
+    href: com.microsoft.identity.client._logger.yml
+  - uid: com.microsoft.identity.client._logger._log_level
+    name: Logger.LogLevel
+    href: com.microsoft.identity.client._logger._log_level.yml
+  - uid: com.microsoft.identity.client._logger_test
+    name: LoggerTest
+    href: com.microsoft.identity.client._logger_test.yml
+  - uid: com.microsoft.identity.client._mock_util
+    name: MockUtil
+    href: com.microsoft.identity.client._mock_util.yml
+  - uid: com.microsoft.identity.client._msal_client_exception
+    name: MsalClientException
+    href: com.microsoft.identity.client._msal_client_exception.yml
+  - uid: com.microsoft.identity.client._msal_exception
+    name: MsalException
+    href: com.microsoft.identity.client._msal_exception.yml
+  - uid: com.microsoft.identity.client._msal_exception_test
+    name: MsalExceptionTest
+    href: com.microsoft.identity.client._msal_exception_test.yml
+  - uid: com.microsoft.identity.client._msal_service_exception
+    name: MsalServiceException
+    href: com.microsoft.identity.client._msal_service_exception.yml
+  - uid: com.microsoft.identity.client._msal_ui_required_exception
+    name: MsalUiRequiredException
+    href: com.microsoft.identity.client._msal_ui_required_exception.yml
+  - uid: com.microsoft.identity.client._msal_util_test
+    name: MsalUtilTest
+    href: com.microsoft.identity.client._msal_util_test.yml
+  - uid: com.microsoft.identity.client._oauth2_client_test
+    name: Oauth2ClientTest
+    href: com.microsoft.identity.client._oauth2_client_test.yml
+  - uid: com.microsoft.identity.client._platform_id_helper_test
+    name: PlatformIdHelperTest
+    href: com.microsoft.identity.client._platform_id_helper_test.yml
+  - uid: com.microsoft.identity.client._public_client_application
+    name: PublicClientApplication
+    href: com.microsoft.identity.client._public_client_application.yml
+  - uid: com.microsoft.identity.client._public_client_application_test
+    name: PublicClientApplicationTest
+    href: com.microsoft.identity.client._public_client_application_test.yml
+  - uid: com.microsoft.identity.client._silent_request_test
+    name: SilentRequestTest
+    href: com.microsoft.identity.client._silent_request_test.yml
+  - uid: com.microsoft.identity.client._telemetry
+    name: Telemetry
+    href: com.microsoft.identity.client._telemetry.yml
+  - uid: com.microsoft.identity.client._telemetry_test
+    name: TelemetryTest
+    href: com.microsoft.identity.client._telemetry_test.yml
+  - uid: com.microsoft.identity.client._test_activity
+    name: TestActivity
+    href: com.microsoft.identity.client._test_activity.yml
+  - uid: com.microsoft.identity.client._token_cache_accessor_test
+    name: TokenCacheAccessorTest
+    href: com.microsoft.identity.client._token_cache_accessor_test.yml
+  - uid: com.microsoft.identity.client._token_cache_key_test
+    name: TokenCacheKeyTest
+    href: com.microsoft.identity.client._token_cache_key_test.yml
+  - uid: com.microsoft.identity.client._token_cache_test
+    name: TokenCacheTest
+    href: com.microsoft.identity.client._token_cache_test.yml
+  - uid: com.microsoft.identity.client._token_response_test
+    name: TokenResponseTest
+    href: com.microsoft.identity.client._token_response_test.yml
+  - uid: com.microsoft.identity.client._ui_behavior
+    name: UiBehavior
+    href: com.microsoft.identity.client._ui_behavior.yml
+  - uid: com.microsoft.identity.client._ui_event_test
+    name: UiEventTest
+    href: com.microsoft.identity.client._ui_event_test.yml
+  - uid: com.microsoft.identity.client._user
+    name: User
+    href: com.microsoft.identity.client._user.yml
+  - uid: com.microsoft.identity.client._util
+    name: Util
+    href: com.microsoft.identity.client._util.yml
+  - uid: com.microsoft.identity.client._web_finger_metadata_requestor_test
+    name: WebFingerMetadataRequestorTest
+    href: com.microsoft.identity.client._web_finger_metadata_requestor_test.yml
 - uid: customplugin
   name: customplugin
   href: customplugin.yml

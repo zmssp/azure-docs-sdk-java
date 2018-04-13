@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.identity.client._id_token_test
+  id: _id_token_test
+  parent: com.microsoft.identity.client
+  children:
+  - com.microsoft.identity.client._id_token_test.testEmptyIdToken()
+  - com.microsoft.identity.client._id_token_test.testIdTokenHappyPath()
+  - com.microsoft.identity.client._id_token_test.testIdTokenInvalidJWT()
+  - com.microsoft.identity.client._id_token_test.testIdTokenWithInvalidPayload()
+  - com.microsoft.identity.client._id_token_test.testIncompleteIdTokenPayload()
+  - com.microsoft.identity.client._id_token_test.testNullIdToken()
+  href: com.microsoft.identity.client._id_token_test.yml
+  langs:
+  - java
+  name: IdTokenTest
+  nameWithType: IdTokenTest
+  fullName: com.microsoft.identity.client.IdTokenTest
+  type: Class
+  source:
+    remote: &o0
+      path: msal/src/androidTest/java/com/microsoft/identity/client/IdTokenTest.java
+      branch: master
+      repo: https://github.com/AzureAD/microsoft-authentication-library-for-android
+    path: msal/src/androidTest/java/com/microsoft/identity/client/IdTokenTest.java
+    startLine: 38
+  package: com.microsoft.identity.client
+  summary: <p>Instrumentation tests for <xref uid="" data-throw-if-not-resolved="false">IdToken</xref>. </p>
+  syntax:
+    content: public class IdTokenTest
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.identity.client._id_token_test.testEmptyIdToken()
+  id: testEmptyIdToken()
+  parent: com.microsoft.identity.client._id_token_test
+  href: com.microsoft.identity.client._id_token_test.yml
+  langs:
+  - java
+  name: testEmptyIdToken()
+  nameWithType: IdTokenTest.testEmptyIdToken()
+  fullName: void com.microsoft.identity.client.IdTokenTest.testEmptyIdToken()
+  overload: com.microsoft.identity.client._id_token_test.testEmptyIdToken*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/IdTokenTest.java
+    startLine: 41
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testEmptyIdToken()
+- uid: com.microsoft.identity.client._id_token_test.testIdTokenHappyPath()
+  id: testIdTokenHappyPath()
+  parent: com.microsoft.identity.client._id_token_test
+  href: com.microsoft.identity.client._id_token_test.yml
+  langs:
+  - java
+  name: testIdTokenHappyPath()
+  nameWithType: IdTokenTest.testIdTokenHappyPath()
+  fullName: void com.microsoft.identity.client.IdTokenTest.testIdTokenHappyPath()
+  overload: com.microsoft.identity.client._id_token_test.testIdTokenHappyPath*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/IdTokenTest.java
+    startLine: 130
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testIdTokenHappyPath()
+- uid: com.microsoft.identity.client._id_token_test.testIdTokenInvalidJWT()
+  id: testIdTokenInvalidJWT()
+  parent: com.microsoft.identity.client._id_token_test
+  href: com.microsoft.identity.client._id_token_test.yml
+  langs:
+  - java
+  name: testIdTokenInvalidJWT()
+  nameWithType: IdTokenTest.testIdTokenInvalidJWT()
+  fullName: void com.microsoft.identity.client.IdTokenTest.testIdTokenInvalidJWT()
+  overload: com.microsoft.identity.client._id_token_test.testIdTokenInvalidJWT*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/IdTokenTest.java
+    startLine: 51
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testIdTokenInvalidJWT()
+- uid: com.microsoft.identity.client._id_token_test.testIdTokenWithInvalidPayload()
+  id: testIdTokenWithInvalidPayload()
+  parent: com.microsoft.identity.client._id_token_test
+  href: com.microsoft.identity.client._id_token_test.yml
+  langs:
+  - java
+  name: testIdTokenWithInvalidPayload()
+  nameWithType: IdTokenTest.testIdTokenWithInvalidPayload()
+  fullName: void com.microsoft.identity.client.IdTokenTest.testIdTokenWithInvalidPayload()
+  overload: com.microsoft.identity.client._id_token_test.testIdTokenWithInvalidPayload*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/IdTokenTest.java
+    startLine: 81
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testIdTokenWithInvalidPayload()
+- uid: com.microsoft.identity.client._id_token_test.testIncompleteIdTokenPayload()
+  id: testIncompleteIdTokenPayload()
+  parent: com.microsoft.identity.client._id_token_test
+  href: com.microsoft.identity.client._id_token_test.yml
+  langs:
+  - java
+  name: testIncompleteIdTokenPayload()
+  nameWithType: IdTokenTest.testIncompleteIdTokenPayload()
+  fullName: void com.microsoft.identity.client.IdTokenTest.testIncompleteIdTokenPayload()
+  overload: com.microsoft.identity.client._id_token_test.testIncompleteIdTokenPayload*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/IdTokenTest.java
+    startLine: 100
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testIncompleteIdTokenPayload()
+- uid: com.microsoft.identity.client._id_token_test.testNullIdToken()
+  id: testNullIdToken()
+  parent: com.microsoft.identity.client._id_token_test
+  href: com.microsoft.identity.client._id_token_test.yml
+  langs:
+  - java
+  name: testNullIdToken()
+  nameWithType: IdTokenTest.testNullIdToken()
+  fullName: void com.microsoft.identity.client.IdTokenTest.testNullIdToken()
+  overload: com.microsoft.identity.client._id_token_test.testNullIdToken*
+  type: Method
+  source:
+    remote: *o0
+    path: msal/src/androidTest/java/com/microsoft/identity/client/IdTokenTest.java
+    startLine: 46
+  package: com.microsoft.identity.client
+  syntax:
+    content: public void testNullIdToken()
+references:
+- uid: com.microsoft.identity.client._id_token_test.testEmptyIdToken*
+  name: testEmptyIdToken
+  nameWithType: IdTokenTest.testEmptyIdToken
+  fullName: void com.microsoft.identity.client.IdTokenTest.testEmptyIdToken
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._id_token_test.testNullIdToken*
+  name: testNullIdToken
+  nameWithType: IdTokenTest.testNullIdToken
+  fullName: void com.microsoft.identity.client.IdTokenTest.testNullIdToken
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._id_token_test.testIdTokenInvalidJWT*
+  name: testIdTokenInvalidJWT
+  nameWithType: IdTokenTest.testIdTokenInvalidJWT
+  fullName: void com.microsoft.identity.client.IdTokenTest.testIdTokenInvalidJWT
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._id_token_test.testIdTokenWithInvalidPayload*
+  name: testIdTokenWithInvalidPayload
+  nameWithType: IdTokenTest.testIdTokenWithInvalidPayload
+  fullName: void com.microsoft.identity.client.IdTokenTest.testIdTokenWithInvalidPayload
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._id_token_test.testIncompleteIdTokenPayload*
+  name: testIncompleteIdTokenPayload
+  nameWithType: IdTokenTest.testIncompleteIdTokenPayload
+  fullName: void com.microsoft.identity.client.IdTokenTest.testIncompleteIdTokenPayload
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._id_token_test.testIdTokenHappyPath*
+  name: testIdTokenHappyPath
+  nameWithType: IdTokenTest.testIdTokenHappyPath
+  fullName: void com.microsoft.identity.client.IdTokenTest.testIdTokenHappyPath
+  package: com.microsoft.identity.client
+- uid: com.microsoft.identity.client._msal_exception
+  parent: com.microsoft.identity.client
+  href: com.microsoft.identity.client._msal_exception.yml
+  name: MsalException
+  nameWithType: MsalException
+  fullName: com.microsoft.identity.client.MsalException
+  type: Class
+  summary: >-
+    <p>
+
+      <xref uid="com.microsoft.identity.client._msal_exception" data-throw-if-not-resolved="false">MsalException</xref> thrown or sent back via callback, representing the detailed exception thrown by the sdk. It will contain the error code, error description (could be null) or throwable (could be null). </p>
+  syntax:
+    content: public class MsalException
