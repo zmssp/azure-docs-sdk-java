@@ -55,7 +55,7 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "_sample",
+      "path_to_root": ".",
       "url": "https://github.com/rickle-msft/azure-storage-java",
       "branch": "async-samplesInDocTest",
       "branch_mapping": {}
