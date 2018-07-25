@@ -55,7 +55,7 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "azure-storage-java",
+      "path_to_root": "preview/azure-storage-java",
       "url": "https://github.com/azure/azure-storage-java",
       "branch": "New-Storage-SDK-V10-Preview-dev",
       "branch_mapping": {}
