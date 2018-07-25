@@ -22,7 +22,7 @@ items:
   source:
     remote: &o0
       path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
-      branch: New-Storage-SDK-V10-Preview
+      branch: New-Storage-SDK-V10-Preview-dev
       repo: https://github.com/azure/azure-storage-java
     path: src/main/java/com/microsoft/azure/storage/blob/BlobSASPermission.java
     startLine: 25
@@ -274,6 +274,8 @@ references:
 
     <p>Please see <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-dotnet-shared-access-signature-part-1">here</a> for more conceptual information on SAS.</p>
 
-    <p>Please see <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/constructing-a-service-sas">here </a> for more details on each value, including which are required. </p>
+    <p>Please see <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/constructing-a-service-sas">here </a> for more details on each value, including which are required.</p>
+
+    <p></p>
   syntax:
     content: public class ServiceSASSignatureValues
