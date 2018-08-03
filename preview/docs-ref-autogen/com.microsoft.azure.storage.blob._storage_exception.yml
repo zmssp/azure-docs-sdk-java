@@ -20,7 +20,7 @@ items:
       branch: New-Storage-SDK-V10-Preview-dev
       repo: https://github.com/azure/azure-storage-java
     path: src/main/java/com/microsoft/azure/storage/blob/StorageException.java
-    startLine: 33
+    startLine: 35
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>A<code>StorageException 
@@ -30,7 +30,7 @@ items:
         </code> . For example, some users may perform a getProperties request on an entity to determine whether it exists or not. If it does not exists, an exception will be thrown even though this may be considered an expected indication of absence in this case.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=exception "Sample code for StorageExceptions")] '
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=exception \"Sample code for StorageExceptions\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>) "
   syntax:
     content: public class StorageException
   inheritance:
@@ -50,7 +50,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/StorageException.java
-    startLine: 51
+    startLine: 53
   package: com.microsoft.azure.storage.blob
   syntax:
     content: public StorageErrorCode errorCode()
@@ -71,7 +71,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/StorageException.java
-    startLine: 59
+    startLine: 61
   package: com.microsoft.azure.storage.blob
   syntax:
     content: public String message()
@@ -92,7 +92,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/StorageException.java
-    startLine: 66
+    startLine: 68
   package: com.microsoft.azure.storage.blob
   syntax:
     content: public int statusCode()

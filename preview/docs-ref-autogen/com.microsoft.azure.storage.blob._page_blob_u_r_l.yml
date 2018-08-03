@@ -64,6 +64,7 @@ items:
   - com.microsoft.azure.storage.blob._blob_u_r_l.toPageBlobURL()
   - com.microsoft.azure.storage.blob._storage_u_r_l.toString()
   - com.microsoft.azure.storage.blob._storage_u_r_l.toURL()
+  - com.microsoft.azure.storage.blob._blob_u_r_l.undelete()
 - uid: com.microsoft.azure.storage.blob._page_blob_u_r_l.clearPages(PageRange,BlobAccessConditions)
   id: clearPages(PageRange,BlobAccessConditions)
   parent: com.microsoft.azure.storage.blob._page_blob_u_r_l
@@ -78,13 +79,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobURL.java
-    startLine: 208
+    startLine: 214
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Frees the specified pages from the page blob. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/put-page">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic "Sample code for PageBlobURL.clearPages")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic \"Sample code for PageBlobURL.clearPages\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<PageBlobClearPagesResponse> clearPages(PageRange pageRange, BlobAccessConditions accessConditions)
     parameters:
@@ -116,7 +117,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobURL.java
-    startLine: 387
+    startLine: 401
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Begins an operation to start an incremental copy from one page blob's snapshot to this page blob. The snapshot is copied such that only the differential changes between the previously copied snapshot are transferred to the destination. The copied snapshots are complete copies of the original snapshot and can be read or copied from as usual. For more information, see the Azure Docs <a href="https://docs.microsoft.com/rest/api/storageservices/incremental-copy-blob">here</a> and <a href="https://docs.microsoft.com/en-us/azure/virtual-machines/windows/incremental-snapshots">here</a>.</p>
@@ -156,13 +157,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobURL.java
-    startLine: 115
+    startLine: 117
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Creates a page blob of the specified length. Call PutPage to upload data data to a page blob. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/put-blob">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic "Sample code for PageBlobURL.create")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic \"Sample code for PageBlobURL.create\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<PageBlobCreateResponse> create(long size, Long sequenceNumber, BlobHTTPHeaders headers, Metadata metadata, BlobAccessConditions accessConditions)
     parameters:
@@ -213,13 +214,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobURL.java
-    startLine: 244
+    startLine: 252
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Returns the list of valid page ranges for a page blob or snapshot of a page blob. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/get-page-ranges">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic "Sample code for PageBlobURL.getPageRanges")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic \"Sample code for PageBlobURL.getPageRanges\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<PageBlobGetPageRangesResponse> getPageRanges(BlobRange blobRange, BlobAccessConditions accessConditions)
     parameters:
@@ -256,13 +257,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobURL.java
-    startLine: 277
+    startLine: 287
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Gets the collection of page ranges that differ between a specified snapshot and this page blob. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/get-page-ranges">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_diff "Sample code for PageBlobURL.getPageRangesDiff")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_diff \"Sample code for PageBlobURL.getPageRangesDiff\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<PageBlobGetPageRangesDiffResponse> getPageRangesDiff(BlobRange blobRange, String prevSnapshot, BlobAccessConditions accessConditions)
     parameters:
@@ -374,13 +375,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobURL.java
-    startLine: 311
+    startLine: 323
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Resizes the page blob to the specified size (which must be a multiple of 512). For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/set-blob-properties">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic "Sample code for PageBlobURL.resize")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic \"Sample code for PageBlobURL.resize\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<PageBlobResizeResponse> resize(long size, BlobAccessConditions accessConditions)
     parameters:
@@ -412,13 +413,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobURL.java
-    startLine: 347
+    startLine: 361
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the page blob's sequence number. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/set-blob-properties">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic "Sample code for PageBlobURL.updateSequenceNumber")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic \"Sample code for PageBlobURL.updateSequenceNumber\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<PageBlobUpdateSequenceNumberResponse> updateSequenceNumber(SequenceNumberActionType action, Long sequenceNumber, BlobAccessConditions accessConditions)
     parameters:
@@ -453,13 +454,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/PageBlobURL.java
-    startLine: 169
+    startLine: 173
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Writes 1 or more pages to the page blob. The start and end offsets must be a multiple of 512. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/put-page">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic "Sample code for PageBlobURL.uploadPages")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=page_blob_basic \"Sample code for PageBlobURL.uploadPages\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<PageBlobUploadPagesResponse> uploadPages(PageRange pageRange, Flowable<ByteBuffer> body, BlobAccessConditions accessConditions)
     parameters:
@@ -1159,7 +1160,10 @@ references:
   nameWithType: BlobURL.setTier(AccessTier tier)
   fullName: com.microsoft.azure.storage.blob.BlobURL.setTier(AccessTier tier)
   type: Method
-  summary: <p>Sets the tier on a blob. The operation is allowed on a page blob in a premium storage account or a block blob in a blob storage or GPV2 account. A premium page blob's tier determines the allowed size, IOPS, and bandwidth of the blob. A block blob's tier determines the Hot/Cool/Archive storage type. This does not update the blob's etag. For detailed information about block blob level tiering see the <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers.">Azure Docs</a>. </p>
+  summary: >-
+    <p>Sets the tier on a blob. The operation is allowed on a page blob in a premium storage account or a block blob in a blob storage or GPV2 account. A premium page blob's tier determines the allowed size, IOPS, and bandwidth of the blob. A block blob's tier determines the Hot/Cool/Archive storage type. This does not update the blob's etag. For detailed information about block blob level tiering see the <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers.">Azure Docs</a>.</p>
+
+    <p></p>
   syntax:
     content: public Single<BlobSetTierResponse> setTier(AccessTier tier)
     parameters:
@@ -1305,6 +1309,22 @@ references:
     return:
       type: a891b3e6
       description: <p>The underlying url to the resource. </p>
+- uid: com.microsoft.azure.storage.blob._blob_u_r_l.undelete()
+  parent: com.microsoft.azure.storage.blob._blob_u_r_l
+  href: com.microsoft.azure.storage.blob._blob_u_r_l.yml
+  name: undelete()
+  nameWithType: BlobURL.undelete()
+  fullName: com.microsoft.azure.storage.blob.BlobURL.undelete()
+  type: Method
+  summary: >-
+    <p>Undelete restores the content and metadata of a soft-deleted blob and/or any associated soft-deleted snapshots. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/undelete-blob">Azure Docs</a>.</p>
+
+    <p></p>
+  syntax:
+    content: public Single<BlobUndeleteResponse> undelete()
+    return:
+      type: 449e6419com.microsoft.azure.storage.blob.models._blob_undelete_responsea08ddfce
+      description: <p>Emits the successful response. </p>
 - uid: com.microsoft.azure.storage.blob._blob_u_r_l
   parent: com.microsoft.azure.storage.blob
   href: com.microsoft.azure.storage.blob._blob_u_r_l.yml

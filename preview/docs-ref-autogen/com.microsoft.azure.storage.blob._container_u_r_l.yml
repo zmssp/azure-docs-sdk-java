@@ -18,10 +18,13 @@ items:
   - com.microsoft.azure.storage.blob._container_u_r_l.getProperties(LeaseAccessConditions)
   - com.microsoft.azure.storage.blob._container_u_r_l.listBlobsFlatSegment(String,ListBlobsOptions)
   - com.microsoft.azure.storage.blob._container_u_r_l.listBlobsHierarchySegment(String,String,ListBlobsOptions)
+  - com.microsoft.azure.storage.blob._container_u_r_l.LOG_CONTAINER_NAME
   - com.microsoft.azure.storage.blob._container_u_r_l.releaseLease(String,HTTPAccessConditions)
   - com.microsoft.azure.storage.blob._container_u_r_l.renewLease(String,HTTPAccessConditions)
+  - com.microsoft.azure.storage.blob._container_u_r_l.ROOT_CONTAINER_NAME
   - com.microsoft.azure.storage.blob._container_u_r_l.setAccessPolicy(PublicAccessType,List<SignedIdentifier>,ContainerAccessConditions)
   - com.microsoft.azure.storage.blob._container_u_r_l.setMetadata(Metadata,ContainerAccessConditions)
+  - com.microsoft.azure.storage.blob._container_u_r_l.STATIC_WEBSITE_CONTAINER_NAME
   - com.microsoft.azure.storage.blob._container_u_r_l.withPipeline(HttpPipeline)
   href: com.microsoft.azure.storage.blob._container_u_r_l.yml
   langs:
@@ -65,13 +68,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 350
+    startLine: 381
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Acquires a lease on the container for delete operations. The lease duration must be between 15 to 60 seconds, or infinite (-1). For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-container">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_lease "Sample code for ContainerURL.acquireLease")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_lease \"Sample code for ContainerURL.acquireLease\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerAcquireLeaseResponse> acquireLease(String proposedID, int duration, HTTPAccessConditions httpAccessConditions)
     parameters:
@@ -109,13 +112,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 446
+    startLine: 483
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Breaks the container's previously-acquired lease. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-container">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_lease "Sample code for ContainerURL.breakLease")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_lease \"Sample code for ContainerURL.breakLease\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerBreakLeaseResponse> breakLease(Integer breakPeriodInSeconds, HTTPAccessConditions httpAccessConditions)
     parameters:
@@ -150,13 +153,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 479
+    startLine: 518
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Changes the container's leaseID. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-container">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_lease "Sample code for ContainerURL.changeLease")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_lease \"Sample code for ContainerURL.changeLease\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerChangeLeaseResponse> changeLease(String leaseID, String proposedID, HTTPAccessConditions httpAccessConditions)
     parameters:
@@ -194,7 +197,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 38
+    startLine: 44
   package: com.microsoft.azure.storage.blob
   syntax:
     content: public ContainerURL(URL url, HttpPipeline pipeline)
@@ -217,13 +220,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 162
+    startLine: 170
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Creates a new container within a storage account. If a container with the same name already exists, the operation fails. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/create-container">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_basic "Sample code for ContainerURL.create")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_basic \"Sample code for ContainerURL.create\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerCreateResponse> create(Metadata metadata, PublicAccessType accessType)
     parameters:
@@ -255,7 +258,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 114
+    startLine: 120
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Creates creates a new AppendBlobURL object by concatenating blobName to the end of ContainerURL's URL. The new AppendBlobURL uses the same request policy pipeline as the ContainerURL. To change the pipeline, create the AppendBlobURL and then call its WithPipeline method passing in the desired pipeline object. Or, call this package's NewAppendBlobURL instead of calling this object's NewAppendBlobURL method.</p>
@@ -287,7 +290,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 136
+    startLine: 142
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Creates a new BlobURL object by concatenating blobName to the end of ContainerURL's URL. The new BlobURL uses the same request policy pipeline as the ContainerURL. To change the pipeline, create the BlobURL and then call its WithPipeline method passing in the desired pipeline object. Or, call this package's createBlobURL instead of calling this object's createBlobURL method.</p>
@@ -319,7 +322,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 70
+    startLine: 76
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Creates a new <xref uid="com.microsoft.azure.storage.blob._block_blob_u_r_l" data-throw-if-not-resolved="false">BlockBlobURL</xref> object by concatenating the blobName to the end of ContainerURL's URL. The new BlockBlobUrl uses the same request policy pipeline as the ContainerURL. To change the pipeline, create the BlockBlobUrl and then call its WithPipeline method passing in the desired pipeline object. Or, call this package's NewBlockBlobUrl instead of calling this object's NewBlockBlobUrl method.</p>
@@ -351,7 +354,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 92
+    startLine: 98
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Creates creates a new PageBlobURL object by concatenating blobName to the end of ContainerURL's URL. The new PageBlobURL uses the same request policy pipeline as the ContainerURL. To change the pipeline, create the PageBlobURL and then call its WithPipeline method passing in the desired pipeline object. Or, call this package's NewPageBlobURL instead of calling this object's NewPageBlobURL method.</p>
@@ -383,13 +386,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 183
+    startLine: 193
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Marks the specified container for deletion. The container and any blobs contained within it are later deleted during garbage collection. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/delete-container">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_basic "Sample code for ContainerURL.delete")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_basic \"Sample code for ContainerURL.delete\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerDeleteResponse> delete(ContainerAccessConditions accessConditions)
     parameters:
@@ -418,13 +421,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 266
+    startLine: 285
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Returns the container's permissions. The permissions indicate whether container's blobs may be accessed publicly. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/get-container-acl">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_policy "Sample code for ContainerURL.getAccessPolicy")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_policy \"Sample code for ContainerURL.getAccessPolicy\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerGetAccessPolicyResponse> getAccessPolicy(LeaseAccessConditions leaseAccessConditions)
     parameters:
@@ -453,13 +456,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 213
+    startLine: 226
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Returns the container's metadata and system properties. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/get-container-metadata">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_basic "Sample code for ContainerURL.getProperties")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_basic \"Sample code for ContainerURL.getProperties\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerGetPropertiesResponse> getProperties(LeaseAccessConditions leaseAccessConditions)
     parameters:
@@ -488,13 +491,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 516
+    startLine: 557
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Returns a single segment of blobs starting from the specified Marker. Use an empty marker to start enumeration from the beginning. Blob names are returned in lexicographic order. After getting a segment, process it, and then call ListBlobs again (passing the the previously-returned Marker) to get the next segment. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/list-blobs">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=list_blobs_flat "Sample code for ContainerURL.listBlobsFlatSegment")] [!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=list_blobs_flat_helper "helper code for ContainerURL.listBlobsFlatSegment")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=list_blobs_flat \"Sample code for ContainerURL.listBlobsFlatSegment\")] \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=list_blobs_flat_helper \"helper code for ContainerURL.listBlobsFlatSegment\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerListBlobFlatSegmentResponse> listBlobsFlatSegment(String marker, ListBlobsOptions options)
     parameters:
@@ -526,12 +529,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 545
+    startLine: 593
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Returns a single segment of blobs and blob prefixes starting from the specified Marker. Use an empty marker to start enumeration from the beginning. Blob names are returned in lexicographic order. After getting a segment, process it, and then call ListBlobs again (passing the the previously-returned Marker) to get the next segment. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/list-blobs">Azure Docs</a>.</p>
 
     <p></p>
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=list_blobs_hierarchy \"Sample code for ContainerURL.listBlobsHierarchySegment\")] \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=list_blobs_hierarchy_helper \"helper code for ContainerURL.listBlobsHierarchySegment\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerListBlobHierarchySegmentResponse> listBlobsHierarchySegment(String marker, String delimiter, ListBlobsOptions options)
     parameters:
@@ -552,6 +556,25 @@ items:
     return:
       type: 449e6419com.microsoft.azure.storage.blob.models._container_list_blob_hierarchy_segment_responsea08ddfce
       description: <p>Emits the successful response. </p>
+- uid: com.microsoft.azure.storage.blob._container_u_r_l.LOG_CONTAINER_NAME
+  id: LOG_CONTAINER_NAME
+  parent: com.microsoft.azure.storage.blob._container_u_r_l
+  href: com.microsoft.azure.storage.blob._container_u_r_l.yml
+  langs:
+  - java
+  name: LOG_CONTAINER_NAME
+  nameWithType: ContainerURL.LOG_CONTAINER_NAME
+  fullName: com.microsoft.azure.storage.blob.ContainerURL.LOG_CONTAINER_NAME
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
+    startLine: 42
+  package: com.microsoft.azure.storage.blob
+  syntax:
+    content: public static final String LOG_CONTAINER_NAME= "$logs"
+    return:
+      type: 3d93591e
 - uid: com.microsoft.azure.storage.blob._container_u_r_l.releaseLease(String,HTTPAccessConditions)
   id: releaseLease(String,HTTPAccessConditions)
   parent: com.microsoft.azure.storage.blob._container_u_r_l
@@ -566,13 +589,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 412
+    startLine: 447
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Releases the container's previously-acquired lease. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-container">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_lease "Sample code for ContainerURL.releaseLease")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_lease \"Sample code for ContainerURL.releaseLease\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerReleaseLeaseResponse> releaseLease(String leaseID, HTTPAccessConditions httpAccessConditions)
     parameters:
@@ -604,13 +627,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 381
+    startLine: 414
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Renews the container's previously-acquired lease. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/lease-container">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_lease "Sample code for ContainerURL.renewLease")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_lease \"Sample code for ContainerURL.renewLease\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerRenewLeaseResponse> renewLease(String leaseID, HTTPAccessConditions httpAccessConditions)
     parameters:
@@ -628,6 +651,25 @@ items:
     return:
       type: 449e6419com.microsoft.azure.storage.blob.models._container_renew_lease_responsea08ddfce
       description: <p>Emits the successful response. </p>
+- uid: com.microsoft.azure.storage.blob._container_u_r_l.ROOT_CONTAINER_NAME
+  id: ROOT_CONTAINER_NAME
+  parent: com.microsoft.azure.storage.blob._container_u_r_l
+  href: com.microsoft.azure.storage.blob._container_u_r_l.yml
+  langs:
+  - java
+  name: ROOT_CONTAINER_NAME
+  nameWithType: ContainerURL.ROOT_CONTAINER_NAME
+  fullName: com.microsoft.azure.storage.blob.ContainerURL.ROOT_CONTAINER_NAME
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
+    startLine: 38
+  package: com.microsoft.azure.storage.blob
+  syntax:
+    content: public static final String ROOT_CONTAINER_NAME= "$root"
+    return:
+      type: 3d93591e
 - uid: com.microsoft.azure.storage.blob._container_u_r_l.setAccessPolicy(PublicAccessType,List<SignedIdentifier>,ContainerAccessConditions)
   id: setAccessPolicy(PublicAccessType,List<SignedIdentifier>,ContainerAccessConditions)
   parent: com.microsoft.azure.storage.blob._container_u_r_l
@@ -642,13 +684,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 295
+    startLine: 316
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the container's permissions. The permissions indicate whether blobs in a container may be accessed publicly. Note that, for each signed identifier, we will truncate the start and expiry times to the nearest second to ensure the time formatting is compatible with the service. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/set-container-acl">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_policy "Sample code for ContainerURL.setAccessPolicy")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_policy \"Sample code for ContainerURL.setAccessPolicy\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerSetAccessPolicyResponse> setAccessPolicy(PublicAccessType accessType, List<SignedIdentifier> identifiers, ContainerAccessConditions accessConditions)
     parameters:
@@ -683,13 +725,13 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 235
+    startLine: 251
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Sets the container's metadata. For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/set-container-metadata">Azure Docs</a>.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_basic "Sample code for ContainerURL.setMetadata")]'
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=container_basic \"Sample code for ContainerURL.setMetadata\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>)"
   syntax:
     content: public Single<ContainerSetMetadataResponse> setMetadata(Metadata metadata, ContainerAccessConditions accessConditions)
     parameters:
@@ -712,6 +754,25 @@ items:
     return:
       type: 449e6419com.microsoft.azure.storage.blob.models._container_set_metadata_responsea08ddfce
       description: <p>Emits the successful response. </p>
+- uid: com.microsoft.azure.storage.blob._container_u_r_l.STATIC_WEBSITE_CONTAINER_NAME
+  id: STATIC_WEBSITE_CONTAINER_NAME
+  parent: com.microsoft.azure.storage.blob._container_u_r_l
+  href: com.microsoft.azure.storage.blob._container_u_r_l.yml
+  langs:
+  - java
+  name: STATIC_WEBSITE_CONTAINER_NAME
+  nameWithType: ContainerURL.STATIC_WEBSITE_CONTAINER_NAME
+  fullName: com.microsoft.azure.storage.blob.ContainerURL.STATIC_WEBSITE_CONTAINER_NAME
+  type: Field
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
+    startLine: 40
+  package: com.microsoft.azure.storage.blob
+  syntax:
+    content: public static final String STATIC_WEBSITE_CONTAINER_NAME= "$web"
+    return:
+      type: 3d93591e
 - uid: com.microsoft.azure.storage.blob._container_u_r_l.withPipeline(HttpPipeline)
   id: withPipeline(HttpPipeline)
   parent: com.microsoft.azure.storage.blob._container_u_r_l
@@ -726,7 +787,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/ContainerURL.java
-    startLine: 50
+    startLine: 56
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Creates a new <xref uid="com.microsoft.azure.storage.blob._container_u_r_l" data-throw-if-not-resolved="false">ContainerURL</xref> with the given pipeline.</p>
@@ -742,6 +803,10 @@ items:
       type: com.microsoft.azure.storage.blob._container_u_r_l
       description: <p>A <xref uid="com.microsoft.azure.storage.blob._container_u_r_l" data-throw-if-not-resolved="false">ContainerURL</xref> object with the given pipeline. </p>
 references:
+- uid: 3d93591e
+  spec.java:
+  - name: final String
+    fullName: final String
 - uid: a891b3e6
   spec.java:
   - name: URL

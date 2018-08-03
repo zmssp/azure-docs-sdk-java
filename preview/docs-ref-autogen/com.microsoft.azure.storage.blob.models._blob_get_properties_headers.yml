@@ -68,6 +68,8 @@ items:
   - com.microsoft.azure.storage.blob.models._blob_get_properties_headers.withMetadata(Map<String, String>)
   - com.microsoft.azure.storage.blob.models._blob_get_properties_headers.withRequestId(String)
   - com.microsoft.azure.storage.blob.models._blob_get_properties_headers.withVersion(String)
+  - com.microsoft.azure.storage.blob.models._blob_get_properties_headers.withXMsCreationTime(OffsetDateTime)
+  - com.microsoft.azure.storage.blob.models._blob_get_properties_headers.xMsCreationTime()
   href: com.microsoft.azure.storage.blob.models._blob_get_properties_headers.yml
   langs:
   - java
@@ -102,7 +104,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 826
+    startLine: 859
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the acceptRanges value.</p>
@@ -127,7 +129,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 886
+    startLine: 919
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the accessTier value.</p>
@@ -152,7 +154,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 906
+    startLine: 939
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the accessTierInferred value.</p>
@@ -177,7 +179,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 926
+    startLine: 959
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the archiveStatus value.</p>
@@ -202,7 +204,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 846
+    startLine: 879
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the blobCommittedBlockCount value.</p>
@@ -227,7 +229,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 739
+    startLine: 772
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the blobSequenceNumber value.</p>
@@ -252,7 +254,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 332
+    startLine: 365
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the blobType value.</p>
@@ -277,7 +279,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 719
+    startLine: 752
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the cacheControl value.</p>
@@ -302,7 +304,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 679
+    startLine: 712
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the contentDisposition value.</p>
@@ -327,7 +329,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 659
+    startLine: 692
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the contentEncoding value.</p>
@@ -352,7 +354,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 699
+    startLine: 732
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the contentLanguage value.</p>
@@ -377,7 +379,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 579
+    startLine: 612
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the contentLength value.</p>
@@ -402,7 +404,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 639
+    startLine: 672
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the contentMD5 value.</p>
@@ -427,7 +429,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 599
+    startLine: 632
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the contentType value.</p>
@@ -452,7 +454,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 352
+    startLine: 385
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the copyCompletionTime value.</p>
@@ -477,7 +479,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 399
+    startLine: 432
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the copyId value.</p>
@@ -502,7 +504,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 419
+    startLine: 452
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the copyProgress value.</p>
@@ -527,7 +529,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 439
+    startLine: 472
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the copySource value.</p>
@@ -552,7 +554,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 459
+    startLine: 492
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the copyStatus value.</p>
@@ -577,7 +579,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 379
+    startLine: 412
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the copyStatusDescription value.</p>
@@ -602,7 +604,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 799
+    startLine: 832
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the date value.</p>
@@ -627,7 +629,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 499
+    startLine: 532
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the destinationSnapshot value.</p>
@@ -652,7 +654,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 619
+    startLine: 652
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the eTag value.</p>
@@ -677,7 +679,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 479
+    startLine: 512
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the isIncrementalCopy value.</p>
@@ -702,7 +704,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 866
+    startLine: 899
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the isServerEncrypted value.</p>
@@ -727,7 +729,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 285
+    startLine: 291
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the lastModified value.</p>
@@ -752,7 +754,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 519
+    startLine: 552
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the leaseDuration value.</p>
@@ -777,7 +779,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 539
+    startLine: 572
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the leaseState value.</p>
@@ -802,7 +804,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 559
+    startLine: 592
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the leaseStatus value.</p>
@@ -827,7 +829,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 312
+    startLine: 345
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the metadata value.</p>
@@ -852,7 +854,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 759
+    startLine: 792
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the requestId value.</p>
@@ -877,7 +879,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 779
+    startLine: 812
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Get the version value.</p>
@@ -902,7 +904,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 836
+    startLine: 869
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the acceptRanges value.</p>
@@ -931,7 +933,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 896
+    startLine: 929
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the accessTier value.</p>
@@ -960,7 +962,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 916
+    startLine: 949
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the accessTierInferred value.</p>
@@ -989,7 +991,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 936
+    startLine: 969
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the archiveStatus value.</p>
@@ -1018,7 +1020,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 856
+    startLine: 889
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the blobCommittedBlockCount value.</p>
@@ -1047,7 +1049,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 749
+    startLine: 782
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the blobSequenceNumber value.</p>
@@ -1076,7 +1078,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 342
+    startLine: 375
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the blobType value.</p>
@@ -1105,7 +1107,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 729
+    startLine: 762
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the cacheControl value.</p>
@@ -1134,7 +1136,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 689
+    startLine: 722
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the contentDisposition value.</p>
@@ -1163,7 +1165,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 669
+    startLine: 702
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the contentEncoding value.</p>
@@ -1192,7 +1194,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 709
+    startLine: 742
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the contentLanguage value.</p>
@@ -1221,7 +1223,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 589
+    startLine: 622
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the contentLength value.</p>
@@ -1250,7 +1252,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 649
+    startLine: 682
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the contentMD5 value.</p>
@@ -1279,7 +1281,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 609
+    startLine: 642
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the contentType value.</p>
@@ -1308,7 +1310,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 365
+    startLine: 398
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the copyCompletionTime value.</p>
@@ -1337,7 +1339,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 409
+    startLine: 442
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the copyId value.</p>
@@ -1366,7 +1368,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 429
+    startLine: 462
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the copyProgress value.</p>
@@ -1395,7 +1397,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 449
+    startLine: 482
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the copySource value.</p>
@@ -1424,7 +1426,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 469
+    startLine: 502
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the copyStatus value.</p>
@@ -1453,7 +1455,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 389
+    startLine: 422
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the copyStatusDescription value.</p>
@@ -1482,7 +1484,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 812
+    startLine: 845
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the date value.</p>
@@ -1511,7 +1513,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 509
+    startLine: 542
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the destinationSnapshot value.</p>
@@ -1540,7 +1542,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 629
+    startLine: 662
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the eTag value.</p>
@@ -1569,7 +1571,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 489
+    startLine: 522
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the isIncrementalCopy value.</p>
@@ -1598,7 +1600,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 876
+    startLine: 909
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the isServerEncrypted value.</p>
@@ -1627,7 +1629,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 298
+    startLine: 304
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the lastModified value.</p>
@@ -1656,7 +1658,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 529
+    startLine: 562
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the leaseDuration value.</p>
@@ -1685,7 +1687,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 549
+    startLine: 582
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the leaseState value.</p>
@@ -1714,7 +1716,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 569
+    startLine: 602
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the leaseStatus value.</p>
@@ -1743,7 +1745,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 322
+    startLine: 355
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the metadata value.</p>
@@ -1772,7 +1774,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 769
+    startLine: 802
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the requestId value.</p>
@@ -1801,7 +1803,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
-    startLine: 789
+    startLine: 822
   package: com.microsoft.azure.storage.blob.models
   summary: >-
     <p>Set the version value.</p>
@@ -1816,6 +1818,60 @@ items:
     return:
       type: com.microsoft.azure.storage.blob.models._blob_get_properties_headers
       description: <p>the BlobGetPropertiesHeaders object itself. </p>
+- uid: com.microsoft.azure.storage.blob.models._blob_get_properties_headers.withXMsCreationTime(OffsetDateTime)
+  id: withXMsCreationTime(OffsetDateTime)
+  parent: com.microsoft.azure.storage.blob.models._blob_get_properties_headers
+  href: com.microsoft.azure.storage.blob.models._blob_get_properties_headers.yml
+  langs:
+  - java
+  name: withXMsCreationTime(OffsetDateTime xMsCreationTime)
+  nameWithType: BlobGetPropertiesHeaders.withXMsCreationTime(OffsetDateTime xMsCreationTime)
+  fullName: com.microsoft.azure.storage.blob.models.BlobGetPropertiesHeaders.withXMsCreationTime(OffsetDateTime xMsCreationTime)
+  overload: com.microsoft.azure.storage.blob.models._blob_get_properties_headers.withXMsCreationTime*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
+    startLine: 331
+  package: com.microsoft.azure.storage.blob.models
+  summary: >-
+    <p>Set the xMsCreationTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public BlobGetPropertiesHeaders withXMsCreationTime(OffsetDateTime xMsCreationTime)
+    parameters:
+    - id: xMsCreationTime
+      type: 583ea9ea
+      description: <p>the xMsCreationTime value to set. </p>
+    return:
+      type: com.microsoft.azure.storage.blob.models._blob_get_properties_headers
+      description: <p>the BlobGetPropertiesHeaders object itself. </p>
+- uid: com.microsoft.azure.storage.blob.models._blob_get_properties_headers.xMsCreationTime()
+  id: xMsCreationTime()
+  parent: com.microsoft.azure.storage.blob.models._blob_get_properties_headers
+  href: com.microsoft.azure.storage.blob.models._blob_get_properties_headers.yml
+  langs:
+  - java
+  name: xMsCreationTime()
+  nameWithType: BlobGetPropertiesHeaders.xMsCreationTime()
+  fullName: com.microsoft.azure.storage.blob.models.BlobGetPropertiesHeaders.xMsCreationTime()
+  overload: com.microsoft.azure.storage.blob.models._blob_get_properties_headers.xMsCreationTime*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/storage/blob/models/BlobGetPropertiesHeaders.java
+    startLine: 318
+  package: com.microsoft.azure.storage.blob.models
+  summary: >-
+    <p>Get the xMsCreationTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public OffsetDateTime xMsCreationTime()
+    return:
+      type: 583ea9ea
+      description: <p>the xMsCreationTime value. </p>
 references:
 - uid: 583ea9ea
   spec.java:
@@ -1830,6 +1886,16 @@ references:
   name: withLastModified
   nameWithType: BlobGetPropertiesHeaders.withLastModified
   fullName: com.microsoft.azure.storage.blob.models.BlobGetPropertiesHeaders.withLastModified
+  package: com.microsoft.azure.storage.blob.models
+- uid: com.microsoft.azure.storage.blob.models._blob_get_properties_headers.xMsCreationTime*
+  name: xMsCreationTime
+  nameWithType: BlobGetPropertiesHeaders.xMsCreationTime
+  fullName: com.microsoft.azure.storage.blob.models.BlobGetPropertiesHeaders.xMsCreationTime
+  package: com.microsoft.azure.storage.blob.models
+- uid: com.microsoft.azure.storage.blob.models._blob_get_properties_headers.withXMsCreationTime*
+  name: withXMsCreationTime
+  nameWithType: BlobGetPropertiesHeaders.withXMsCreationTime
+  fullName: com.microsoft.azure.storage.blob.models.BlobGetPropertiesHeaders.withXMsCreationTime
   package: com.microsoft.azure.storage.blob.models
 - uid: 689c8cb5
   spec.java:

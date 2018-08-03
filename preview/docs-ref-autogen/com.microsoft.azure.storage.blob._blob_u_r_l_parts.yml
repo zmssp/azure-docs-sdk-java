@@ -26,13 +26,13 @@ items:
       branch: New-Storage-SDK-V10-Preview-dev
       repo: https://github.com/azure/azure-storage-java
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 32
+    startLine: 34
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>A BlobURLParts object represents the components that make up an Azure Storage Container/Blob URL. You may parse an existing URL into its parts with the <xref uid="com.microsoft.azure.storage.blob._u_r_l_parser" data-throw-if-not-resolved="false">URLParser</xref> class. You may construct a URL from parts by calling toURL(). It is also possible to use the empty constructor to build a blobURL from scratch. NOTE: Changing any SAS-related field requires computing a new SAS signature.</p>
 
     <p></p>
-  remarks: '[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=url_parts "Sample code for BlobURLParts")] '
+  remarks: "## Sample Code \r\n[!code-java[Sample_Code](../azure-storage-java/src/test/java/com/microsoft/azure/storage/Samples.java?name=url_parts \"Sample code for BlobURLParts\")] \r\nFor more samples, please see the [Samples file] (<a href=\"https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java\">https://github.com/Azure/azure-storage-java/blob/New-Storage-SDK-V10-Preview/src/test/java/com/microsoft/azure/storage/Samples.java</a>) "
   syntax:
     content: public class BlobURLParts
   inheritance:
@@ -50,7 +50,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 52
+    startLine: 54
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>The blob name or<code>null 
@@ -74,7 +74,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 77
+    startLine: 79
   package: com.microsoft.azure.storage.blob
   summary: <p>Initializes a BlobURLParts object with all fields set to null, except unparsedParameters, which is an empty map. This may be useful for constructing a URL to a blob storage resource from scratch when the constituent parts are already known. </p>
   syntax:
@@ -92,7 +92,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 47
+    startLine: 49
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>The container name or<code>null 
@@ -115,7 +115,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 42
+    startLine: 44
   package: com.microsoft.azure.storage.blob
   summary: '<p>The host. Ex: "account.blob.core.windows.net". </p>'
   syntax:
@@ -135,7 +135,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 63
+    startLine: 65
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>A <xref uid="com.microsoft.azure.storage.blob._s_a_s_query_parameters" data-throw-if-not-resolved="false">SASQueryParameters</xref> representing the SAS query parameters or<code>null 
@@ -158,7 +158,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 37
+    startLine: 39
   package: com.microsoft.azure.storage.blob
   summary: '<p>The scheme. Ex: "https://". </p>'
   syntax:
@@ -178,7 +178,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 57
+    startLine: 59
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>The snapshot time or<code>null 
@@ -202,7 +202,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 90
+    startLine: 92
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>Converts the blob URL parts to a <xref uid="" data-throw-if-not-resolved="false">URL</xref>.</p>
@@ -232,7 +232,7 @@ items:
   source:
     remote: *o0
     path: src/main/java/com/microsoft/azure/storage/blob/BlobURLParts.java
-    startLine: 69
+    startLine: 71
   package: com.microsoft.azure.storage.blob
   summary: >-
     <p>The query parameter key value pairs aside from SAS parameters and snapshot time or<code>null 

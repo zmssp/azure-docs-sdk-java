@@ -51,6 +51,8 @@ items:
   - com.microsoft.azure.storage.blob.models._block_blob_commit_block_list_response
   - com.microsoft.azure.storage.blob.models._block_blob_get_block_list_headers
   - com.microsoft.azure.storage.blob.models._block_blob_get_block_list_response
+  - com.microsoft.azure.storage.blob.models._block_blob_stage_block_from_u_r_l_headers
+  - com.microsoft.azure.storage.blob.models._block_blob_stage_block_from_u_r_l_response
   - com.microsoft.azure.storage.blob.models._block_blob_stage_block_headers
   - com.microsoft.azure.storage.blob.models._block_blob_stage_block_response
   - com.microsoft.azure.storage.blob.models._block_blob_upload_headers
@@ -638,6 +640,26 @@ references:
   summary: <p>Contains all response data for the getBlockList operation. </p>
   syntax:
     content: public class BlockBlobGetBlockListResponse
+- uid: com.microsoft.azure.storage.blob.models._block_blob_stage_block_from_u_r_l_headers
+  parent: com.microsoft.azure.storage.blob.models
+  href: com.microsoft.azure.storage.blob.models._block_blob_stage_block_from_u_r_l_headers.yml
+  name: BlockBlobStageBlockFromURLHeaders
+  nameWithType: BlockBlobStageBlockFromURLHeaders
+  fullName: com.microsoft.azure.storage.blob.models.BlockBlobStageBlockFromURLHeaders
+  type: Class
+  summary: <p>Defines headers for StageBlockFromURL operation. </p>
+  syntax:
+    content: public class BlockBlobStageBlockFromURLHeaders
+- uid: com.microsoft.azure.storage.blob.models._block_blob_stage_block_from_u_r_l_response
+  parent: com.microsoft.azure.storage.blob.models
+  href: com.microsoft.azure.storage.blob.models._block_blob_stage_block_from_u_r_l_response.yml
+  name: BlockBlobStageBlockFromURLResponse
+  nameWithType: BlockBlobStageBlockFromURLResponse
+  fullName: com.microsoft.azure.storage.blob.models.BlockBlobStageBlockFromURLResponse
+  type: Class
+  summary: <p>Contains all response data for the stageBlockFromURL operation. </p>
+  syntax:
+    content: public class BlockBlobStageBlockFromURLResponse
 - uid: com.microsoft.azure.storage.blob.models._block_blob_stage_block_headers
   parent: com.microsoft.azure.storage.blob.models
   href: com.microsoft.azure.storage.blob.models._block_blob_stage_block_headers.yml

@@ -316,6 +316,12 @@
   - uid: com.microsoft.azure.storage.blob.models._block_blob_get_block_list_response
     name: BlockBlobGetBlockListResponse
     href: com.microsoft.azure.storage.blob.models._block_blob_get_block_list_response.yml
+  - uid: com.microsoft.azure.storage.blob.models._block_blob_stage_block_from_u_r_l_headers
+    name: BlockBlobStageBlockFromURLHeaders
+    href: com.microsoft.azure.storage.blob.models._block_blob_stage_block_from_u_r_l_headers.yml
+  - uid: com.microsoft.azure.storage.blob.models._block_blob_stage_block_from_u_r_l_response
+    name: BlockBlobStageBlockFromURLResponse
+    href: com.microsoft.azure.storage.blob.models._block_blob_stage_block_from_u_r_l_response.yml
   - uid: com.microsoft.azure.storage.blob.models._block_blob_stage_block_headers
     name: BlockBlobStageBlockHeaders
     href: com.microsoft.azure.storage.blob.models._block_blob_stage_block_headers.yml
