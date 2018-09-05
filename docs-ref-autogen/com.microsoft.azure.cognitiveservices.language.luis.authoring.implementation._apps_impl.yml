@@ -104,7 +104,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 61
+    startLine: 62
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>An instance of this class provides access to all the operations defined in Apps. </p>
   syntax:
@@ -126,7 +126,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 175
+    startLine: 176
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new LUIS app.</p>
@@ -163,7 +163,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 198
+    startLine: 199
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new LUIS app.</p>
@@ -196,7 +196,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 187
+    startLine: 188
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new LUIS app.</p>
@@ -231,7 +231,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1687
+    startLine: 1769
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a prebuilt domain along with its models as a new application.</p>
@@ -268,7 +268,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1710
+    startLine: 1792
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a prebuilt domain along with its models as a new application.</p>
@@ -301,7 +301,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1699
+    startLine: 1781
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a prebuilt domain along with its models as a new application.</p>
@@ -336,7 +336,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1726
+    startLine: 1808
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a prebuilt domain along with its models as a new application.</p>
@@ -368,7 +368,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 214
+    startLine: 215
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new LUIS app.</p>
@@ -400,7 +400,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 73
+    startLine: 74
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Initializes an instance of AppsImpl.</p>
@@ -429,7 +429,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1021
+    startLine: 1068
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes an application.</p>
@@ -466,7 +466,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1044
+    startLine: 1091
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes an application.</p>
@@ -499,7 +499,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1033
+    startLine: 1080
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes an application.</p>
@@ -534,7 +534,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1060
+    startLine: 1107
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes an application.</p>
@@ -566,7 +566,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 794
+    startLine: 829
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the query logs of the past month for the application.</p>
@@ -603,7 +603,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 817
+    startLine: 852
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the query logs of the past month for the application.</p>
@@ -636,7 +636,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 806
+    startLine: 841
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the query logs of the past month for the application.</p>
@@ -671,7 +671,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 833
+    startLine: 868
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the query logs of the past month for the application.</p>
@@ -703,7 +703,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 867
+    startLine: 906
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application info.</p>
@@ -740,7 +740,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 890
+    startLine: 929
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application info.</p>
@@ -773,7 +773,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 879
+    startLine: 918
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application info.</p>
@@ -808,7 +808,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1394
+    startLine: 1460
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Get the application publish settings.</p>
@@ -845,7 +845,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1417
+    startLine: 1483
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Get the application publish settings.</p>
@@ -878,7 +878,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1406
+    startLine: 1472
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Get the application publish settings.</p>
@@ -913,7 +913,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1433
+    startLine: 1499
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Get the application publish settings.</p>
@@ -945,7 +945,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1175
+    startLine: 1230
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Get the application settings.</p>
@@ -982,7 +982,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1198
+    startLine: 1253
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Get the application settings.</p>
@@ -1015,7 +1015,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1187
+    startLine: 1242
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Get the application settings.</p>
@@ -1050,7 +1050,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1214
+    startLine: 1269
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Get the application settings.</p>
@@ -1082,7 +1082,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 906
+    startLine: 945
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application info.</p>
@@ -1114,7 +1114,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 473
+    startLine: 492
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports an application to LUIS, the application's structure should be included in in the request body.</p>
@@ -1140,7 +1140,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 386
+    startLine: 398
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports an application to LUIS, the application's structure should be included in in the request body.</p>
@@ -1180,7 +1180,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 411
+    startLine: 423
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports an application to LUIS, the application's structure should be included in in the request body.</p>
@@ -1216,7 +1216,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 399
+    startLine: 411
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports an application to LUIS, the application's structure should be included in in the request body.</p>
@@ -1254,7 +1254,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 428
+    startLine: 440
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports an application to LUIS, the application's structure should be included in in the request body.</p>
@@ -1289,7 +1289,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 446
+    startLine: 461
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports an application to LUIS, the application's structure should be included in in the request body.</p>
@@ -1324,7 +1324,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 327
+    startLine: 339
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Lists all of the user applications.</p>
@@ -1350,7 +1350,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 250
+    startLine: 255
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Lists all of the user applications.</p>
@@ -1387,7 +1387,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 273
+    startLine: 278
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Lists all of the user applications.</p>
@@ -1420,7 +1420,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 262
+    startLine: 267
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Lists all of the user applications.</p>
@@ -1455,7 +1455,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1620
+    startLine: 1698
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the available custom prebuilt domains for all cultures.</p>
@@ -1488,7 +1488,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1641
+    startLine: 1719
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the available custom prebuilt domains for all cultures.</p>
@@ -1517,7 +1517,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1631
+    startLine: 1709
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the available custom prebuilt domains for all cultures.</p>
@@ -1549,7 +1549,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1761
+    startLine: 1847
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the available custom prebuilt domains for a specific culture.</p>
@@ -1586,7 +1586,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1784
+    startLine: 1870
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the available custom prebuilt domains for a specific culture.</p>
@@ -1619,7 +1619,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1773
+    startLine: 1859
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the available custom prebuilt domains for a specific culture.</p>
@@ -1654,7 +1654,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1800
+    startLine: 1886
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the available custom prebuilt domains for a specific culture.</p>
@@ -1686,7 +1686,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1656
+    startLine: 1734
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the available custom prebuilt domains for all cultures.</p>
@@ -1714,7 +1714,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 529
+    startLine: 548
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the endpoint URLs for the prebuilt Cortana applications.</p>
@@ -1747,7 +1747,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 550
+    startLine: 569
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the endpoint URLs for the prebuilt Cortana applications.</p>
@@ -1776,7 +1776,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 540
+    startLine: 559
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the endpoint URLs for the prebuilt Cortana applications.</p>
@@ -1808,7 +1808,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 565
+    startLine: 584
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the endpoint URLs for the prebuilt Cortana applications.</p>
@@ -1836,7 +1836,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 595
+    startLine: 618
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the available application domains.</p>
@@ -1869,7 +1869,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 616
+    startLine: 639
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the available application domains.</p>
@@ -1898,7 +1898,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 606
+    startLine: 629
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the available application domains.</p>
@@ -1930,7 +1930,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 631
+    startLine: 654
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the available application domains.</p>
@@ -1958,7 +1958,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1548
+    startLine: 1622
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Returns the available endpoint deployment regions and URLs.</p>
@@ -1995,7 +1995,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1571
+    startLine: 1645
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Returns the available endpoint deployment regions and URLs.</p>
@@ -2028,7 +2028,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1560
+    startLine: 1634
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Returns the available endpoint deployment regions and URLs.</p>
@@ -2063,7 +2063,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1587
+    startLine: 1661
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Returns the available endpoint deployment regions and URLs.</p>
@@ -2095,7 +2095,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 727
+    startLine: 758
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the supported application cultures.</p>
@@ -2128,7 +2128,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 748
+    startLine: 779
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the supported application cultures.</p>
@@ -2157,7 +2157,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 738
+    startLine: 769
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the supported application cultures.</p>
@@ -2189,7 +2189,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 763
+    startLine: 794
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the supported application cultures.</p>
@@ -2217,7 +2217,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 661
+    startLine: 688
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application available usage scenarios.</p>
@@ -2250,7 +2250,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 682
+    startLine: 709
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application available usage scenarios.</p>
@@ -2279,7 +2279,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 672
+    startLine: 699
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application available usage scenarios.</p>
@@ -2311,7 +2311,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 697
+    startLine: 724
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application available usage scenarios.</p>
@@ -2339,7 +2339,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 304
+    startLine: 312
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Lists all of the user applications.</p>
@@ -2374,7 +2374,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 289
+    startLine: 294
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Lists all of the user applications.</p>
@@ -2406,7 +2406,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1095
+    startLine: 1146
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Publishes a specific version of the application.</p>
@@ -2446,7 +2446,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1120
+    startLine: 1171
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Publishes a specific version of the application.</p>
@@ -2482,7 +2482,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1108
+    startLine: 1159
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Publishes a specific version of the application.</p>
@@ -2520,7 +2520,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1137
+    startLine: 1188
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Publishes a specific version of the application.</p>
@@ -2555,7 +2555,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 941
+    startLine: 984
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the name or description of the application.</p>
@@ -2595,7 +2595,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 966
+    startLine: 1009
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the name or description of the application.</p>
@@ -2631,7 +2631,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 954
+    startLine: 997
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the name or description of the application.</p>
@@ -2669,7 +2669,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1468
+    startLine: 1538
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the application publish settings.</p>
@@ -2709,7 +2709,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1493
+    startLine: 1563
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the application publish settings.</p>
@@ -2745,7 +2745,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1481
+    startLine: 1551
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the application publish settings.</p>
@@ -2783,7 +2783,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1510
+    startLine: 1580
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the application publish settings.</p>
@@ -2818,7 +2818,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1337
+    startLine: 1403
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the application settings.</p>
@@ -2844,7 +2844,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1250
+    startLine: 1309
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the application settings.</p>
@@ -2884,7 +2884,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1275
+    startLine: 1334
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the application settings.</p>
@@ -2920,7 +2920,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1263
+    startLine: 1322
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the application settings.</p>
@@ -2958,7 +2958,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1309
+    startLine: 1371
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the application settings.</p>
@@ -2993,7 +2993,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 1292
+    startLine: 1351
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the application settings.</p>
@@ -3028,7 +3028,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/AppsImpl.java
-    startLine: 983
+    startLine: 1026
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the name or description of the application.</p>

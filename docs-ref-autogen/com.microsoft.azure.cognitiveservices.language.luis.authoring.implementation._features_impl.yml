@@ -48,7 +48,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 47
+    startLine: 48
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>An instance of this class provides access to all the operations defined in Features. </p>
   syntax:
@@ -70,7 +70,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 106
+    startLine: 107
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new phraselist feature.</p>
@@ -113,7 +113,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 133
+    startLine: 134
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new phraselist feature.</p>
@@ -152,7 +152,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 120
+    startLine: 121
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new phraselist feature.</p>
@@ -193,7 +193,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 151
+    startLine: 152
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new phraselist feature.</p>
@@ -231,7 +231,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 795
+    startLine: 825
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes a phraselist feature.</p>
@@ -274,7 +274,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 822
+    startLine: 852
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes a phraselist feature.</p>
@@ -313,7 +313,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 809
+    startLine: 839
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes a phraselist feature.</p>
@@ -354,7 +354,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 840
+    startLine: 870
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes a phraselist feature.</p>
@@ -392,7 +392,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 59
+    startLine: 60
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Initializes an instance of FeaturesImpl.</p>
@@ -421,7 +421,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 536
+    startLine: 555
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets phraselist feature info.</p>
@@ -464,7 +464,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 563
+    startLine: 582
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets phraselist feature info.</p>
@@ -503,7 +503,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 550
+    startLine: 569
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets phraselist feature info.</p>
@@ -544,7 +544,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 581
+    startLine: 600
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets phraselist feature info.</p>
@@ -582,7 +582,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 463
+    startLine: 482
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the extraction features for the specified application version.</p>
@@ -608,7 +608,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 366
+    startLine: 378
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the extraction features for the specified application version.</p>
@@ -651,7 +651,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 393
+    startLine: 405
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the extraction features for the specified application version.</p>
@@ -690,7 +690,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 380
+    startLine: 392
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the extraction features for the specified application version.</p>
@@ -731,7 +731,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 292
+    startLine: 304
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the phraselist features.</p>
@@ -757,7 +757,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 195
+    startLine: 200
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the phraselist features.</p>
@@ -800,7 +800,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 222
+    startLine: 227
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the phraselist features.</p>
@@ -839,7 +839,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 209
+    startLine: 214
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the phraselist features.</p>
@@ -880,7 +880,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 263
+    startLine: 271
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the phraselist features.</p>
@@ -921,7 +921,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 240
+    startLine: 245
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the phraselist features.</p>
@@ -959,7 +959,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 434
+    startLine: 449
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the extraction features for the specified application version.</p>
@@ -1000,7 +1000,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 411
+    startLine: 423
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets all the extraction features for the specified application version.</p>
@@ -1038,7 +1038,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 722
+    startLine: 752
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the phrases, the state and the name of the phraselist feature.</p>
@@ -1064,7 +1064,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 622
+    startLine: 645
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the phrases, the state and the name of the phraselist feature.</p>
@@ -1110,7 +1110,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 651
+    startLine: 674
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the phrases, the state and the name of the phraselist feature.</p>
@@ -1152,7 +1152,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 637
+    startLine: 660
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the phrases, the state and the name of the phraselist feature.</p>
@@ -1196,7 +1196,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 692
+    startLine: 718
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the phrases, the state and the name of the phraselist feature.</p>
@@ -1237,7 +1237,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/FeaturesImpl.java
-    startLine: 670
+    startLine: 693
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the phrases, the state and the name of the phraselist feature.</p>

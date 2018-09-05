@@ -36,7 +36,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 44
+    startLine: 45
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>An instance of this class provides access to all the operations defined in Examples. </p>
   syntax:
@@ -58,7 +58,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 95
+    startLine: 96
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a labeled example to the application.</p>
@@ -101,7 +101,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 122
+    startLine: 123
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a labeled example to the application.</p>
@@ -140,7 +140,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 109
+    startLine: 110
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a labeled example to the application.</p>
@@ -181,7 +181,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 140
+    startLine: 141
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a labeled example to the application.</p>
@@ -219,7 +219,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 183
+    startLine: 188
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a batch of labeled examples to the application.</p>
@@ -262,7 +262,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 210
+    startLine: 215
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a batch of labeled examples to the application.</p>
@@ -301,7 +301,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 197
+    startLine: 202
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a batch of labeled examples to the application.</p>
@@ -342,7 +342,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 228
+    startLine: 233
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a batch of labeled examples to the application.</p>
@@ -380,7 +380,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 443
+    startLine: 459
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes the labeled example with the specified ID.</p>
@@ -423,7 +423,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 470
+    startLine: 486
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes the labeled example with the specified ID.</p>
@@ -462,7 +462,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 457
+    startLine: 473
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes the labeled example with the specified ID.</p>
@@ -503,7 +503,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 488
+    startLine: 504
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes the labeled example with the specified ID.</p>
@@ -541,7 +541,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 56
+    startLine: 57
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Initializes an instance of ExamplesImpl.</p>
@@ -570,7 +570,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 370
+    startLine: 386
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Returns examples to be reviewed.</p>
@@ -596,7 +596,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 273
+    startLine: 282
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Returns examples to be reviewed.</p>
@@ -639,7 +639,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 300
+    startLine: 309
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Returns examples to be reviewed.</p>
@@ -678,7 +678,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 287
+    startLine: 296
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Returns examples to be reviewed.</p>
@@ -719,7 +719,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 341
+    startLine: 353
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Returns examples to be reviewed.</p>
@@ -760,7 +760,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/ExamplesImpl.java
-    startLine: 318
+    startLine: 327
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Returns examples to be reviewed.</p>

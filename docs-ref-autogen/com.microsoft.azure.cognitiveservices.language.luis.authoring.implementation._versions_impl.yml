@@ -58,7 +58,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 47
+    startLine: 48
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>An instance of this class provides access to all the operations defined in Versions. </p>
   syntax:
@@ -80,7 +80,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 215
+    startLine: 223
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new version using the current snapshot of the selected application version.</p>
@@ -106,7 +106,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 115
+    startLine: 116
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new version using the current snapshot of the selected application version.</p>
@@ -149,7 +149,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 142
+    startLine: 143
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new version using the current snapshot of the selected application version.</p>
@@ -188,7 +188,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 129
+    startLine: 130
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new version using the current snapshot of the selected application version.</p>
@@ -229,7 +229,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 160
+    startLine: 161
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new version using the current snapshot of the selected application version.</p>
@@ -267,7 +267,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 181
+    startLine: 185
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Creates a new version using the current snapshot of the selected application version.</p>
@@ -305,7 +305,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 677
+    startLine: 703
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes an application version.</p>
@@ -345,7 +345,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 702
+    startLine: 728
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes an application version.</p>
@@ -381,7 +381,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 690
+    startLine: 716
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes an application version.</p>
@@ -419,7 +419,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 1002
+    startLine: 1043
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deleted an unlabelled utterance.</p>
@@ -462,7 +462,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 1029
+    startLine: 1070
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deleted an unlabelled utterance.</p>
@@ -501,7 +501,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 1016
+    startLine: 1057
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deleted an unlabelled utterance.</p>
@@ -542,7 +542,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 1047
+    startLine: 1088
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deleted an unlabelled utterance.</p>
@@ -580,7 +580,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 719
+    startLine: 745
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Deletes an application version.</p>
@@ -615,7 +615,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 757
+    startLine: 787
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Exports a LUIS application to JSON format.</p>
@@ -655,7 +655,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 782
+    startLine: 812
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Exports a LUIS application to JSON format.</p>
@@ -691,7 +691,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 770
+    startLine: 800
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Exports a LUIS application to JSON format.</p>
@@ -729,7 +729,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 799
+    startLine: 829
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Exports a LUIS application to JSON format.</p>
@@ -764,7 +764,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 433
+    startLine: 448
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the version info.</p>
@@ -804,7 +804,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 458
+    startLine: 473
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the version info.</p>
@@ -840,7 +840,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 446
+    startLine: 461
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the version info.</p>
@@ -878,7 +878,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 475
+    startLine: 490
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the version info.</p>
@@ -913,7 +913,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 936
+    startLine: 977
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports a new version into a LUIS application.</p>
@@ -939,7 +939,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 839
+    startLine: 873
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports a new version into a LUIS application.</p>
@@ -982,7 +982,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 866
+    startLine: 900
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports a new version into a LUIS application.</p>
@@ -1021,7 +1021,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 853
+    startLine: 887
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports a new version into a LUIS application.</p>
@@ -1062,7 +1062,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 884
+    startLine: 918
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports a new version into a LUIS application.</p>
@@ -1100,7 +1100,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 906
+    startLine: 943
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Imports a new version into a LUIS application.</p>
@@ -1138,7 +1138,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 368
+    startLine: 383
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application versions info.</p>
@@ -1164,7 +1164,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 281
+    startLine: 289
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application versions info.</p>
@@ -1204,7 +1204,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 306
+    startLine: 314
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application versions info.</p>
@@ -1240,7 +1240,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 294
+    startLine: 302
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application versions info.</p>
@@ -1278,7 +1278,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 342
+    startLine: 353
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application versions info.</p>
@@ -1316,7 +1316,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 323
+    startLine: 331
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the application versions info.</p>
@@ -1351,7 +1351,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 612
+    startLine: 638
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the name or description of the application version.</p>
@@ -1377,7 +1377,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 515
+    startLine: 534
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the name or description of the application version.</p>
@@ -1420,7 +1420,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 542
+    startLine: 561
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the name or description of the application version.</p>
@@ -1459,7 +1459,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 529
+    startLine: 548
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the name or description of the application version.</p>
@@ -1500,7 +1500,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 581
+    startLine: 603
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the name or description of the application version.</p>
@@ -1538,7 +1538,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 560
+    startLine: 579
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Updates the name or description of the application version.</p>
@@ -1576,7 +1576,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/VersionsImpl.java
-    startLine: 59
+    startLine: 60
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Initializes an instance of VersionsImpl.</p>

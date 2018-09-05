@@ -40,7 +40,7 @@ items:
       branch: master
       repo: https://github.com/Azure/azure-sdk-for-java
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 45
+    startLine: 46
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>An instance of this class provides access to all the operations defined in Permissions. </p>
   syntax:
@@ -62,7 +62,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 256
+    startLine: 268
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a user to the allowed list of users to access this LUIS application. Users are added using their email address.</p>
@@ -88,7 +88,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 169
+    startLine: 174
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a user to the allowed list of users to access this LUIS application. Users are added using their email address.</p>
@@ -128,7 +128,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 194
+    startLine: 199
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a user to the allowed list of users to access this LUIS application. Users are added using their email address.</p>
@@ -164,7 +164,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 182
+    startLine: 187
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a user to the allowed list of users to access this LUIS application. Users are added using their email address.</p>
@@ -202,7 +202,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 211
+    startLine: 216
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a user to the allowed list of users to access this LUIS application. Users are added using their email address.</p>
@@ -237,7 +237,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 228
+    startLine: 236
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Adds a user to the allowed list of users to access this LUIS application. Users are added using their email address.</p>
@@ -272,7 +272,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 402
+    startLine: 421
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Removes a user from the allowed list of users to access this LUIS application. Users are removed using their email address.</p>
@@ -298,7 +298,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 315
+    startLine: 327
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Removes a user from the allowed list of users to access this LUIS application. Users are removed using their email address.</p>
@@ -338,7 +338,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 340
+    startLine: 352
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Removes a user from the allowed list of users to access this LUIS application. Users are removed using their email address.</p>
@@ -374,7 +374,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 328
+    startLine: 340
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Removes a user from the allowed list of users to access this LUIS application. Users are removed using their email address.</p>
@@ -412,7 +412,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 357
+    startLine: 369
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Removes a user from the allowed list of users to access this LUIS application. Users are removed using their email address.</p>
@@ -447,7 +447,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 374
+    startLine: 389
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Removes a user from the allowed list of users to access this LUIS application. Users are removed using their email address.</p>
@@ -482,7 +482,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 94
+    startLine: 95
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the list of user emails that have permissions to access your application.</p>
@@ -519,7 +519,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 117
+    startLine: 118
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the list of user emails that have permissions to access your application.</p>
@@ -552,7 +552,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 106
+    startLine: 107
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the list of user emails that have permissions to access your application.</p>
@@ -587,7 +587,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 133
+    startLine: 134
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the list of user emails that have permissions to access your application.</p>
@@ -619,7 +619,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 57
+    startLine: 58
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Initializes an instance of PermissionsImpl.</p>
@@ -648,7 +648,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 549
+    startLine: 575
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Replaces the current users access list with the one sent in the body. If an empty list is sent, all access to other users will be removed.</p>
@@ -674,7 +674,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 461
+    startLine: 480
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Replaces the current users access list with the one sent in the body. If an empty list is sent, all access to other users will be removed.</p>
@@ -714,7 +714,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 486
+    startLine: 505
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Replaces the current users access list with the one sent in the body. If an empty list is sent, all access to other users will be removed.</p>
@@ -750,7 +750,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 474
+    startLine: 493
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Replaces the current users access list with the one sent in the body. If an empty list is sent, all access to other users will be removed.</p>
@@ -788,7 +788,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 520
+    startLine: 542
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Replaces the current users access list with the one sent in the body. If an empty list is sent, all access to other users will be removed.</p>
@@ -823,7 +823,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/PermissionsImpl.java
-    startLine: 503
+    startLine: 522
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Replaces the current users access list with the one sent in the body. If an empty list is sent, all access to other users will be removed.</p>

@@ -6,6 +6,7 @@ items:
   children:
   - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.acceptLanguage()
   - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.apps()
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.endpoint()
   - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.examples()
   - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.features()
   - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.generateClientRequestId()
@@ -22,6 +23,7 @@ items:
   - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.userAgent()
   - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.versions()
   - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.withAcceptLanguage(String)
+  - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.withEndpoint(String)
   - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.withGenerateClientRequestId(boolean)
   - com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.withLongRunningOperationRetryTimeout(int)
   href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.yml
@@ -61,7 +63,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 47
+    startLine: 70
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets Gets or sets the preferred language for the response.</p>
@@ -87,7 +89,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 156
+    startLine: 179
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>Gets the Apps object to access its operations. </p>
   syntax:
@@ -96,6 +98,32 @@ items:
       type: com.microsoft.azure.cognitiveservices.language.luis.authoring._apps
       description: <p>the Apps object. </p>
   overridden: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.apps()
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.endpoint()
+  id: endpoint()
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.yml
+  langs:
+  - java
+  name: endpoint()
+  nameWithType: LUISAuthoringClientImpl.endpoint()
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.LUISAuthoringClientImpl.endpoint()
+  overload: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.endpoint*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
+    startLine: 47
+  package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  summary: >-
+    <p>Gets Supported Cognitive Services endpoints (protocol and hostname, for example: <a href="https://westus.api.cognitive.microsoft.com">https://westus.api.cognitive.microsoft.com</a>).</p>
+
+    <p></p>
+  syntax:
+    content: public String endpoint()
+    return:
+      type: "26831127"
+      description: <p>the endpoint value. </p>
+  overridden: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.endpoint()
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.examples()
   id: examples()
   parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0
@@ -110,7 +138,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 130
+    startLine: 153
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>Gets the Examples object to access its operations. </p>
   syntax:
@@ -133,7 +161,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 117
+    startLine: 140
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>Gets the Features object to access its operations. </p>
   syntax:
@@ -156,7 +184,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 93
+    startLine: 116
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets When set to true a unique x-ms-client-request-id value is generated and included in each request. Default is true.</p>
@@ -205,7 +233,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 242
+    startLine: 265
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   syntax:
     content: protected void initialize()
@@ -223,7 +251,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 70
+    startLine: 93
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets Gets or sets the retry timeout in seconds for Long Running Operations. Default value is 30.</p>
@@ -249,7 +277,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 237
+    startLine: 260
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Initializes an instance of LUISAuthoringClient client.</p>
@@ -275,7 +303,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 217
+    startLine: 240
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Initializes an instance of LUISAuthoringClient client.</p>
@@ -301,7 +329,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 227
+    startLine: 250
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Initializes an instance of LUISAuthoringClient client.</p>
@@ -330,7 +358,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 143
+    startLine: 166
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>Gets the Models object to access its operations. </p>
   syntax:
@@ -353,7 +381,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 208
+    startLine: 231
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>Gets the Patterns object to access its operations. </p>
   syntax:
@@ -376,7 +404,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 195
+    startLine: 218
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>Gets the Permissions object to access its operations. </p>
   syntax:
@@ -399,7 +427,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 182
+    startLine: 205
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>Gets the Trains object to access its operations. </p>
   syntax:
@@ -422,7 +450,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 263
+    startLine: 286
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Gets the User-Agent header for the client.</p>
@@ -448,7 +476,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 169
+    startLine: 192
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: <p>Gets the Versions object to access its operations. </p>
   syntax:
@@ -471,7 +499,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 57
+    startLine: 80
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Sets Gets or sets the preferred language for the response.</p>
@@ -487,6 +515,36 @@ items:
       type: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0
       description: <p>the service client itself </p>
   overridden: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.withAcceptLanguage(String)
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.withEndpoint(String)
+  id: withEndpoint(String)
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.yml
+  langs:
+  - java
+  name: withEndpoint(String endpoint)
+  nameWithType: LUISAuthoringClientImpl.withEndpoint(String endpoint)
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.LUISAuthoringClientImpl.withEndpoint(String endpoint)
+  overload: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.withEndpoint*
+  type: Method
+  source:
+    remote: *o0
+    path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
+    startLine: 57
+  package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  summary: >-
+    <p>Sets Supported Cognitive Services endpoints (protocol and hostname, for example: <a href="https://westus.api.cognitive.microsoft.com">https://westus.api.cognitive.microsoft.com</a>).</p>
+
+    <p></p>
+  syntax:
+    content: public LUISAuthoringClientImpl withEndpoint(String endpoint)
+    parameters:
+    - id: endpoint
+      type: "26831127"
+      description: <p>the endpoint value. </p>
+    return:
+      type: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0
+      description: <p>the service client itself </p>
+  overridden: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.withEndpoint(String)
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.withGenerateClientRequestId(boolean)
   id: withGenerateClientRequestId(boolean)
   parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0
@@ -501,7 +559,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 103
+    startLine: 126
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Sets When set to true a unique x-ms-client-request-id value is generated and included in each request. Default is true.</p>
@@ -531,7 +589,7 @@ items:
   source:
     remote: *o0
     path: cognitiveservices/data-plane/language/luis/authoring/src/main/java/com/microsoft/azure/cognitiveservices/language/luis/authoring/implementation/LUISAuthoringClientImpl.java
-    startLine: 80
+    startLine: 103
   package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
   summary: >-
     <p>Sets Gets or sets the retry timeout in seconds for Long Running Operations. Default value is 30.</p>
@@ -561,6 +619,16 @@ references:
   spec.java:
   - name: String
     fullName: String
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.endpoint*
+  name: endpoint
+  nameWithType: LUISAuthoringClientImpl.endpoint
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.LUISAuthoringClientImpl.endpoint
+  package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.withEndpoint*
+  name: withEndpoint
+  nameWithType: LUISAuthoringClientImpl.withEndpoint
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.LUISAuthoringClientImpl.withEndpoint
+  package: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.acceptLanguage*
   name: acceptLanguage
   nameWithType: LUISAuthoringClientImpl.acceptLanguage
@@ -781,6 +849,51 @@ references:
     return:
       type: c1c26e8d
       description: <p>the azure client; </p>
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.endpoint()
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.yml
+  name: endpoint()
+  nameWithType: LUISAuthoringClient.endpoint()
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.LUISAuthoringClient.endpoint()
+  type: Method
+  summary: >-
+    <p>Gets Supported Cognitive Services endpoints (protocol and hostname, for example: <a href="https://westus.api.cognitive.microsoft.com">https://westus.api.cognitive.microsoft.com</a>)..</p>
+
+    <p></p>
+  syntax:
+    content: public String endpoint()
+    return:
+      type: "26831127"
+      description: <p>the endpoint value. </p>
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.yml
+  name: LUISAuthoringClientImpl
+  nameWithType: LUISAuthoringClientImpl
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.LUISAuthoringClientImpl
+  type: Class
+  summary: <p>Initializes a new instance of the LUISAuthoringClientImpl class. </p>
+  syntax: *o1
+- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.withEndpoint(String)
+  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client
+  href: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.yml
+  name: withEndpoint(String endpoint)
+  nameWithType: LUISAuthoringClient.withEndpoint(String endpoint)
+  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.LUISAuthoringClient.withEndpoint(String endpoint)
+  type: Method
+  summary: >-
+    <p>Sets Supported Cognitive Services endpoints (protocol and hostname, for example: <a href="https://westus.api.cognitive.microsoft.com">https://westus.api.cognitive.microsoft.com</a>)..</p>
+
+    <p></p>
+  syntax:
+    content: public LUISAuthoringClient withEndpoint(String endpoint)
+    parameters:
+    - id: endpoint
+      type: "26831127"
+      description: <p>the endpoint value. </p>
+    return:
+      type: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client
+      description: <p>the service client itself </p>
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.acceptLanguage()
   parent: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client
   href: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.yml
@@ -797,15 +910,6 @@ references:
     return:
       type: "26831127"
       description: <p>the acceptLanguage value. </p>
-- uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0
-  parent: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation
-  href: com.microsoft.azure.cognitiveservices.language.luis.authoring.implemena90c9558c6af01e069d8947c027405d0.yml
-  name: LUISAuthoringClientImpl
-  nameWithType: LUISAuthoringClientImpl
-  fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.implementation.LUISAuthoringClientImpl
-  type: Class
-  summary: <p>Initializes a new instance of the LUISAuthoringClientImpl class. </p>
-  syntax: *o1
 - uid: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.withAcceptLanguage(String)
   parent: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client
   href: com.microsoft.azure.cognitiveservices.language.luis.authoring._l_u_i_s_authoring_client.yml
