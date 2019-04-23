@@ -17,16 +17,6 @@
       landingPageType: Service
       children:
       - com.microsoft.aad.adal4j
-  - name: API Management
-    uid: azure.java.sdk.landingpage.services.apimanagement
-    landingPageType: Service
-    items:
-    - name: Management
-      uid: azure.java.sdk.landingpage.services.apimanagement.Management
-      landingPageType: Service
-      children:
-      - com.microsoft.azure.management.apimanagement
-      - com.microsoft.azure.management.apimanagement.*
   - name: App Service
     uid: azure.java.sdk.landingpage.services.appservice
     href: ~/docs-ref-services/appservice.md
@@ -54,7 +44,6 @@
       landingPageType: Service
       children:
       - com.microsoft.azure.management.batch
-      - com.microsoft.azure.management.batch.*
     - name: Client
       uid: azure.java.sdk.landingpage.services.batch.Client
       landingPageType: Service
@@ -63,6 +52,7 @@
       - com.microsoft.azure.batch.*
   - name: Batch AI
     uid: azure.java.sdk.landingpage.services.batchai
+    href: ~/docs-ref-services/batchai.md
     landingPageType: Service
     items:
     - name: Management
@@ -307,6 +297,15 @@
       landingPageType: Service
       children:
       - com.microsoft.azure.functions*
+  - name: HDInsight
+    uid: azure.java.sdk.landingpage.service.hdinsight
+    href: ~/docs-ref-services/hdinsight.md
+    items:
+      - name: Management
+        uid: azure.java.sdk.landingpage.service.hdinsight.Management
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.management.hdinsight*
   - name: IoT
     uid: azure.java.sdk.landingpage.services.iot
     href: ~/docs-ref-services/iot.md
@@ -331,6 +330,15 @@
       landingPageType: Service
       children:
       - com.microsoft.azure.keyvault*
+  - name: Lab Services
+    uid: azure.java.sdk.landingpage.service.labservices
+    landingPageType: Service
+    items:
+      - name: Management
+        uid: azure.java.sdk.landingpage.service.labservices.Management
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.management.labservices*
   - name: Log Analytics
     uid: azure.java.sdk.landingpage.services.loganalytics
     landingPageType: Service
@@ -359,6 +367,15 @@
       children:
       - com.microsoft.azure.management.mediaservices.v2018_07_01
       - com.microsoft.azure.management.mediaservices.v2018_07_01.implementation
+  - name: Mixed Reality
+    uid: azure.java.sdk.landingpage.service.mixedreality
+    landingPageType: Service
+    items:
+      - name: Management
+        uid: azure.java.sdk.landingpage.service.mixedreality.Management
+        landingPageType: Service
+        children:
+        - com.microsoft.azure.management.mixedreality*
   - name: Networking
     uid: azure.java.sdk.landingpage.services.networking
     href: ~/docs-ref-services/network.md
@@ -387,6 +404,15 @@
       landingPageType: Service
       children:
       - com.microsoft.azure.management.resources*  
+  - name: Resource Graph
+    uid: azure.java.sdk.landingpage.services.resourcegraph
+    landingPageType: Service
+    items:
+    - name: Management
+      uid: azure.java.sdk.landingpage.services.resourcegraph.Management
+      landingPageType: Service
+      children:
+      - com.microsoft.azure.management.resourcegraph*  
   - name: Search
     uid: azure.java.sdk.landingpage.services.Search
     landingPageType: Service

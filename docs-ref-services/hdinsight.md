@@ -1,30 +1,30 @@
 ---
-title: Azure HDInsight Java SDK
-description: Reference for Azure HDInsight Java SDK. The HDInsight Java SDK provides classes and methods that allow you to manage your HDInsight clusters.
+title: Azure HDInsight SDK for Java
+description: Reference for Azure HDInsight SDK for Java. The HDInsight SDK for Java provides classes and methods that allow you to manage your HDInsight clusters.
 author: tylerfox
 ms.author: tyfox
 ms.reviewer: jasonh
 ms.service: hdinsight
 ms.topic: reference
 ms.devlang: java
-ms.date: 11/21/2018
+ms.date: 04/15/2019
 ---
 
-# HDInsight Java Management SDK (Preview)
+# HDInsight SDK for Java
 
 ## Overview
 
-The HDInsight Java SDK provides classes and methods that allow you to manage your HDInsight clusters. It includes operations to create, delete, update, list, resize, execute script actions, monitor, get properties of HDInsight clusters, and more.
+The HDInsight SDK for Java provides classes and methods that allow you to manage your HDInsight clusters. It includes operations to create, delete, update, list, resize, execute script actions, monitor, get properties of HDInsight clusters, and more.
 
 ## Prerequisites
 
 * An Azure account. If you don't have one, [get a free trial](https://azure.microsoft.com/free/).
 * A supported Java Development Kit (JDK). For more information about the JDKs available for use when developing on Azure, see <https://aka.ms/azure-jdks>.
-* [Maven](https://maven.apache.org/install.html)
+* [Maven](https://maven.apache.org/download.cgi)
 
 ## SDK Installation
 
-The HDInsight Java SDK is available through Maven [here](https://mvnrepository.com/artifact/com.microsoft.azure.hdinsight.v2018_06_01_preview/azure-mgmt-hdinsight). Add the following dependency to your pom.xml:
+The HDInsight SDK for Java is available through Maven [here](https://search.maven.org/artifact/com.microsoft.azure.hdinsight.v2018_06_01_preview/azure-mgmt-hdinsight). Add the following dependency to your pom.xml:
 
 ```
 <dependency>
@@ -36,21 +36,21 @@ The HDInsight Java SDK is available through Maven [here](https://mvnrepository.c
 
 You will also need to add the following dependencies to your pom.xml:
 
-* [Azure Client Authentication Library:](https://mvnrepository.com/artifact/com.microsoft.azure/azure-client-authentication/1.6.2)
+* [Azure Client Authentication Library:](https://search.maven.org/artifact/com.microsoft.azure/azure-client-authentication)
   ```
   <dependency>
     <groupId>com.microsoft.azure</groupId>
     <artifactId>azure-client-authentication</artifactId>
-    <version>1.6.2</version>
+    <version>1.6.5</version>
   </dependency>
   ```
 
-* [Azure Java Client Runtime For ARM:](https://mvnrepository.com/artifact/com.microsoft.azure/azure-arm-client-runtime/1.6.2)
+* [Azure Java Client Runtime For ARM:](https://search.maven.org/artifact/com.microsoft.azure/azure-arm-client-runtime)
   ```
   <dependency>
     <groupId>com.microsoft.azure</groupId>
     <artifactId>azure-arm-client-runtime</artifactId>
-    <version>1.6.2</version>
+    <version>1.6.5</version>
   </dependency>
   ```
 
@@ -148,7 +148,6 @@ public class Main {
                 .withSubscriptionId(SUBSCRIPTION_ID);
 ```
 
-
 ## Cluster Management
 
 > [!NOTE]
@@ -157,6 +156,10 @@ public class Main {
 ### Create a Cluster
 
 A new cluster can be created by calling `client.clusters().create()`.
+
+#### Samples
+
+Code samples for creating several common types of HDInsight clusters are available: [HDInsight Java Samples](https://github.com/Azure-Samples/hdinsight-java-sdk-samples).
 
 #### Example
 
